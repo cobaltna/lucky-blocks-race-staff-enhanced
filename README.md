@@ -131,7 +131,7 @@
 
 **版本要求：Minecraft 基岩版 1.21+（实测 1.21.113）**，Windows / Android / iOS 均可。
 
-- **方式 A（推荐）**：到 [Releases](../../releases) 下载 `幸运方块地图_法杖增强版_竞技场版.mcworld`，双击（手机端「打开方式 → Minecraft」）即可自动导入。
+- **方式 A（推荐）**：到 [Releases](../../releases) 下载 `LuckyBlocksRace_StaffEnhanced_Colosseum_v1.0.mcworld`，双击（手机端「打开方式 → Minecraft」）即可自动导入。
 - **方式 B**：`Code → Download ZIP` 下载本仓库，把解压出的文件夹整个放进 `com.mojang/minecraftWorlds/`，重启游戏后在世界列表里找「Lucky Blocks Race」。
 - **联机**：主机玩家可通过 Realms 游玩；Windows/手机可局域网联机，最多 4 人。
 - 建斗兽场等管理指令需要**开启作弊**（会关闭成就），正常跑图挖方块不需要。

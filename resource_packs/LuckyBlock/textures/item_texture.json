@@ -1,0 +1,213 @@
+{
+  "resource_pack_name": "Lucky",
+  "texture_name": "atlas.items",
+  "texture_data": {
+    "null": {
+      "textures": "textures/items/null"
+    },
+    "lucky_sword": {
+      "textures": "textures/items/lucky_sword"
+    },
+    "lucky_helmet": {
+      "textures": "textures/items/lucky_helmet"
+    },
+    "lucky_chestplate": {
+      "textures": "textures/items/lucky_chestplate"
+    },
+    "lucky_leggings": {
+      "textures": "textures/items/lucky_leggings"
+    },
+    "lucky_boots": {
+      "textures": "textures/items/lucky_boots"
+    },
+    "snowman_head": {
+      "textures": "textures/items/snowman_head"
+    },
+    "gold_coin": {
+      "textures": "textures/items/gold_coin"
+    },
+    "christmas_grenade": {
+      "textures": "textures/items/christmas_grenade"
+    },
+    "evil_potion": {
+      "textures": "textures/items/evil_potion"
+    },
+    "hero_potion": {
+      "textures": "textures/items/hero_potion"
+    },
+    "lucky_mystery_potion": {
+      "textures": "textures/items/lucky_mystery_potion"
+    },
+    "charge_potion": {
+      "textures": "textures/items/lucky_mystery_potion"
+    },
+    "unlucky_mystery_potion": {
+      "textures": "textures/items/lucky_mystery_potion"
+    },
+    "lucky_splash_mystery_potion": {
+      "textures": "textures/items/lucky_splash_mystery_potion"
+    },
+    "unlucky_splash_mystery_potion": {
+      "textures": "textures/items/lucky_splash_mystery_potion"
+    },
+    "op_unlucky_splash_potion": {
+      "textures": "textures/items/op_unlucky_splash_potion"
+    },
+    "super_unlucky_splash_potion": {
+      "textures": "textures/items/super_unlucky_splash_potion"
+    },
+    "super_lucky_potion": {
+      "textures": "textures/items/super_lucky_potion"
+    },
+    "op_lucky_potion": {
+      "textures": "textures/items/op_lucky_potion"
+    },
+    "wood_helmet": {
+      "textures": "textures/items/wood_helmet"
+    },
+    "wood_chestplate": {
+      "textures": "textures/items/wood_chestplate"
+    },
+    "wood_leggings": {
+      "textures": "textures/items/wood_leggings"
+    },
+    "wood_boots": {
+      "textures": "textures/items/wood_boots"
+    },
+    "grenade": {
+      "textures": "textures/items/grenade"
+    },
+    "flame_boots": {
+      "textures": "textures/items/flame_boots"
+    },
+    "slime_boots": {
+      "textures": "textures/items/slime_boots"
+    },
+    "lucky_villager": {
+      "textures": "textures/items/lucky_villager"
+    },
+    "egg_slime": {
+      "textures": "textures/items/egg_slime"
+    },
+    "egg_endermite": {
+      "textures": "textures/items/egg_endermite"
+    },
+    "egg_ghast": {
+      "textures": "textures/items/egg_ghast"
+    },
+    "egg_npc": {
+      "textures": "textures/items/egg_npc"
+    },
+    "pixie": {
+      "textures": "textures/items/pixie"
+    },
+    "egg_sheep": {
+      "textures": "textures/items/egg_sheep"
+    },
+    "egg_witch": {
+      "textures": "textures/items/egg_witch"
+    },
+    "egg_lava_slime": {
+      "textures": "textures/items/egg_lava_slime"
+    },
+    "egg_blaze": {
+      "textures": "textures/items/egg_blaze"
+    },
+    "egg_zombie": {
+      "textures": "textures/items/egg_zombie"
+    },
+    "master_spiral": {
+      "textures": "textures/items/master_spiral"
+    },
+    "headless_spiral": {
+      "textures": "textures/items/headless_spiral"
+    },
+    "egg_null": {
+      "textures": "textures/items/egg_null"
+    },
+    "egg_enderman": {
+      "textures": "textures/items/egg_enderman"
+    },
+    "diamond_bob": {
+      "textures": "textures/items/diamond_bob"
+    },
+    "spiral_bob": {
+      "textures": "textures/items/spiral_bob"
+    },
+    "mini_armor_stand": {
+      "textures": "textures/items/mini_armor_stand"
+    },
+    "living_flame": {
+      "textures": "textures/items/living_flame"
+    },
+    "egg_rabbit": {
+      "textures": "textures/items/egg_rabbit"
+    },
+    "egg_creeper": {
+      "textures": "textures/items/egg_creeper"
+    },
+    "egg_wither": {
+      "textures": "textures/items/egg_wither"
+    },
+    "egg_skeleton": {
+      "textures": "textures/items/egg_skeleton"
+    },
+    "azkor": {
+      "textures": "textures/items/azkor"
+    },
+    "cursed_pumpkin_sword": {
+     "textures": "textures/items/cursed_pumpkin_sword"
+    },
+    "lucky_coin": {
+      "textures": "textures/items/gold_coin"
+    },
+    "bedrock_stick": {
+      "textures": "textures/items/bedrock_stick"
+    },
+    "quartz_diamond_stick": {
+      "textures": "textures/items/quartz_diamond_stick"
+    },
+    "meteorite_helmet": {
+      "textures": "textures/items/meteorite_helmet"
+    },
+    "meteorite_chestplate": {
+      "textures": "textures/items/meteorite_chestplate"
+    },
+    "meteorite_leggings": {
+      "textures": "textures/items/meteorite_leggings"
+    },
+    "meteorite_boots": {
+      "textures": "textures/items/meteorite_boots"
+    },
+    "meteorite_sword": {
+      "textures": "textures/items/meteorite_sword"
+    },
+    "meteorite_pickaxe": {
+      "textures": "textures/items/meteorite_pickaxe"
+    },
+    "meteorite_axe": {
+      "textures": "textures/items/meteorite_axe"
+    },
+    "meteorite_shovel": {
+      "textures": "textures/items/meteorite_shovel"
+    },
+    "meteorite_hoe": {
+      "textures": "textures/items/meteorite_hoe"
+    },
+    "lucky_staff": {
+      "textures": "textures/items/staffs/staff"
+    },
+    "lucky_ice_staff": {
+      "textures": "textures/items/staffs/ice_staff"
+    },
+    "lucky_flender_staff": {
+      "textures": "textures/items/staffs/flender_staff"
+    },
+    "lucky_explosion_staff": {
+      "textures": "textures/items/staffs/explosion_staff"
+    },
+    "extra_heart": {
+      "textures": "textures/items/extra_heart"
+    }
+  }
+}

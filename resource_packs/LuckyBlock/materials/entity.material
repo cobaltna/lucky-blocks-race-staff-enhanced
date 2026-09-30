@@ -1,0 +1,16 @@
+{
+  "materials": {
+    "version": "1.0.0",
+    "null:entity_alphatest": {},
+    "grass:entity_alphatest": {},
+    "shulker_shield:entity_alphatest": {},
+    "ultra_instinct_projectile:charged_creeper": {},
+    "ultra_instinct_aura:charged_creeper": {},
+    "player_ghost:charged_creeper": {},
+    "ghost:charged_creeper": {},
+    "wolf_vision:charged_creeper": {
+      "+states": ["DisableDepthWrite", "DisableAlphaWrite" ]
+    },
+    "blaze_aura:charged_creeper": {}
+  }
+}

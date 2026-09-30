@@ -1,0 +1,331 @@
+{
+ "pools": [
+  {
+   "rolls": 1,
+   "entries": [
+    {
+     "type": "loot_table",
+     "name": "loot_tables/blocks/lucky_effects/slow.json",
+     "weight": 100
+    },
+    {
+     "type": "loot_table",
+     "name": "loot_tables/blocks/lucky_effects/nausea.json",
+     "weight": 100
+    },
+    {
+     "type": "loot_table",
+     "name": "loot_tables/blocks/lucky_effects/poison.json",
+     "weight": 100
+    },
+    {
+     "type": "loot_table",
+     "name": "loot_tables/blocks/lucky_effects/levitation.json",
+     "weight": 100
+    },
+    {
+     "type": "loot_table",
+     "name": "loot_tables/blocks/lucky_effects/blind.json",
+     "weight": 100
+    },
+    {
+     "type": "loot_table",
+     "name": "loot_tables/blocks/lucky_block/111.json",
+     "weight": 1
+    },
+    {
+     "type": "loot_table",
+     "name": "loot_tables/blocks/lucky_block/112.json",
+     "weight": 1
+    },
+    {
+     "type": "loot_table",
+     "name": "loot_tables/blocks/lucky_block/113.json",
+     "weight": 1
+    },
+    {
+     "type": "loot_table",
+     "name": "loot_tables/blocks/lucky_block/114.json",
+     "weight": 1
+    },
+    {
+     "type": "loot_table",
+     "name": "loot_tables/blocks/lucky_block/115.json",
+     "weight": 1
+    },
+    {
+     "type": "loot_table",
+     "name": "loot_tables/blocks/lucky_block/116.json",
+     "weight": 1
+    },
+    {
+     "type": "loot_table",
+     "name": "loot_tables/blocks/lucky_block/117.json",
+     "weight": 1
+    },
+    {
+     "type": "loot_table",
+     "name": "loot_tables/blocks/lucky_block/118.json",
+     "weight": 1
+    },
+    {
+     "type": "loot_table",
+     "name": "loot_tables/blocks/lucky_block/119.json",
+     "weight": 1
+    },
+    {
+     "type": "loot_table",
+     "name": "loot_tables/blocks/lucky_block/120.json",
+     "weight": 1
+    },
+    {
+     "type": "loot_table",
+     "name": "loot_tables/blocks/lucky_structures/tnts.json",
+     "weight": 100
+    },
+    {
+     "type": "loot_table",
+     "name": "loot_tables/blocks/lucky_structures/sandglass.json",
+     "weight": 100
+    },
+    {
+     "type": "loot_table",
+     "name": "loot_tables/blocks/lucky_structures/obsidians.json",
+     "weight": 100
+    },
+    {
+     "type": "loot_table",
+     "name": "loot_tables/blocks/lucky_structures/minifall1.json",
+     "weight": 100
+    },
+    {
+     "type": "loot_table",
+     "name": "loot_tables/blocks/lucky_structures/lavaglass.json",
+     "weight": 100
+    },
+    {
+     "type": "loot_table",
+     "name": "loot_tables/blocks/lucky_structures/lavabars.json",
+     "weight": 100
+    },
+    {
+     "type": "loot_table",
+     "name": "loot_tables/blocks/lucky_structures/fire.json",
+     "weight": 100
+    },
+    {
+     "type": "loot_table",
+     "name": "loot_tables/blocks/lucky_structures/extremefall.json",
+     "weight": 100
+    },
+    {
+     "type": "loot_table",
+     "name": "loot_tables/blocks/lucky_structures/anvilbars.json",
+     "weight": 100
+    },
+    {
+     "type": "loot_table",
+     "name": "loot_tables/blocks/lucky_structures/yunq.json",
+     "weight": 100
+    },
+    {
+     "type": "loot_table",
+     "name": "loot_tables/blocks/lucky_random/spread1.json",
+     "weight": 100
+    },
+    {
+     "type": "loot_table",
+     "name": "loot_tables/blocks/lucky_mobs/c1.json",
+     "weight": 100
+    },
+    {
+     "type": "loot_table",
+     "name": "loot_tables/blocks/lucky_mobs/p2.json",
+     "weight": 100
+    },
+    {
+     "type": "loot_table",
+     "name": "loot_tables/blocks/lucky_mobs/shulker1.json",
+     "weight": 100
+    },
+    {
+     "type": "loot_table",
+     "name": "loot_tables/blocks/lucky_mobs/captainv.json",
+     "weight": 100
+    },
+    {
+     "type": "loot_table",
+     "name": "loot_tables/blocks/lucky_mobs/enderman.json",
+     "weight": 100
+    },
+    {
+     "type": "loot_table",
+     "name": "loot_tables/blocks/lucky_mobs/entitytnt.json",
+     "weight": 100
+    },
+    {
+     "type": "loot_table",
+     "name": "loot_tables/blocks/lucky_mobs/multirayo.json",
+     "weight": 100
+    },
+    {
+     "type": "loot_table",
+     "name": "loot_tables/blocks/lucky_mobs/bob.json",
+     "weight": 100
+    },
+    {
+     "type": "loot_table",
+     "name": "loot_tables/blocks/lucky_mobs/minispider.json",
+     "weight": 100
+    },
+    {
+     "type": "loot_table",
+     "name": "loot_tables/blocks/lucky_mobs/meteors/meteor1.json",
+     "weight": 50
+    },
+    {
+     "type": "loot_table",
+     "name": "loot_tables/blocks/lucky_mobs/meteors/meteor2.json",
+     "weight": 50
+    },
+    {
+     "type": "loot_table",
+     "name": "loot_tables/blocks/lucky_mobs/meteors/meteor3.json",
+     "weight": 50
+    },
+    {
+     "type": "loot_table",
+     "name": "loot_tables/blocks/lucky_mobs/meteors/meteor4.json",
+     "weight": 50
+    },
+    {
+     "type": "loot_table",
+     "name": "loot_tables/blocks/lucky_mobs/zombieg.json",
+     "weight": 100
+    },
+    {
+     "type": "loot_table",
+     "name": "loot_tables/blocks/lucky_mobs/explode.json",
+     "weight": 100
+    },
+    {
+     "type": "loot_table",
+     "name": "loot_tables/blocks/lucky_mobs/electricreeper.json",
+     "weight": 100
+    },
+    {
+     "type": "loot_table",
+     "name": "loot_tables/blocks/lucky_mobs/creeper.json",
+     "weight": 100
+    },
+    {
+     "type": "loot_table",
+     "name": "loot_tables/blocks/lucky_mobs/slimes.json",
+     "weight": 100
+    },
+    {
+     "type": "loot_table",
+     "name": "loot_tables/blocks/lucky_mobs/skeleton.json",
+     "weight": 100
+    },
+    {
+     "type": "loot_table",
+     "name": "loot_tables/blocks/lucky_mobs/zombie.json",
+     "weight": 100
+    },
+    {
+     "type": "loot_table",
+     "name": "loot_tables/blocks/lucky_mobs/spider.json",
+     "weight": 100
+    },    
+    {
+     "type": "loot_table",
+     "name": "loot_tables/blocks/lucky_mobs/cave_spider.json",
+     "weight": 100
+    },    
+    {
+     "type": "loot_table",
+     "name": "loot_tables/blocks/lucky_mobs/pillager.json",
+     "weight": 100
+    },    
+    {
+     "type": "loot_table",
+     "name": "loot_tables/blocks/lucky_mobs/silverfish.json",
+     "weight": 100
+    },    
+    {
+     "type": "loot_table",
+     "name": "loot_tables/blocks/lucky_mobs/blaze.json",
+     "weight": 100
+    },    
+    {
+     "type": "loot_table",
+     "name": "loot_tables/blocks/lucky_mobs/wither_skeleton.json",
+     "weight": 100
+    },    
+    {
+     "type": "loot_table",
+     "name": "loot_tables/blocks/lucky_mobs/evoker.json",
+     "weight": 100
+    },    
+    {
+     "type": "loot_table",
+     "name": "loot_tables/blocks/lucky_mobs/vindicator.json",
+     "weight": 100
+    },    
+    {
+     "type": "loot_table",
+     "name": "loot_tables/blocks/lucky_mobs/guardian.json",
+     "weight": 100
+    },    
+    {
+     "type": "loot_table",
+     "name": "loot_tables/blocks/lucky_mobs/phantom.json",
+     "weight": 100
+    },    
+    {
+     "type": "loot_table",
+     "name": "loot_tables/blocks/lucky_mobs/ghast.json",
+     "weight": 100
+    },    
+    {
+     "type": "loot_table",
+     "name": "loot_tables/blocks/lucky_mobs/vex.json",
+     "weight": 100
+    },    
+    {
+     "type": "loot_table",
+     "name": "loot_tables/blocks/lucky_mobs/ravager.json",
+     "weight": 100
+    },    
+    {
+     "type": "loot_table",
+     "name": "loot_tables/blocks/lucky_mobs/wither.json",
+     "weight": 100
+    },    
+    {
+     "type": "loot_table",
+     "name": "loot_tables/blocks/lucky_mobs/elder_guardian.json",
+     "weight": 50
+    },    
+    {
+     "type": "loot_table",
+     "name": "loot_tables/blocks/lucky_mobs/witch.json",
+     "weight": 100
+    },    
+    {
+     "type": "loot_table",
+     "name": "loot_tables/blocks/lucky_mobs/pufferfishs.json",
+     "weight": 100
+    },    
+    {
+     "type": "loot_table",
+     "name": "loot_tables/blocks/lucky_mobs/magma_cube.json",
+     "weight": 100
+
+     }
+    ]
+   }
+  ]
+ }
+}

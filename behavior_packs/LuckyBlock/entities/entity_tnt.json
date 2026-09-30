@@ -1,0 +1,72 @@
+{
+  "format_version": "1.11.0",
+  "minecraft:entity": {
+    "description": {
+      "identifier": "entity:tnt",
+      "runtime_identifier": "minecraft:snowball",
+      "is_spawnable": false,
+      "is_summonable": true,
+      "is_experimental": false
+    },
+    "component_groups": {
+      "despawn": { "minecraft:despawn": {} 
+      },
+      "mini_explosion": {
+        "minecraft:explode": {
+          "fuse_length": 0, 
+          "fuse_lit": true, 
+          "power": 1, 
+          "causes_fire": false, 
+          "destroy_affected_by_griefing": true 
+        }
+      }
+    },
+    "components": {
+      "minecraft:timer": { "time": [ 0.1, 0.1 ], "looping": true,
+       "time_down_event": { "event": "despawn", "target": "self" }
+      },
+      "minecraft:projectile": {
+        "on_hit": {
+          "definition_event": {
+           "affect_projectile": true,
+             "event_trigger": {
+               "event": "mini_explosion",
+               "target": "self"
+            }
+          },
+          "impact_damage": {
+            "damage": 1,
+            "knockback": true,
+            "destroy_on_hit": false
+          },
+          "particle_on_hit": {
+            "particle_type": "largeexplode",
+            "on_entity_hit": true,
+            "on_other_hit": true
+          }
+        },
+        "hit_sound": "fuse",
+        "power": 2,
+        "gravity": 0.0,
+        "angle_offset": 0.0
+      },
+      "minecraft:type_family": { "family": [ "effect99_entities" ] },
+      "minecraft:collision_box": { "width": 0.0, "height": 0.0 },
+      "minecraft:physics": {},
+      "minecraft:environment_sensor": [ { "on_environment": {
+        "filters": { "all_of": [ { "test": "is_family", "value": "effect99_entities" } ] },
+          "event": "particle"
+          }
+        }
+      ]
+    },
+    "events": {
+      "mini_explosion": { "add": { "component_groups": [ "mini_explosion" ] }
+      },
+      "despawn": { "add": { "component_groups": [ "despawn" ] }
+      },
+      "particle": { "queue_command": { "command": [ "particle minecraft:obsidian_glow_dust_particle ~ ~ ~" ] }
+      }
+    }
+  }
+}

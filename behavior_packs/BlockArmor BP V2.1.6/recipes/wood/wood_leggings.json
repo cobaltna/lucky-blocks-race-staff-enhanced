@@ -1,0 +1,26 @@
+{
+  "format_version": "1.12",
+  "minecraft:recipe_shaped": {
+    "description": {
+      "identifier": "bls:wood_leggings"
+    },
+    "tags": [
+      "crafting_table"
+    ],
+    "pattern": [
+      "aaa",
+      "a a",
+      "a a"
+    ],
+    "key": {
+      "a": {
+        "item": "minecraft:log",
+        "data": 0
+      }
+    },
+    "result": {
+      "item": "bls:wood_leggings",
+      "count": 1
+    }
+  }
+}

@@ -1,0 +1,45 @@
+{
+  "format_version": "1.20.50",
+  "minecraft:item": {
+    "description": {
+      "identifier": "bls:ice_chestplate",
+      "menu_category": {
+        "category": "Equipment",
+        "group": "itemGroup.name.chestplate"
+      }
+		},
+		"components": {
+      "minecraft:max_stack_size": 1,
+      "minecraft:enchantable": {
+        "value": 10,
+        "slot": "armor_torso"
+      },
+      "minecraft:icon": {
+        "texture": "ice_chestplate"
+      },
+      "minecraft:display_name": {},
+      "minecraft:durability": {
+        "max_durability": 148,
+        "damage_chance": {
+          "min": 70,
+          "max": 95
+        }
+      },
+      "minecraft:repairable": {
+        "repair_items": [
+          {
+            "items":[
+              "bls:ice_chestplate",
+              "minecraft:ice"
+            ],
+            "repair_amount": 15
+          }
+        ]
+      },
+      "minecraft:wearable": {
+        "protection": 5,
+        "slot": "slot.armor.chest"
+      }
+    }
+  }
+}

@@ -1,0 +1,57 @@
+{
+  "format_version": "1.20.30",
+  "minecraft:entity": {
+    "description": {
+      "identifier": "lucky:bomb_ball",
+      "is_spawnable": false,
+      "is_summonable": true,
+      "is_experimental": false
+    },
+    "components": {
+      "minecraft:collision_box": {
+        "height": 0.4,
+        "width": 0.4
+      },
+      "minecraft:physics": {
+        "has_gravity": false,
+        "has_collision": true
+      },
+      "minecraft:pushable": {
+        "is_pushable": false
+      },
+      "minecraft:projectile": {
+        "destroy_on_hurt": true,
+        "gravity": 0.0,
+        "inertia": 1.0,
+        "liquid_inertia": 0.8,
+        "power": 1.0,
+        "uncertainty_base": 0,
+        "uncertainty_multiplier": 0,
+        "on_hit": {
+          "definition_event": {
+            "event_trigger": {
+              "event": "impact",
+              "target": "self"
+            }
+          }
+        }
+      },
+      "minecraft:timer": {
+        "time": 5,
+        "looping": false,
+        "time_down_event": {
+          "event": "impact"
+        }
+      }
+    },
+    "events": {
+      "impact": {
+        "queue_command": {
+          "command": [
+            "scriptevent lucky:bomb_hit"
+          ]
+        }
+      }
+    }
+  }
+}

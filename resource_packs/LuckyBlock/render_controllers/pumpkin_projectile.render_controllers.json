@@ -1,0 +1,19 @@
+{
+  "format_version": "1.10.0",
+  "render_controllers": {
+    "controller.render.pumpkin_projectile": {
+      "geometry": "Geometry.default",
+      "materials": [ { "*": "Material.default" } ],
+      "textures": [ "Texture.default" ],
+      "overlay_color": {
+          "r": "1",
+          "g": "(Math.sin(q.life_time * 500.0) + 1.0) * 0.5",
+          "b": "0",
+          "a": "0.5"
+      },
+      "light_color_multiplier": 0.5,
+      "ignore_lighting" : true,
+      "filter_lighting": true
+    }
+  }
+}

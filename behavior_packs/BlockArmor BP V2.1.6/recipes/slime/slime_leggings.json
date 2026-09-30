@@ -1,0 +1,25 @@
+{
+  "format_version": "1.12",
+  "minecraft:recipe_shaped": {
+    "description": {
+      "identifier": "bls:slime_leggings"
+    },
+    "tags": [
+      "crafting_table"
+    ],
+    "pattern": [
+      "aaa",
+      "a a",
+      "a a"
+    ],
+    "key": {
+      "a": {
+        "item": "minecraft:slime"
+      }
+    },
+    "result": {
+      "item": "bls:slime_leggings",
+      "count": 1
+    }
+  }
+}

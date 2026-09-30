@@ -1,0 +1,25 @@
+{
+  "format_version": "1.20.50",
+  "minecraft:item": {
+    "description": {
+      "identifier": "lucky:magma_cube_stack",
+      "menu_category": {
+        "category": "nature",
+        "group": "itemGroup.name.mobEgg"
+      }
+    },
+    "components": {
+      "minecraft:icon": {
+        "texture": "egg_lava_slime"
+      },
+      "minecraft:display_name": {
+        "value": "Spawn §6Magma Cube Stack"
+      },
+      "minecraft:stacked_by_data": true,
+      "minecraft:liquid_clipped": true,
+      "minecraft:entity_placer": {
+        "entity": "spawn_entity:magma_cube_stack"
+      }
+    }
+  }
+}

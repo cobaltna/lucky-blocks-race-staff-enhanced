@@ -1,0 +1,23 @@
+{
+    "format_version": 2,
+    "header": {
+        "name": "§gLucky Blocks Add-On §6V4 R",
+        "description": "§7By Effect99",
+        "uuid": "3f26ae22-d4e3-1247-bc3e-169e98e68377",
+        "version": [1, 0, 0],
+        "min_engine_version": [ 1, 18, 20 ]
+    },
+    "modules": [
+        {
+            "type": "resources",
+            "uuid": "e3231095-45ef-21a1-b5e1-fe2e22f12b41",
+            "version": [1, 0, 0]
+        }
+     ],
+    "dependencies": [
+     {
+      "version": [1, 0, 0],
+      "uuid": "1acf1d2a-7e3a-1be2-fa01-8158303116e1"
+        }
+    ]
+}

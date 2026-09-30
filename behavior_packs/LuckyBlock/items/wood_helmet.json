@@ -1,0 +1,42 @@
+{
+  "format_version": "1.20.50",
+  "minecraft:item": {
+    "description": {
+      "identifier": "lucky:wood_helmet",
+      "menu_category": {
+        "category": "equipment",
+        "group": "itemGroup.name.helmet"
+      }
+    },
+    "components": {
+      "minecraft:max_stack_size": 1,
+      "minecraft:foil": false,
+      "minecraft:enchantable": {
+        "value": 9,
+        "slot": "armor_head"
+      },
+      "minecraft:repairable": {
+        "repair_items": [
+          {
+            "items": [
+              "lucky:wood_helmet",
+              "minecraft:log",
+              "minecraft:log2"
+            ],
+            "repair_amount": 55
+          }
+        ]
+      },
+      "minecraft:wearable": {
+        "slot": "slot.armor.head",
+        "protection": 1
+      },
+      "minecraft:durability": {
+        "max_durability": 55
+      },
+      "minecraft:icon": {
+        "texture": "wood_helmet"
+      }
+    }
+  }
+}

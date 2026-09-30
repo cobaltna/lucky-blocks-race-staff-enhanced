@@ -1,0 +1,83 @@
+{
+  "format_version": "1.12.0",
+  "minecraft:entity": {
+    "description": {
+      "identifier": "entity:christmas_grenade",
+      "is_spawnable": false,
+      "is_summonable": true,
+      "is_experimental": false,
+      "runtime_identifier": "minecraft:snowball"
+    },
+    "component_groups": {
+      "grenade_effect": {
+        "minecraft:explode": {
+        "fuse_length": 3,
+        "fuse_lit": true,
+        "power": 2,
+        "causes_fire": true,
+        "destroy_affected_by_griefing": true
+        },
+        "minecraft:projectile": {
+          "gravity": -0.0003
+        },
+        "minecraft:physics": {
+          "has_gravity": true
+        },
+        "minecraft:pushable": {
+          "is_pushable": false,
+          "is_pushable_by_piston": false
+        }
+      }
+    },
+    "components": {
+      "minecraft:scale": {
+        "value": 0.5
+      },
+      "minecraft:collision_box": {
+        "width": 0.5,
+        "height": 0.5
+      },
+      "minecraft:projectile": {
+        "on_hit": {
+          "definition_event": {
+           "affect_projectile": true,
+             "event_trigger": {
+               "event": "throwing_grenade",
+               "target": "self"
+            }
+          },
+          "impact_damage": {
+            "damage": 8,
+            "knockback": true
+          },
+          "douse_fire": {},
+          "thrown_potion_effect": {}
+        },
+        "power": 0.5,
+        "gravity": 0.02,
+        "angle_offset": -20,
+        "stop_on_hurt": true,
+        "hit_sound": "glass"
+      },
+      "minecraft:physics": {},
+      "minecraft:pushable": {
+        "is_pushable": true,
+        "is_pushable_by_piston": true
+      }
+    },
+    "events": {
+      "throwing_grenade": {
+        "add": {
+          "component_groups": [
+            "grenade_effect"
+          ]
+        },
+        "queue_command": {
+          "command": [
+            "tp @s ~ ~0.3 ~"
+          ]
+        }
+      }
+    }
+  }
+}

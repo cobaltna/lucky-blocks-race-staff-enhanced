@@ -1,0 +1,15 @@
+{
+ "pools": [
+  {
+   "rolls": 1,
+   "entries": [
+    {
+     "type": "loot_table",
+     "name": "loot_tables/blocks/lucky_block/150.json",
+     "weight": 1
+     }
+    ]
+   }
+  ]
+ }
+}

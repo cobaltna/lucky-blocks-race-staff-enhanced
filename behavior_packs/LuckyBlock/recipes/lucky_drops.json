@@ -1,0 +1,27 @@
+{
+  "format_version": "1.19.0",
+  "minecraft:recipe_shaped": {
+	"description": {
+	"identifier": "effect99:lucky_drops"
+	},
+	"tags": ["crafting_table"
+	],
+    "pattern": [
+    "###",
+    "CL#",
+    "###"
+  ],
+  "key": {
+    "L": {
+      "item": "effect99:lucky_block"
+    },
+    "C": {
+      "item": "minecraft:chest"
+    }
+  },
+  "result": {
+    "item": "effect99:lucky_drops",
+    "count": 1
+  }
+ }
+}

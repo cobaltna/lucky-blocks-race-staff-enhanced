@@ -1,0 +1,25 @@
+{
+  "format_version": "1.12",
+  "minecraft:recipe_shaped": {
+    "description": {
+      "identifier": "bls:wool_white_helmet"
+    },
+    "tags": [
+      "crafting_table"
+    ],
+    "pattern": [
+      "aaa",
+      "a a"
+    ],
+    "key": {
+      "a": {
+        "item": "minecraft:wool",
+        "data": 0
+      }
+    },
+    "result": {
+      "item": "bls:wool_colored_white_helmet",
+      "count": 1
+    }
+  }
+}

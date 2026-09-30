@@ -1,0 +1,107 @@
+{
+  "format_version": "1.11.0",
+  "minecraft:entity": {
+    "description": {
+      "identifier": "spawn_entity:lucky_villager",
+      "is_spawnable": false,
+      "is_summonable": true,
+      "is_experimental": false
+    },
+    "component_groups": { "despawn": { "minecraft:instant_despawn": {} }
+    },
+    "components": {
+      "minecraft:timer": {
+        "time": [ 0.1, 0.1 ],
+        "time_down_event": {
+          "event": "despawn"
+        }
+      },
+      "minecraft:physics": {}
+    },
+    "events": {
+      "minecraft:entity_spawned": {
+        "sequence": [
+          {
+            "randomize": [
+              {
+                "weight": 1,
+                "queue_command": {
+                  "command": [
+                    "structure load lucky_villager1 ~ ~ ~"
+                  ]
+                }
+              },
+              {
+                "weight": 1,
+                "queue_command": {
+                  "command": [
+                    "structure load lucky_villager2 ~ ~ ~"
+                  ]
+                }
+              },
+              {
+                "weight": 1,
+                "queue_command": {
+                  "command": [
+                    "structure load lucky_villager3 ~ ~ ~"
+                  ]
+                }
+              },
+              {
+                "weight": 1,
+                "queue_command": {
+                  "command": [
+                    "structure load lucky_villager4 ~ ~ ~"
+                  ]
+                }
+              },
+              {
+                "weight": 1,
+                "queue_command": {
+                  "command": [
+                    "structure load lucky_villager5 ~ ~ ~"
+                  ]
+                }
+              },
+              {
+                "weight": 1,
+                "queue_command": {
+                  "command": [
+                    "structure load lucky_villager6 ~ ~ ~"
+                  ]
+                }
+              },
+              {
+                "weight": 1,
+                "queue_command": {
+                  "command": [
+                    "structure load lucky_villager7 ~ ~ ~"
+                  ]
+                }
+              },
+              {
+                "weight": 1,
+                "queue_command": {
+                  "command": [
+                    "structure load lucky_villager8 ~ ~ ~"
+                  ]
+                }
+              },
+              {
+                "weight": 1,
+                "queue_command": {
+                  "command": [
+                    "structure load lucky_villager9 ~ ~ ~"
+                  ]
+                }
+              }
+            ]
+          }
+        ]
+      },
+      "despawn": {
+        "add": { "component_groups": [ "despawn" ] }
+      }
+    }
+  }
+}

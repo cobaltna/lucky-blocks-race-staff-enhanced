@@ -1,0 +1,311 @@
+{
+  "format_version": "1.13.0",
+  "minecraft:entity": {
+    "description": {
+      "identifier": "minecraft:bat",
+      "is_spawnable": true,
+      "is_summonable": true,
+      "is_experimental": false,
+      "scripts": {
+        "animate": [ "despawn" ]
+      },
+      "animations": {
+        "despawn": "controller.animation.despawn"
+      }
+    },
+    "component_groups": {
+      "invisible_bat": {
+        "minecraft:type_family": {
+        "family": [ "bat", "mob", "invisible_bat" ]
+        }
+      },
+      "minecraft:teleport_event": {
+        "minecraft:teleport": {
+          "target_teleport_chance": 1,
+          "target_distance": 6,
+          "random_teleport_cube": [ 6, 6, 6 ],
+          "random_teleports": true,
+          "min_random_teleport_time": 0,
+          "max_random_teleport_time": 0
+        },
+        "minecraft:timer": { "time": [ 0.0, 0.0 ], "looping": false, "time_down_event": { "event": "minecraft:stop_teleport", "target": "self" }
+        }
+      },
+      "minecraft:splash_potion_bat": {
+        "minecraft:timer": {
+          "time": [ 2, 8 ],
+          "looping": false,
+          "randomInterval": true,
+          "time_down_event": {
+            "event": "minecraft:summon_splash_potion",
+            "target": "self"
+          }
+        }
+      },
+      "minecraft:pixie_bat_effect": {
+        "minecraft:type_family": {
+        "family": [ "bat", "mob", "invisible_bat" ]
+        },
+        "minecraft:spell_effects": {
+          "add_effects": [
+            {
+              "effect": "invisibility",
+              "duration": 600,
+              "amplifier": 0,
+              "visible": 0,
+              "ambient": 0,
+              "display_on_screen_animation": true
+            }
+          ]
+        },
+        "minecraft:timer": {
+          "time": [ 0, 0 ],
+          "looping": false,
+          "time_down_event": {
+            "event": "minecraft:stop_pixie_bat_effect",
+            "target": "self"
+          }
+        }
+      },
+      "despawn": {
+        "minecraft:despawn": {}
+      }
+    },
+    "components": {
+      "minecraft:type_family": {
+        "family": [ "bat", "mob" ]
+      },
+      "minecraft:breathable": {
+        "total_supply": 15,
+        "suffocate_time": 0
+      },
+      "minecraft:collision_box": {
+        "width": 0.5,
+        "height": 0.9
+      },
+      "minecraft:damage_sensor": {
+        "triggers": {
+          "cause": "fall",
+          "deals_damage": false
+        }
+      },
+      "minecraft:hurt_on_condition": {
+        "damage_conditions": [
+          {
+            "filters": {
+              "test": "in_lava",
+              "subject": "self",
+              "operator": "==",
+              "value": true
+            },
+            "cause": "lava",
+            "damage_per_tick": 4
+          }
+        ]
+      },
+      "minecraft:movement": {
+        "value": 0.1
+      },
+      "minecraft:navigation.float": {
+        "can_path_over_water": true
+      },
+      "minecraft:movement.basic": {},
+      "minecraft:jump.static": {},
+      "minecraft:behavior.float": {
+        "priority": 0
+      },
+      "minecraft:behavior.float_wander": {
+        "xz_dist": 10,
+        "y_dist": 7,
+        "y_offset": -2,
+        "random_reselect": true,
+        "float_duration": [ 0.1, 0.35 ]
+      },
+      "minecraft:can_fly": {},
+      "minecraft:health": {
+        "value": 6,
+        "max": 6
+      },
+      "minecraft:nameable": {},
+      "minecraft:physics": {},
+      "minecraft:rideable": {
+        "seat_count": 1,
+        "family_types": [
+          "xp_orb",
+          "horse",
+          "skeletonhorse"
+        ],
+        "seats": {
+          "position": [ 0, 0.3, 0 ],
+          "lock_rider_rotation": 0
+        }
+      }
+    },
+    "events": {
+      "invisible_bat": {
+        "add": {
+          "component_groups": [
+            "invisible_bat"
+          ]
+        }
+      },
+      "minecraft:teleport_event": {
+        "add": {
+          "component_groups": [
+            "minecraft:teleport_event"
+          ]
+        }
+      },
+      "minecraft:stop_teleport": {
+        "remove": { "component_groups": [ "minecraft:teleport_event" ] }
+      },
+      "minecraft:splash_potion_bat": {
+        "add": {
+          "component_groups": [
+            "minecraft:splash_potion_bat"
+          ]
+        }
+      },
+      "minecraft:summon_splash_potion": {
+        "randomize": [
+        {
+         "weight": 100,
+         "queue_command": {
+           "command": [
+             "structure load poison_potion ~ ~-2 ~"
+            ]
+          }
+        },
+        {
+         "weight": 90,
+         "queue_command": {
+           "command": [
+             "structure load poison_potion1 ~ ~-2 ~"
+            ]
+          }
+        },
+        {
+         "weight": 95,
+         "queue_command": {
+           "command": [
+             "structure load poison_potion2 ~ ~-2 ~"
+            ]
+          }
+        },
+        {
+         "weight": 45,
+         "queue_command": {
+           "command": [
+             "structure load poison_potion3 ~ ~-2 ~"
+            ]
+          }
+        },
+        {
+         "weight": 30,
+         "queue_command": {
+           "command": [
+             "structure load poison_potion4 ~ ~-2 ~"
+              ]
+            }
+          }
+        ]
+      },
+      "minecraft:pixie_bat": {
+        "add": {
+          "component_groups": [
+            "minecraft:pixie_bat_effect"
+          ]
+        }
+      },
+      "minecraft:despawn": {
+        "sequence": [
+          {
+            "filters": { "test": "is_family", "subject": "self", "operator": "==", "value": "invisible_bat" },
+            "add": { "component_groups": [ "despawn" ] }
+          }
+        ]
+      },
+      "minecraft:stop_pixie_bat_effect": {
+        "remove": {
+          "component_groups": [
+            "minecraft:pixie_bat_effect"
+          ]
+        },
+        "randomize": [
+          {
+            "weight": 8,
+            "queue_command": {
+              "command": [
+                "ride @e[type=bat,c=1] summon_rider xp_orb minecraft:pixie_xp_orb §l§cPixie"
+              ]
+            }
+          },
+          {
+            "weight": 8,
+            "queue_command": {
+              "command": [
+                "ride @e[type=bat,c=1] summon_rider xp_orb minecraft:pixie_xp_orb §l§1Pixie"
+              ]
+            }
+          },
+          {
+            "weight": 10,
+            "queue_command": {
+              "command": [
+                "ride @e[type=bat,c=1] summon_rider xp_orb minecraft:pixie_xp_orb §l§bPixie"
+              ]
+            }
+          },
+          {
+            "weight": 10,
+            "queue_command": {
+              "command": [
+                "ride @e[type=bat,c=1] summon_rider xp_orb minecraft:pixie_xp_orb §l§dPixie"
+              ]
+            }
+          },
+          {
+            "weight": 10,
+            "queue_command": {
+              "command": [
+                "ride @e[type=bat,c=1] summon_rider xp_orb minecraft:pixie_xp_orb §l§gPixie"
+              ]
+            }
+          },
+          {
+            "weight": 9,
+            "queue_command": {
+              "command": [
+                "ride @e[type=bat,c=1] summon_rider xp_orb minecraft:pixie_xp_orb §l§aPixie"
+              ]
+            }
+          },
+          {
+            "weight": 2,
+            "queue_command": {
+              "command": [
+                "ride @e[type=bat,c=1] summon_rider xp_orb minecraft:pixie_xp_orb §lPixie"
+              ]
+            }
+          },
+          {
+            "weight": 1,
+            "queue_command": {
+              "command": [
+                "ride @e[type=bat,c=1] summon_rider xp_orb minecraft:pixie_xp_orb §l§0Pixie"
+              ]
+            }
+          },
+          {
+            "weight": 5,
+            "queue_command": {
+              "command": [
+                "ride @e[type=bat,c=1] summon_rider xp_orb minecraft:pixie_xp_orb §l§6Pixie"
+              ]
+            }
+          }
+        ]
+      }
+    }
+  }
+}

@@ -1,0 +1,25 @@
+{
+  "format_version": "1.20.50",
+  "minecraft:item": {
+    "description": {
+      "identifier": "lucky:ghostly_horseman",
+      "menu_category": {
+        "category": "nature",
+        "group": "itemGroup.name.mobEgg"
+      }
+    },
+    "components": {
+      "minecraft:icon": {
+        "texture": "egg_skeleton"
+      },
+      "minecraft:display_name": {
+        "value": "Spawn §7Ghostly Horseman"
+      },
+      "minecraft:stacked_by_data": true,
+      "minecraft:liquid_clipped": true,
+      "minecraft:entity_placer": {
+        "entity": "spawn_entity:ghostly_horseman"
+      }
+    }
+  }
+}

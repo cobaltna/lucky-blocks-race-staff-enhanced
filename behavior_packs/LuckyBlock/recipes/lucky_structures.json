@@ -1,0 +1,27 @@
+{
+  "format_version": "1.19.0",
+  "minecraft:recipe_shaped": {
+	"description": {
+	"identifier": "effect99:lucky_structures"
+	},
+	"tags": ["crafting_table"
+	],
+    "pattern": [
+    "###",
+    "#L#",
+    "###"
+  ],
+  "key": {
+    "L": {
+      "item": "effect99:lucky_block"
+    },
+    "#": {
+      "item": "minecraft:brick"
+    }
+  },
+  "result": {
+    "item": "effect99:lucky_structures",
+    "count": 1
+  }
+ }
+}

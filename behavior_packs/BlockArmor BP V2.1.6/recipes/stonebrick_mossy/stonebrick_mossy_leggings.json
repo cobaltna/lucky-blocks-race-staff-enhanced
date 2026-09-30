@@ -1,0 +1,26 @@
+{
+  "format_version": "1.12",
+  "minecraft:recipe_shaped": {
+    "description": {
+      "identifier": "bls:stonebrick_mossy_leggings"
+    },
+    "tags": [
+      "crafting_table"
+    ],
+    "pattern": [
+      "aaa",
+      "a a",
+      "a a"
+    ],
+    "key": {
+      "a": {
+        "item": "minecraft:stonebrick",
+        "data": 1
+      }
+    },
+    "result": {
+      "item": "bls:stonebrick_mossy_leggings",
+      "count": 1
+    }
+  }
+}

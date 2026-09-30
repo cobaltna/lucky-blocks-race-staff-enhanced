@@ -1,0 +1,115 @@
+{
+  "format_version": "1.11.0",
+  "minecraft:entity": {
+    "description": {
+      "identifier": "entity:show_name",
+      "is_spawnable": false,
+      "is_summonable": true,
+      "is_experimental": false
+     },
+     "component_groups": {
+      "minecraft:despawn_activated": {
+        "minecraft:timer": {
+          "time": [ 2.0, 2.0 ],
+          "looping": false,
+          "time_down_event": {
+            "event": "minecraft:despawn_self2",
+            "target": "self"
+            }
+         },
+         "minecraft:collision_box": { 
+          "width": 0.0, 
+          "height": 0.4 
+        }
+      },
+      "minecraft:start_despawn_nameshow": {
+        "minecraft:despawn": {
+          "filters": {
+            "all_of": [
+              {
+                "test": "has_tag",
+                "subject": "self",
+                "operator": "==",
+                "value": "despawn_nameshow"
+               }
+             ]
+           }
+         }
+       },
+       "minecraft:despawn_nameshow": {
+        "minecraft:timer": {
+          "time": [ 0.0, 0.0 ],
+          "looping": true,
+          "time_down_event": {
+            "event": "minecraft:despawn_self",
+            "target": "self"
+           }
+         }
+       }
+     },
+     "components": {
+      "minecraft:type_family": {
+        "family": [ "showName" ]
+      },
+      "minecraft:collision_box": {
+        "width": 0,
+        "height": 0
+      },
+      "minecraft:damage_sensor": {
+        "triggers": {
+          "cause": "all",
+          "deals_damage": false
+        }
+      },
+      "minecraft:nameable": {
+        "alwaysShow": true,
+        "allowNameTagRenaming": true
+      },
+      "minecraft:fire_immune": true,
+      "minecraft:physics": {}
+    },
+    "events": {
+      "minecraft:despawn_self": {
+        "queue_command": {
+          "command": [
+            "scoreboard players remove @s[tag=despawn_nameshow] despawn_nameshow 1",
+            "event entity @s[tag=despawn_nameshow,scores={despawn_nameshow=0}] minecraft:start_despawn_nameshow"
+          ]
+        }
+      },
+      "minecraft:start_despawn_nameshow": {
+        "add": {
+          "component_groups": [
+            "minecraft:start_despawn_nameshow"
+          ]
+        }
+      },
+      "minecraft:despawn_nameshow_event": {
+        "add": {
+          "component_groups": [
+            "minecraft:despawn_nameshow"
+          ]
+        }
+      },
+      "minecraft:despawn_activated": {
+        "add": {
+          "component_groups": [
+            "minecraft:despawn_activated"
+          ]
+        }
+      },
+      "minecraft:despawn_self2": {
+        "queue_command": {
+          "command": [
+            "tag @s add despawn_nameshow"
+          ]
+        },
+        "add": {
+          "component_groups": [
+            "minecraft:start_despawn_nameshow"
+          ]
+        }
+      }
+    }
+  }
+}

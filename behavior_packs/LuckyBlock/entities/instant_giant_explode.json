@@ -1,0 +1,42 @@
+{
+  "format_version": "1.11.0",
+  "minecraft:entity": {
+    "description": {
+      "identifier": "entity:instant_giant_explode",
+      "is_spawnable": false,
+      "is_summonable": true,
+      "is_experimental": false
+    },
+    "component_groups": {},
+    "components": {
+      "minecraft:timer": { "time": [ 0, 0 ], "looping": false,
+        "time_down_event": { "event": "explode_effects", "target": "self" }
+      },
+      "minecraft:scale": { "value": 0 },
+      "minecraft:explode": {
+        "fuse_length": 0.02,
+        "fuse_lit": true,
+        "power": 16,
+        "causes_fire": true,
+        "destroy_affected_by_griefing": true
+      },
+      "minecraft:type_family": {
+        "family": [ "tnt", "inanimate", "effect99_entities" ]
+      },
+      "minecraft:collision_box": {
+        "width": 0.98,
+        "height": 0.98
+      },
+      "minecraft:physics": {
+      },
+      "minecraft:pushable": {
+        "is_pushable": false,
+        "is_pushable_by_piston": true
+      }
+    },
+    "events": {
+      "explode_effects": { "queue_command": { "command": [ "camerashake add @a[r=32] 0.2 0.8 positional", "playsound random.explode @a[r=32] ~ ~ ~ 2 0.4 2" ] } 
+      }
+    }
+  }
+}

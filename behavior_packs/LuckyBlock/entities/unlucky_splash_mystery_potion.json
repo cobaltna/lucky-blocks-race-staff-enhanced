@@ -1,0 +1,54 @@
+{
+  "format_version": "1.12.0",
+  "minecraft:entity": {
+    "description": {
+      "identifier": "entity:unlucky_splash_mystery_potion",
+      "is_spawnable": false,
+      "is_summonable": true,
+      "is_experimental": false,
+      "runtime_identifier": "minecraft:snowball"
+    },
+    "components": {
+      "minecraft:collision_box": {
+        "width": 0.25,
+        "height": 0.25
+      },
+      "minecraft:projectile": {
+        "on_hit": {
+          "douse_fire": {},
+          "thrown_potion_effect": {},
+          "definition_event": {
+            "affect_projectile": true,
+            "event_trigger": { 
+              "event": "splash_potion"
+            }
+          }
+        },
+        "power": 0.5,
+        "gravity": 0.05,
+        "angle_offset": -20,
+        "hit_sound": "glass"
+      },
+      "minecraft:physics": {},
+      "minecraft:pushable": {
+        "is_pushable": true,
+        "is_pushable_by_piston": true
+      },
+      "minecraft:on_death": {
+        "event": "minecraft:splash_potion",
+        "target": "self"
+      }
+    },
+    "events": {
+      "splash_potion": {
+        "queue_command": {
+          "command": [
+            "function unlucky_mystery_potion",
+            "particle splash ~ ~0.1 ~",
+            "kill @s"
+          ]
+        }
+      }
+    }
+  }
+}

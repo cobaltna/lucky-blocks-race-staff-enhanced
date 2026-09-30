@@ -1,0 +1,29 @@
+{
+  "format_version": "1.10.0",
+  "minecraft:client_entity": {
+    "description": {
+      "identifier": "lucky:flender_fireball",
+      "materials": {
+        "default": "entity_alphatest"
+      },
+      "textures": {
+        "default": "textures/entity/staffs/lichball"
+      },
+      "geometry": {
+        "default": "geometry.fireball"
+      },
+      "animations": {
+        "face_player": "animation.lich.billboard"
+      },
+      "particle_effects": {
+        "lich_projectile_trail": "pog:soul"
+      },
+      "scripts": {
+        "scale": "2.0",
+        "animate": [ "face_player" ],
+        "should_update_bones_and_effects_offscreen": true
+      },
+      "render_controllers": [ "controller.render.default" ]
+    }
+  }
+}

@@ -1,0 +1,25 @@
+{
+  "format_version": "1.12",
+  "minecraft:recipe_shaped": {
+    "description": {
+      "identifier": "bls:crying_obsidian_chestplate"
+    },
+    "tags": [
+      "crafting_table"
+    ],
+    "pattern": [
+      "a a",
+      "aaa",
+      "aaa"
+    ],
+    "key": {
+      "a": {
+        "item": "minecraft:crying_obsidian"
+      }
+    },
+    "result": {
+      "item": "bls:cobsidian_chestplate",
+      "count": 1
+    }
+  }
+}

@@ -1,0 +1,36 @@
+{
+  "format_version": "1.19.0",
+  "minecraft:recipe_shaped": {
+	"description": {
+	"identifier": "effect99:lucky_pvp"
+	},
+	"tags": ["crafting_table"
+	],
+    "pattern": [
+    "#2#",
+    "1L3",
+    "#4#"
+  ],
+  "key": {
+    "L": {
+      "item": "effect99:lucky_block"
+    },
+    "1": {
+      "item": "minecraft:iron_sword"
+    },
+    "2": {
+      "item": "minecraft:iron_axe"
+    },
+    "3": {
+      "item": "minecraft:arrow"
+    },
+    "4": {
+      "item": "minecraft:iron_ingot"
+    }
+  },
+  "result": {
+    "item": "effect99:lucky_pvp",
+    "count": 2
+  }
+ }
+}

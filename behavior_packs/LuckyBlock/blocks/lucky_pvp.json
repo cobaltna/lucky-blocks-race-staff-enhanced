@@ -1,0 +1,28 @@
+{
+  "format_version": "1.21.10",
+  "minecraft:block": {
+    "description": {
+      "identifier": "effect99:lucky_pvp",
+      "menu_category": {
+        "category": "Construction"
+      }
+    },
+    "components": {
+      "minecraft:custom_components": [
+        "lucky:pvp"
+      ],
+      "minecraft:loot": "loot_tables/empty.json",
+      "minecraft:destructible_by_mining": { "seconds_to_destroy": 0.35 },
+      "minecraft:material_instances": {
+        "*": {
+          "texture": "lucky_pvp",
+          "render_method": "blend"
+        }
+      },
+      "minecraft:light_emission": 0,
+      "minecraft:friction": 0.5,
+      "minecraft:destructible_by_explosion": { "explosion_resistance": 999 },
+      "minecraft:map_color": "#e2fb00"
+    }
+  }
+}

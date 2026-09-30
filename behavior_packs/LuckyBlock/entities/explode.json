@@ -1,0 +1,29 @@
+{
+  "format_version": "1.11.0",
+  "minecraft:entity": {
+    "description": {
+      "identifier": "entity:explode",
+      "runtime_identifier": "minecraft:tnt",
+      "is_spawnable": false,
+      "is_summonable": true,
+      "is_experimental": false
+    },
+    "components": {
+      "minecraft:type_family": {
+        "family": [ "effect99_entities" ]
+      },
+      "minecraft:collision_box": {
+        "width": 0,
+        "height": 0
+      },
+      "minecraft:explode": {
+        "fuse_length": 0,
+        "fuse_lit": true,
+        "power": 2,
+        "causes_fire": true,
+        "destroy_affected_by_griefing": true
+      },
+      "minecraft:physics": {}
+    }
+  }
+}

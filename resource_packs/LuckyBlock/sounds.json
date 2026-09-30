@@ -1,0 +1,85 @@
+{
+  "entity_sounds": {
+    "entities": {
+      "entity:mountable_slime": {
+        "volume": 1.0,
+        "pitch": [ 0.8, 1.2 ],
+        "events": {
+          "ambient": "",
+          "hurt": "mob.slime.small",
+          "death": "mob.slime.small",
+          "squish.big": {
+            "sound": "mob.slime.big",
+            "pitch": [ 0.64, 0.96 ]
+          },
+          "squish.small": {
+            "sound": "mob.slime.small",
+            "pitch": [ 0.64, 0.96 ]
+          },
+          "attack": {
+            "sound": "mob.attack",
+            "pitch": [ 0.8, 1.2 ]
+          }
+        }
+      },
+      "entity:centella": {
+        "volume": 1.0,
+        "events": {
+          "ambient": {
+            "sound": "mob.wither.spawn",
+            "pitch": 0.6
+          },
+          "hurt": "",
+          "death": ""
+        }
+      },
+      "entity:alpha_wolf": {
+        "volume": 1.0,
+        "events": {
+          "ambient": {
+            "sound": "mob.wolf.growl",
+            "volume": 1,
+            "pitch": 0.9
+          },
+          "hurt": {
+            "sound": "mob.wolf.bark",
+            "volume": 1,
+            "pitch": 0.7
+          },
+          "death": "",
+          "step": {
+            "sound": "mob.wolf.step",
+            "volume": 0.65,
+            "pitch": 0.8
+          },
+          "shake": {
+            "sound": "mob.wolf.shake",
+            "pitch": [ 0.8, 1.2 ]
+          },
+          "growl": "mob.wolf.growl"
+        }
+      },
+      "entity:slime_king": {
+        "volume": 1.0,
+        "pitch": [ 0.8, 1.0 ],
+        "events": {
+          "ambient": "",
+          "hurt": "mob.slime.small",
+          "death": "mob.slime.small",
+          "squish.big": {
+            "sound": "mob.slime.big",
+            "pitch": [ 0.64, 0.96 ]
+          },
+          "squish.small": {
+            "sound": "mob.slime.big",
+            "pitch": [ 0.64, 0.96 ]
+          },
+          "attack": {
+            "sound": "mob.attack",
+            "pitch": [ 0.8, 1.2 ]
+          }
+        }
+      }
+    }
+  }
+}

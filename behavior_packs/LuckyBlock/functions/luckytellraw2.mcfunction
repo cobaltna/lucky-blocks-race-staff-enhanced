@@ -1,0 +1,1 @@
+tellraw @p {"rawtext":[{"text":"§4Your death wish came true!"}]}

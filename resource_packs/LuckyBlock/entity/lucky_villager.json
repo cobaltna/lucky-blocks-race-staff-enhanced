@@ -1,0 +1,40 @@
+{
+  "format_version": "1.8.0",
+  "minecraft:client_entity": {
+    "description": {
+      "identifier": "lucky:lucky_villager",
+      "materials": {
+        "default": "villager"
+      },
+      "textures": {
+        "farmer": "textures/entity/lucky_villager",
+        "librarian": "textures/entity/unlucky_villager",
+        "priest": "textures/entity/lucky_villager01",
+        "smith": "textures/entity/lucky_villager02",
+        "butcher": "textures/entity/lucky_villager"
+      },
+      "geometry": {
+        "default": "geometry.villager"
+      },
+      "scripts": {
+        "scale": "0.9375"
+      },
+      "animations": {
+        "general": "animation.villager.general",
+        "look_at_target": "animation.common.look_at_target",
+        "move": "animation.villager.move",
+        "baby_transform": "animation.villager.baby_transform"
+      },
+      "animation_controllers": [
+        { "general": "controller.animation.villager.general" },
+        { "move": "controller.animation.villager.move" },
+        { "baby": "controller.animation.villager.baby" }
+      ],
+      "render_controllers": [ "controller.render.villager" ],
+      "spawn_egg": {
+        "texture": "lucky_villager",
+        "texture_index": 0
+      }
+    }
+  }
+}

@@ -1,0 +1,19 @@
+{
+	"format_version": "1.8.0",
+	"animations": {
+		"animation.shulker_shield.closed": {
+			"loop": true,
+			"animation_length": 10000,
+			"bones": {
+				"lid": {
+					"position": {
+						"0.0": [0, 0, 0],
+						"0.4833": [0, -7.95, 0],
+						"0.7667": [0, -13, 0],
+						"1.0333": [0, -17, 0]
+					}
+				}
+			}
+		}
+	}
+}

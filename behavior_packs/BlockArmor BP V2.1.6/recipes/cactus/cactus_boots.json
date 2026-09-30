@@ -1,0 +1,25 @@
+{
+  "format_version": "1.12",
+  "minecraft:recipe_shaped": {
+    "description": {
+      "identifier": "bls:cactus_boots"
+    },
+    "tags": [
+      "crafting_table"
+    ],
+    "pattern": [
+      "a a",
+      "a a"
+    ],
+    "key": {
+      "a": {
+        "item": "minecraft:cactus",
+        "data": 0
+      }
+    },
+    "result": {
+      "item": "bls:cactus_boots",
+      "count": 1
+    }
+  }
+}

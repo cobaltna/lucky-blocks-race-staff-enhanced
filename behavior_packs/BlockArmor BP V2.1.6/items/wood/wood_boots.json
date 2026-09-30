@@ -1,0 +1,45 @@
+{
+  "format_version": "1.20.50",
+  "minecraft:item": {
+    "description": {
+      "identifier": "bls:wood_boots",
+      "menu_category": {
+        "category": "Equipment",
+        "group": "itemGroup.name.boots"
+      }
+		},
+		"components": {
+      "minecraft:max_stack_size": 1,
+      "minecraft:enchantable": {
+        "value": 10,
+        "slot": "armor_feet"
+      },
+      "minecraft:icon": {
+        "texture": "wood_boots"
+      },
+      "minecraft:repairable": {
+        "repair_items": [
+          {
+            "items":[
+              "bls:wood_boots",
+              "minecraft:oak_log"
+            ],
+            "repair_amount": 15
+          }
+        ]
+      },
+      "minecraft:display_name": {},
+      "minecraft:durability": {
+        "max_durability": 86,
+        "damage_chance": {
+          "min": 70,
+          "max": 95
+        }
+      },
+      "minecraft:wearable": {
+        "protection": 1,
+        "slot": "slot.armor.feet"
+      }
+    }
+  }
+}

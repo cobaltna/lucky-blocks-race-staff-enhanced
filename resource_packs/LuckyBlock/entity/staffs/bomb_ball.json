@@ -1,0 +1,33 @@
+{
+  "format_version": "1.10.0",
+  "minecraft:client_entity": {
+    "description": {
+      "identifier": "lucky:bomb_ball",
+      "materials": {
+        "default": "entity_alphatest"
+      },
+      "textures": {
+        "default": "textures/entity/staffs/bomb_block"
+      },
+      "geometry": {
+        "default": "geometry.ice_block"
+      },
+      "animations": {
+        "basic": "animation.fire_block.particle"
+      },
+      "scripts": {
+        "scale": "0.5",
+        "animate": [
+          "basic"
+        ],
+        "should_update_bones_and_effects_offscreen": true
+      },
+      "particle_effects": {
+        "fire_effect": "minecraft:basic_smoke_particle"
+      },
+      "render_controllers": [
+        "controller.render.default"
+      ]
+    }
+  }
+}

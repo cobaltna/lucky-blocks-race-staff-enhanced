@@ -1,0 +1,25 @@
+{
+  "format_version": "1.12",
+  "minecraft:recipe_shaped": {
+    "description": {
+      "identifier": "bls:end_stone_chestplate"
+    },
+    "tags": [
+      "crafting_table"
+    ],
+    "pattern": [
+      "a a",
+      "aaa",
+      "aaa"
+    ],
+    "key": {
+      "a": {
+        "item": "minecraft:end_stone"
+      }
+    },
+    "result": {
+      "item": "bls:end_stone_chestplate",
+      "count": 1
+    }
+  }
+}

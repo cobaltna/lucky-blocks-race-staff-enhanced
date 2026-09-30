@@ -1,0 +1,25 @@
+{
+  "format_version": "1.12",
+  "minecraft:recipe_shaped": {
+    "description": {
+      "identifier": "bls:roble_helmet"
+    },
+    "tags": [
+      "crafting_table"
+    ],
+    "pattern": [
+      "aaa",
+      "a a"
+    ],
+    "key": {
+      "a": {
+        "item": "minecraft:planks",
+        "data": 0
+      }
+    },
+    "result": {
+      "item": "bls:roble_helmet",
+      "count": 1
+    }
+  }
+}

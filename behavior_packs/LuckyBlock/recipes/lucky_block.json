@@ -1,0 +1,27 @@
+{
+  "format_version": "1.19.0",
+  "minecraft:recipe_shaped": {
+	"description": {
+	"identifier": "effect99:lucky_block"
+	},
+	"tags": ["crafting_table"
+	],
+    "pattern": [
+    "###",
+    "#D#",
+    "###"
+  ],
+  "key": {
+    "D": {
+      "item": "minecraft:dropper"
+    },
+    "#": {
+      "item": "minecraft:gold_ingot"
+    }
+  },
+  "result": {
+    "item": "effect99:lucky_block",
+    "count": 1
+  }
+ }
+}

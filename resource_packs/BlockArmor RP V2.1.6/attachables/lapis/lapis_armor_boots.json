@@ -1,0 +1,21 @@
+{
+    "format_version": "1.20.41",
+    "minecraft:attachable": {
+        "description": {
+            "identifier": "bls:lapis_boots",
+            "materials": {
+                "default": "armor",
+                "enchanted": "armor_enchanted"
+            },
+            "textures": {
+                "default": "textures/blocks/lapis_block",
+                "enchanted": "textures/misc/enchanted_item_glint"
+            },
+            "geometry": {
+                "default": "geometry.armor_custom_boots"
+            },
+            "scripts": {},
+            "render_controllers": [ "controller.render.armor" ]
+        }
+    }
+}

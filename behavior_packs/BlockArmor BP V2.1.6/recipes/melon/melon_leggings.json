@@ -1,0 +1,25 @@
+{
+  "format_version": "1.12",
+  "minecraft:recipe_shaped": {
+    "description": {
+      "identifier": "bls:melon_leggings"
+    },
+    "tags": [
+      "crafting_table"
+    ],
+    "pattern": [
+      "aaa",
+      "a a",
+      "a a"
+    ],
+    "key": {
+      "a": {
+        "item": "minecraft:melon_block"
+      }
+    },
+    "result": {
+      "item": "bls:melon_leggings",
+      "count": 1
+    }
+  }
+}

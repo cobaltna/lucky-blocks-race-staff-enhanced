@@ -1,0 +1,14 @@
+{
+  "format_version": "1.10.0",
+  "minecraft:item": {
+    "description": {
+      "identifier": "lucky:lucky_mystery_potion",
+      "category": "Equipment"
+    },
+    "components": {
+      "minecraft:icon": "lucky_mystery_potion",
+      "minecraft:use_animation": "drink",
+      "minecraft:render_offsets": "miscellaneous"
+    }
+  }
+}

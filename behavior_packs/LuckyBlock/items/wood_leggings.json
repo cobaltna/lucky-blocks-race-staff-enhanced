@@ -1,0 +1,40 @@
+{
+  "format_version": "1.20.50",
+  "minecraft:item": {
+    "description": {
+      "identifier": "lucky:wood_leggings",
+      "menu_category": {
+        "category": "equipment",
+        "group": "itemGroup.name.leggings"
+      }
+    },
+    "components": {
+      "minecraft:max_stack_size": 1,
+      "minecraft:foil": false,
+      "minecraft:enchantable": {
+        "value": 9,
+        "slot": "armor_legs"
+      },
+      "minecraft:repairable": {
+        "repair_items": [
+          {
+            "items": [
+              "lucky:wood_leggings"
+            ],
+            "repair_amount": 75
+          }
+        ]
+      },
+      "minecraft:wearable": {
+        "slot": "slot.armor.legs",
+        "protection": 2
+      },
+      "minecraft:durability": {
+        "max_durability": 75
+      },
+      "minecraft:icon": {
+        "texture": "wood_leggings"
+      }
+    }
+  }
+}

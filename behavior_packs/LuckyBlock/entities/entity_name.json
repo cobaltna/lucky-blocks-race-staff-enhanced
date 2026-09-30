@@ -1,0 +1,42 @@
+{
+  "format_version": "1.11.0",
+  "minecraft:entity": {
+    "description": {
+      "identifier": "entity:name",
+      "is_spawnable": false,
+      "is_summonable": true,
+      "is_experimental": false,
+      "scripts": {
+        "animate": [ "despawn2" ]
+      },
+      "animations": {
+        "despawn2": "controller.animation.despawn2"
+      }
+    },
+    "component_groups": {
+      "despawn": { "minecraft:despawn": {} 
+      },
+      "wither_sword": {
+        "minecraft:boss": {
+          "should_darken_sky": true,
+          "name": "§l§4Wither Sword",
+          "hud_range": 64
+        }
+      }
+    },
+    "components": {
+      "minecraft:type_family": { "family": [ "effect99_entities", "entity_name" ] },
+      "minecraft:collision_box": { "width": 0.0, "height": 0.0 },
+      "minecraft:damage_sensor": { "triggers": { "cause": "all", "deals_damage": false } },
+      "minecraft:physics": {},
+      "minecraft:health": { "value": 1 },
+      "minecraft:despawn": { "despawn_from_simulation_edge": true }
+    },
+    "events": {
+      "minecraft:despawn": { "add": { "component_groups": [ "despawn" ] }
+      },
+      "minecraft:wither_sword": { "add": { "component_groups": [ "wither_sword" ] }
+      }
+    }
+  }
+}

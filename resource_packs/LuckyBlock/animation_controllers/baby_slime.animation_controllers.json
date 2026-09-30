@@ -1,0 +1,26 @@
+{
+	"format_version" : "1.10.0",
+	"animation_controllers" : {
+		"controller.animation.baby_slime.move" : {
+			"initial_state" : "is_jump",
+			"states" : {
+				"is_jump" : {
+					"animations" : [ "is_jump" ],
+					"transitions" : [
+						{
+							"not_jump" : "!query.is_baby"
+						}
+					]
+				},
+				"not_jump" : {
+					"animations" : [ "not_jump" ],
+					"transitions" : [
+						{
+							"is_jump" : "query.is_baby"
+						}
+					]
+				}
+			}
+		}
+	}
+}

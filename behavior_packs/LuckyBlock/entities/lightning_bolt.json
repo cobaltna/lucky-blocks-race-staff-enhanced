@@ -1,0 +1,25 @@
+{
+  "format_version": "1.8.0",
+  "minecraft:entity": {
+    "description": {
+      "identifier": "minecraft:lightning_bolt",
+      "is_spawnable": false,
+      "is_summonable": true,
+      "is_experimental": false
+    },
+    "component_groups": {
+    },
+    "components": {
+      "minecraft:type_family": {
+        "family":["lightning"]          
+      }
+    },
+    "events": {
+      "minecraft:entity_spawned": {
+        "queue_command": {
+          "command": [ "fill ~3 ~3 ~3 ~-3 ~-3 ~-3 effect99:unlucky_block replace effect99:lucky_block" ]
+        }
+      }
+    }
+  }
+}

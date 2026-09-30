@@ -1,0 +1,28 @@
+{
+  "format_version": "1.10.0",
+  "minecraft:client_entity": {
+    "description": {
+      "identifier": "lucky:meteor_fireball",
+      "materials": {
+        "default": "entity_alphatest"
+      },
+      "textures": {
+        "default": "textures/entity/staffs/meteor_block"
+      },
+      "geometry": {
+        "default": "geometry.ice_block"
+      },
+      "animations": {
+        "basic": "animation.fire_block.particle"
+      },
+      "scripts": {
+        "animate": [ "basic" ],
+        "should_update_bones_and_effects_offscreen": true
+      },
+      "particle_effects": {
+        "fire_effect": "pog:flame"
+      },
+      "render_controllers": [ "controller.render.default" ]
+    }
+  }
+}

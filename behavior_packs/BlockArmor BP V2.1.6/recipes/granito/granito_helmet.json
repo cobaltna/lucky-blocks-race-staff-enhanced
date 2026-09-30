@@ -1,0 +1,25 @@
+{
+  "format_version": "1.12",
+  "minecraft:recipe_shaped": {
+    "description": {
+      "identifier": "bls:granito_helmet"
+    },
+    "tags": [
+      "crafting_table"
+    ],
+    "pattern": [
+      "aaa",
+      "a a"
+    ],
+    "key": {
+      "a": {
+        "item": "minecraft:stone",
+        "data": 1
+      }
+    },
+    "result": {
+      "item": "bls:granito_helmet",
+      "count": 1
+    }
+  }
+}

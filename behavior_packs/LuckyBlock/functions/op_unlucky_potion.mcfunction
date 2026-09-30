@@ -1,0 +1,12 @@
+effect @e[r=3] slowness 33 1
+effect @e[r=5] slowness 23 1
+effect @e[r=6] slowness 13 1
+effect @e[r=3] instant_damage 5 1
+effect @e[r=5] instant_damage 4 1
+effect @e[r=6] instant_damage 2 1
+effect @e[r=3] nausea 34
+effect @e[r=5] nausea 24
+effect @e[r=6] nausea 14
+effect @e[r=3] wither 70
+effect @e[r=5] wither 50
+effect @e[r=6] wither 30

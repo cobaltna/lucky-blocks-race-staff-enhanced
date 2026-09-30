@@ -1,0 +1,24 @@
+{
+  "format_version": "1.12",
+  "minecraft:recipe_shaped": {
+    "description": {
+      "identifier": "bls:slime_boots"
+    },
+    "tags": [
+      "crafting_table"
+    ],
+    "pattern": [
+      "a a",
+      "a a"
+    ],
+    "key": {
+      "a": {
+        "item": "minecraft:slime"
+      }
+    },
+    "result": {
+      "item": "bls:slime_boots",
+      "count": 1
+    }
+  }
+}

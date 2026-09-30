@@ -1,0 +1,48 @@
+{
+  "format_version": "1.21.10",
+  "minecraft:item": {
+    "description": {
+      "identifier": "lucky:explosion_staff",
+      "menu_category": {
+        "category": "equipment"
+      }
+    },
+    "components": {
+      "minecraft:icon": {
+        "textures": {
+          "default": "lucky_explosion_staff"
+        }
+      },
+      "minecraft:tags": {
+        "tags": [
+          "lucky:staff"
+        ]
+      },
+      "minecraft:cooldown": {
+        "category": "lucky:staff",
+        "duration": 6
+      },
+      "minecraft:durability": {
+        "max_durability": 156
+      },
+      "minecraft:repairable": {
+        "repair_items": [
+          {
+            "items": [
+              "minecraft:nether_star"
+            ],
+            "repair_amount": 65
+          }
+        ]
+      },
+      "minecraft:max_stack_size": 1,
+      "minecraft:glint": true,
+      "minecraft:hand_equipped": true,
+      "minecraft:allow_off_hand": false,
+      "minecraft:use_modifiers": {
+        "use_duration": 1,
+        "movement_modifier": 0.5
+      }
+    }
+  }
+}

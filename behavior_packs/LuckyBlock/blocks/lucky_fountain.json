@@ -1,0 +1,24 @@
+{
+ "format_version": "1.21.10",
+   "minecraft:block": {
+    "description": {
+      "identifier": "effect99:lucky_fountain"
+    },
+    "components": {
+      "minecraft:custom_components": [
+        "lucky_fountain:event"
+      ],
+      "minecraft:loot": "loot_tables/empty.json",
+      "minecraft:destructible_by_mining": { 
+        "seconds_to_destroy": 0.2 
+      },
+      "minecraft:geometry": "geometry.lucky_block",
+      "minecraft:material_instances": {
+        "*": { "texture": "lucky_fountain" }
+      },
+      "minecraft:destructible_by_explosion": { 
+        "explosion_resistance": 1 
+      }
+    }
+  }
+}

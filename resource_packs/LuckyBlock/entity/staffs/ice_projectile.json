@@ -1,0 +1,28 @@
+{
+  "format_version": "1.10.0",
+  "minecraft:client_entity": {
+    "description": {
+      "identifier": "lucky:ice_projectile",
+      "materials": {
+        "default": "entity_alphatest"
+      },
+      "textures": {
+        "default": "textures/entity/staffs/ice_ball"
+      },
+      "geometry": {
+        "default": "geometry.ice_ball"
+      },
+      "animations": {
+        "basic": "animation.ice_block.particle"
+      },
+      "scripts": {
+        "animate": [ "basic" ],
+        "should_update_bones_and_effects_offscreen": true
+      },
+      "particle_effects": {
+        "snow_effect": "pog:snow_effect"
+      },
+      "render_controllers": [ "controller.render.default" ]
+    }
+  }
+}

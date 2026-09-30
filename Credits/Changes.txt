@@ -1,0 +1,14 @@
+v1.0
+Creating the map
+
+v1.2
+Compatible with version x1.17
+
+v1.3
+The map is now compatible with x1.18 and x1.19 versions.
+
+v1.6
+Compatible with version x1.20
+
+v1.7
+Compatible with version x1.21 & x1.22

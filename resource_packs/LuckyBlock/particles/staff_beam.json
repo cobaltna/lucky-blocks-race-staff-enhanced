@@ -1,0 +1,70 @@
+{
+	"format_version": "1.10.0",
+	"particle_effect": {
+		"description": {
+			"identifier": "pog:staff_beam",
+			"basic_render_parameters": {
+				"material": "particles_alpha",
+				"texture": "textures/particle/particles"
+			}
+		},
+		"components": {
+			"minecraft:emitter_initialization": {
+				"creation_expression": "variable.size = 2.0;variable.lifetime = 1.0;"
+			},
+			"minecraft:emitter_rate_instant": {
+				"num_particles": 1
+			},
+			"minecraft:emitter_lifetime_once": {
+				"active_time": 1
+			},
+			"minecraft:emitter_shape_point": {
+				"offset": [ 0, -0.5, 0 ],
+				"direction": [
+					"-math.sin(variable.rotation_y) * math.cos(variable.rotation_x)",
+					"-math.sin(variable.rotation_x)",
+					"math.cos(variable.rotation_y) * math.cos(variable.rotation_x)"
+				]
+			},
+			"minecraft:particle_lifetime_expression": {
+				"max_lifetime": "math.random(0.7, 1)"
+			},
+			"minecraft:particle_initial_speed": 16,
+			"minecraft:particle_motion_dynamic": {
+				"linear_acceleration": [
+					"math.random(46, -46)",
+					"math.random(46, -46)",
+					"math.random(46, -46)"
+				]
+			},
+			"minecraft:particle_appearance_billboard": {
+				"size": [
+					"0.07 + 0.12 * v.particle_random_1",
+					"0.07 + 0.12 * v.particle_random_1"
+				],
+				"facing_camera_mode": "rotate_xyz",
+				"uv": {
+                    "texture_width": 128,
+                    "texture_height": 128,
+                    "flipbook": {
+                        "loop": false,
+                        "frames_per_second": 8,
+                        "max_frame": 8,
+                        "base_UV": [ 56, 88 ],
+                        "size_UV": [ 8, 8 ],
+                        "step_UV": [ -8, 0 ],
+                        "stretch_to_lifetime": true
+                    }
+                }
+			},
+			"minecraft:particle_appearance_lighting": {},
+			"minecraft:particle_appearance_tinting": {
+                "color": [
+                    "variable.particle_age > (variable.particle_lifetime / 2.0) ? 1 - (0.0153 * (1 - Math.pow(0.7, variable.particle_age)) / (1 - 0.7)) : 1.0",
+                    "variable.particle_age > (variable.particle_lifetime / 2.0) ? 1 - (0.0387 * (1 - Math.pow(0.7, variable.particle_age)) / (1 - 0.7)) : 1.0",
+                    "variable.particle_age > (variable.particle_lifetime / 2.0) ? 1 - (0.0636 * (1 - Math.pow(0.7, variable.particle_age)) / (1 - 0.7)) : 1.0", "variable.particle_age > (variable.particle_lifetime / 2.0) ? 1 - 0.60 * ((variable.particle_age - (variable.particle_lifetime / 2.0)) / (variable.particle_lifetime / 2.0)) : 1.0"
+                ]
+            }
+		}
+	}
+}

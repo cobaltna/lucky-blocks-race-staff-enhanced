@@ -1,0 +1,45 @@
+{
+  "format_version": "1.20.50",
+  "minecraft:item": {
+    "description": {
+      "identifier": "bls:wood_leggings",
+      "menu_category": {
+        "category": "Equipment",
+        "group": "itemGroup.name.leggings"
+      }
+		},
+		"components": {
+      "minecraft:max_stack_size": 1,
+      "minecraft:enchantable" : {
+        "value": 10,
+        "slot": "armor_legs"
+      },
+      "minecraft:icon": {
+        "texture": "wood_leggings"
+      },
+      "minecraft:repairable": {
+        "repair_items": [
+          {
+            "items":[
+              "bls:wood_leggings",
+              "minecraft:oak_log"
+            ],
+            "repair_amount": 15
+          }
+        ]
+      },
+      "minecraft:display_name": {},
+      "minecraft:durability": {
+        "max_durability": 125,
+        "damage_chance": {
+          "min": 70,
+          "max": 95
+        }
+      },
+      "minecraft:wearable": {
+        "protection": 2,
+        "slot": "slot.armor.legs"
+      }
+    }
+  }
+}

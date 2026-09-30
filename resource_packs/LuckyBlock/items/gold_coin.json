@@ -1,0 +1,13 @@
+{
+  "format_version": "1.12.0",
+  "minecraft:item": {
+    "description": {
+      "identifier": "lucky:gold_coin",
+      "category": "Equipment"
+    },
+    "components": {
+      "minecraft:icon": "gold_coin",
+      "minecraft:render_offsets": "miscellaneous"
+    }
+  }
+}

@@ -1,0 +1,60 @@
+{
+  "format_version": "1.11.0",
+  "minecraft:entity": {
+    "description": {
+      "identifier": "entity:fire",
+      "runtime_identifier": "minecraft:snowball",
+      "is_spawnable": false,
+      "is_summonable": true,
+      "is_experimental": false
+    },
+    "component_groups": {
+      "fire_sword": {
+        "minecraft:projectile": {
+        "on_hit": {
+          "impact_damage": {
+            "damage": 1,
+            "knockback": false,
+            "catch_fire": true,
+            "semi_random_diff_damage": false
+          },
+          "catch_fire": {
+            "fire_affected_by_griefing": true
+          },
+          "remove_on_hit": {}
+        },
+        "power": 10,
+        "gravity": 0.1,
+        "inertia": 1,
+        "liquid_inertia": 1,
+        "reflect_on_hurt": true
+        }
+      }
+    },
+    "components": {
+      "minecraft:type_family": { "family": [ "effect99_entities" ] },
+      "minecraft:despawn": {},
+      "minecraft:collision_box": { "width": 0.1, "height": 0.1 },
+      "minecraft:physics": {},
+      "minecraft:projectile": {
+       "on_hit": {
+         "impact_damage": { "damage": 0, "catch_fire": true },
+         "remove_on_hit": {}
+       },
+       "power": 1, "gravity": 0.01
+      }
+    },
+    "events": {
+      "minecraft:entity_spawned": {
+        "sequence": [
+         {
+          "filters": { "test": "has_equipment", "subject": "other", "domain": "hand", "value": "effect:fire_sword" },
+            "add": {
+             "component_groups": [ "fire_sword" ]
+            }
+          }
+        ]
+      }
+    }
+  }
+}

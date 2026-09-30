@@ -1,0 +1,14 @@
+{
+  "format_version": "1.8.0",
+  "render_controllers": {
+    "controller.render.magma": {
+      "geometry": "geometry.default",
+      "materials": [ { "*": "variable.is_enchanted ? Material.enchanted : Material.default" } ],
+      "textures": [ "Texture.default", "Texture.enchanted" ],
+      "uv_anim":{
+        "offset": [0.0, "Math.mod(Math.floor(query.life_time * 2), 4) / 4"],
+        "scale": [1.0, "1 / 4"]
+      }
+    }
+  }
+}

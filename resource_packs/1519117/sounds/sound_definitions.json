@@ -1,0 +1,65 @@
+{
+    "note.bass": {
+        "sounds": [
+            {
+                "name": "sounds/note/bass",
+                "pitch": 1.0,
+                "volume": 0.637
+            }
+        ]
+    },
+    "note.bassattack": {
+        "sounds": [
+            {
+                "name": "sounds/note/bassattack",
+                "pitch": 1.0,
+                "volume": 0.637
+            }
+        ]
+    },
+    "note.snare": {
+        "sounds": [
+            {
+                "name": "sounds/note/snare",
+                "pitch": 1.0,
+                "volume": 0.749
+            }
+        ]
+    },
+    "note.harp": {
+        "sounds": [
+            {
+                "name": "sounds/note/harp",
+                "pitch": 1.0,
+                "volume": 0.890
+            }
+        ]
+    },
+    "note.hat": {
+        "sounds": [
+            {
+                "name": "sounds/note/hat",
+                "pitch": 1.0,
+                "volume": 1.0
+            }
+        ]
+    },
+    "note.bd": {
+        "sounds": [
+            {
+                "name": "sounds/note/bd",
+                "pitch": 1.0,
+                "volume": 1.194
+            }
+        ]
+    },
+    "note.pling": {
+        "sounds": [
+            {
+                "name": "sounds/note/pling",
+                "pitch": 1.0,
+                "volume": 1.0
+            }
+        ]
+    }
+}

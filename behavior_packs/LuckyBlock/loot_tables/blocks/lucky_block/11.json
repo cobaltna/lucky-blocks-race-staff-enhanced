@@ -1,0 +1,19 @@
+{
+ "pools": [
+  {
+   "rolls": 1,
+   "entries": [
+    {
+     "type": "loot_table",
+     "name": "loot_tables/blocks/blockarmor/red_mushroom_block.json",
+     "weight": 1
+    },
+    {
+     "type": "loot_table",
+     "name": "loot_tables/blocks/blockarmor/lapis.json",
+     "weight": 1
+    }
+   ]
+  }
+ ]
+}

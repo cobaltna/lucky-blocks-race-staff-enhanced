@@ -1,0 +1,13 @@
+{
+  "format_version": "1.12.0",
+  "minecraft:entity": { "description": {
+    "identifier": "entity:instant_creeper_explode", "is_spawnable": false, "is_summonable": true, "is_experimental": false },
+    "components": {
+      "minecraft:type_family": { "family": [ "effect99_entities" ] },
+      "minecraft:collision_box": { "width": 0.0, "height": 0.0  },
+      "minecraft:damage_sensor": { "triggers": { "cause": "all", "deals_damage": false } },
+      "minecraft:explode": { "fuse_length": 0, "fuse_lit": true, "power": 4, "causes_fire": false, "destroy_affected_by_griefing": true },
+	    "minecraft:physics": {}
+    }
+  }
+}

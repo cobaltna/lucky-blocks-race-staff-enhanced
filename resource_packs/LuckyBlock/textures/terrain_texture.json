@@ -1,0 +1,21 @@
+{
+ "resource_pack_name": "vanilla",
+ "texture_name": "atlas.terrain",
+ "padding": 8,
+ "num_mip_levels": 4,
+ "texture_data": {
+  "lucky_block": {"textures": ["textures/blocks/lucky_block"] },
+  "unlucky_block": {"textures": ["textures/blocks/unlucky_block"] },
+  "good_luck_block": {"textures": ["textures/blocks/good_luck_block"] },
+  "lucky_drops": { "textures": [ "textures/blocks/lucky_drops"] },
+  "lucky_mobs": { "textures": [ "textures/blocks/lucky_mobs"] },
+  "lucky_structures": { "textures": [ "textures/blocks/lucky_structures"] },
+  "withered_lucky_block": { "textures": [ "textures/blocks/withered_lucky_block" ] },
+  "lucky_pvp": { "textures": [ "textures/blocks/lucky_pvp"] },
+  "lucky_fountain": { "textures": [ "textures/blocks/lucky_fountain"] },
+  "blend": { "textures": [ "textures/blocks/blend"] },
+  "spiral_lucky_block": { "textures": [ "textures/blocks/spiral_lucky_block"] },
+  "pumpkin_lucky_block_top": { "textures": [ "textures/blocks/pumpkin_lucky_block_top" ] },
+  "pumpkin_lucky_block_face": { "textures": [ "textures/blocks/pumpkin_lucky_block_face_off" ] }
+ }
+}

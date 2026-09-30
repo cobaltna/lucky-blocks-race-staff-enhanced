@@ -1,0 +1,25 @@
+{
+  "format_version": "1.12",
+  "minecraft:recipe_shaped": {
+    "description": {
+      "identifier": "bls:red_mushroom_block_leggings"
+    },
+    "tags": [
+      "crafting_table"
+    ],
+    "pattern": [
+      "aaa",
+      "a a",
+      "a a"
+    ],
+    "key": {
+      "a": {
+        "item": "minecraft:red_mushroom"
+      }
+    },
+    "result": {
+      "item": "bls:red_mushroom_block_leggings",
+      "count": 1
+    }
+  }
+}

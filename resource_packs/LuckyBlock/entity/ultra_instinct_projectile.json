@@ -1,0 +1,25 @@
+{
+  "format_version": "1.8.0",
+  "minecraft:client_entity": {
+    "description": {
+      "identifier": "entity:ultra_instinct_projectile",
+      "materials": {
+        "default": "ultra_instinct_projectile"
+      },
+      "textures": {
+        "default": "textures/entity/ultra_instinct_projectile"
+      },
+      "geometry": {
+        "default": "geometry.ultra_instinct_projectile"
+      },
+      "animation_controllers": [
+        { "move": "controller.animation.ultra_instinct_projectile.move" }
+      ],
+      "render_controllers": [ "controller.render.ultra_instinct_projectile" 
+      ],
+      "animations": {
+        "move": "animation.move"
+      }
+    }
+  }
+} 

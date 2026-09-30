@@ -1,0 +1,25 @@
+{
+  "format_version": "1.12",
+  "minecraft:recipe_shaped": {
+    "description": {
+      "identifier": "bls:diorite_helmet"
+    },
+    "tags": [
+      "crafting_table"
+    ],
+    "pattern": [
+      "aaa",
+      "a a"
+    ],
+    "key": {
+      "a": {
+        "item": "minecraft:stone",
+        "data": 3
+      }
+    },
+    "result": {
+      "item": "bls:diorite_helmet",
+      "count": 1
+    }
+  }
+}

@@ -1,0 +1,21 @@
+{
+    "format_version": "1.20.41",
+    "minecraft:attachable": {
+        "description": {
+            "identifier": "bls:glass_leggings",
+            "materials": {
+                "default": "armor",
+                "enchanted": "armor_enchanted"
+            },
+            "textures": {
+                "default": "textures/blocks/glass",
+                "enchanted": "textures/misc/enchanted_item_glint"
+            },
+            "geometry": {
+                "default": "geometry.armor_custom_leggings"
+            },
+            "scripts": {},
+            "render_controllers": [ "controller.render.armor" ]
+        }
+    }
+}

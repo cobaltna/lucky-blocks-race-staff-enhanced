@@ -1,0 +1,16 @@
+{
+  "format_version": "1.8.0",
+  "render_controllers": {
+    "controller.render.christmas_grenade": {
+      "geometry": "Geometry.christmas_grenade",
+      "materials": [
+        {
+          "*": "Material.christmas_grenade"
+        }
+      ],
+      "textures": [
+        "Texture.christmas_grenade"
+      ]
+    }
+  }
+}

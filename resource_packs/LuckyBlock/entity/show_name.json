@@ -1,0 +1,21 @@
+{
+  "format_version": "1.10.0",
+  "minecraft:client_entity": {
+    "description": {
+      "identifier": "entity:show_name",
+      "materials": {
+        "default": "null"
+      },
+      "textures": {
+        "default": "textures/show_name"
+      },
+      "geometry": {
+        "default": "geometry.show_name"
+      },
+      "render_controllers": [
+        "controller.render.show_name"
+      ],
+      "enable_attachables": true
+    }
+  }
+}

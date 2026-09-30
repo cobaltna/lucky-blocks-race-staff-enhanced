@@ -1,0 +1,13 @@
+{
+  "format_version": "1.10.0",
+  "minecraft:item": {
+    "description": {
+      "identifier": "lucky:lucky_splash_mystery_potion",
+      "category": "Equipment"
+    },
+    "components": {
+      "minecraft:icon": "lucky_splash_mystery_potion",
+      "minecraft:render_offsets": "miscellaneous"
+    }
+  }
+}

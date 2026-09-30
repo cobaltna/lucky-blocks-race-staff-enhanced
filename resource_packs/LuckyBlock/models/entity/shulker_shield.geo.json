@@ -1,0 +1,32 @@
+{
+	"format_version": "1.8.0",
+	"geometry.shulker_shield": {
+		"texturewidth": 64,
+		"textureheight": 64,
+		"visible_bounds_width": 3,
+		"visible_bounds_height": 3,
+		"visible_bounds_offset": [0, 0, 0],
+		"bones": [
+			{
+				"name": "shulker_shield",
+				"pivot": [0, 0, 0]
+			},
+			{
+				"name": "base",
+				"parent": "shulker_shield",
+				"pivot": [0, 0, 0],
+				"cubes": [
+					{"origin": [-8, 0, -8], "size": [16, 8, 16], "uv": [0, 28]}
+				]
+			},
+			{
+				"name": "lid",
+				"parent": "shulker_shield",
+				"pivot": [0, 27, 0],
+				"cubes": [
+					{"origin": [-8, 21, -8], "size": [16, 12, 16], "uv": [0, 0]}
+				]
+			}
+		]
+	}
+}

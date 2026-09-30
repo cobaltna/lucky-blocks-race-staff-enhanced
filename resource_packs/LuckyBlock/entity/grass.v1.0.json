@@ -1,0 +1,26 @@
+{
+  "format_version": "1.8.0",
+  "minecraft:client_entity": {
+    "description": {
+      "identifier": "entity:grass",
+      "materials": {
+        "default": "grass"
+      },
+      "textures": {
+        "default": "textures/entity/grass"
+      },
+      "geometry": {
+        "default": "geometry.grass"
+      },
+      "animations": {
+        "move": "animation.grass.attack"
+      },
+      "animation_controllers": [
+        { "move": "controller.animation.grass.move" }
+      ],
+      "render_controllers": [
+        "controller.render.grass"
+      ]
+    }
+  }
+}

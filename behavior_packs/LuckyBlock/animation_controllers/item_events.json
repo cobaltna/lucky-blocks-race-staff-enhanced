@@ -1,0 +1,26 @@
+{
+  "format_version": "1.10.0",
+  "animation_controllers": {
+    "controller.animation.snowman_head": {
+      "states": {
+        "default": {
+          "transitions": [
+            {
+              "snowman_head": "q.is_sneaking"
+            }
+          ]
+        },
+        "snowman_head": {
+          "on_entry": [
+            "@s snowman_head_attack"
+          ],
+          "transitions": [
+            {
+              "default": "1.0"
+            }
+          ]
+        }
+      }
+    }
+  }
+}

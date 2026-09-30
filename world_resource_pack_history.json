@@ -1,0 +1,52 @@
+{
+    "packs": [
+        {
+            "can_be_redownloaded": false,
+            "name": "§l§2Classic §r§gLucky Block §5R",
+            "uuid": "5e49e7d8-cee9-47d4-a1ef-c6042f295a48",
+            "version": [0, 0, 1]
+        },
+        {
+            "can_be_redownloaded": false,
+            "name": "§1§lCracking§4§lPack §2§lRealistic",
+            "uuid": "20511a51-e764-32e5-a346-9202cb3ceacd",
+            "version": [0, 0, 1]
+        },
+        {
+            "can_be_redownloaded": false,
+            "name": "Piano plus",
+            "uuid": "5fff64fa-ee05-494c-8748-eca4ac51c50c",
+            "version": [0, 1, 1]
+        },
+        {
+            "can_be_redownloaded": false,
+            "name": "§1§lCracking§4§lPack §2§lBedrock",
+            "uuid": "0d27aa09-8146-3a76-a863-2480615eff3c",
+            "version": [0, 0, 1]
+        },
+        {
+            "can_be_redownloaded": false,
+            "name": "§6§lLuckyBlocks §3Race",
+            "uuid": "07950a95-4d94-37c4-bb34-92614e053fab",
+            "version": [0, 0, 1]
+        },
+        {
+            "can_be_redownloaded": false,
+            "name": "§l§2Classic §r§gLucky Block §5R",
+            "uuid": "008f2e56-7e74-48b4-8f6b-457208e24e63",
+            "version": [0, 0, 1]
+        },
+        {
+            "can_be_redownloaded": false,
+            "name": "§6§lLuckyBlocks§3Race §fMap",
+            "uuid": "46fc266a-48cd-4d88-8ef0-3960c7c193b6",
+            "version": [0, 0, 1]
+        },
+        {
+            "can_be_redownloaded": false,
+            "name": "Block Armors RP 2.1.6",
+            "uuid": "ef6910e6-1147-4a0a-a7f3-7c25438ded2b",
+            "version": [1, 0, 0]
+        }
+    ]
+}

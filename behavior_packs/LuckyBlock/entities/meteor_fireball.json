@@ -1,0 +1,70 @@
+{
+  "format_version": "1.20.30",
+  "minecraft:entity": {
+    "description": {
+      "identifier": "lucky:meteor_fireball",
+      "is_spawnable": false,
+      "is_summonable": true,
+      "is_experimental": false
+    },
+    "components": {
+      "minecraft:collision_box": {
+        "height": 1.0,
+        "width": 1.0
+      },
+      "minecraft:physics": {
+        "has_gravity": false,
+        "has_collision": true
+      },
+      "minecraft:pushable": {
+        "is_pushable": false
+      },
+      "minecraft:projectile": {
+        "destroy_on_hurt": true,
+        "gravity": 0.0,
+        "on_hit": {
+          "definition_event": {
+            "event_trigger": {
+              "event": "explode",
+              "target": "self"
+            }
+          }
+        },
+        "power": 1.6
+      },
+      "minecraft:timer": {
+        "time": 5,
+        "looping": false,
+        "time_down_event": {
+          "event": "explode"
+        }
+      }
+    },
+    "component_groups": {
+      "explode": {
+        "minecraft:explode": {
+          "breaks_blocks": false,
+          "causes_fire": true,
+          "fuse_lit": true,
+          "max_resistance": 0,
+          "power": 3
+        }
+      }
+    },
+    "events": {
+      "explode": {
+        "add": {
+          "component_groups": [
+            "explode"
+          ]
+        },
+        "queue_command": {
+          "command": [
+            "fill ~-2 ~ ~-2 ~2 ~ ~2 minecraft:fire replace minecraft:air",
+            "fill ~-1 ~1 ~-1 ~1 ~1 ~1 minecraft:fire replace minecraft:air"
+          ]
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,54 @@
+{
+  "format_version": "1.11.0",
+  "minecraft:entity": {
+    "description": {
+      "identifier": "entity:shoot_tnt",
+      "runtime_identifier": "minecraft:snowball",
+      "is_spawnable": false,
+      "is_summonable": true,
+      "is_experimental": false
+    },
+    "component_groups": {},
+    "components": {
+      "minecraft:type_family": {
+        "family": [ "effect99_entities" ]
+        },
+        "minecraft:projectile": {
+        "on_hit": {
+          "impact_damage": {
+            "damage": 1,
+            "knockback": true
+          },
+          "remove_on_hit": { },
+          "particle_on_hit": {
+            "particle_type": "largeexplode",
+            "on_entity_hit": true,
+            "on_other_hit": true
+          }
+        },
+        "power": 1.0,
+        "gravity": 0.03,
+        "angle_offset": 0.0
+      },
+      "minecraft:addrider": {
+        "entity_type": "minecraft:tnt",
+        "spawn_event": "collision_box"
+      },
+      "minecraft:rideable": {
+        "seat_count": 1,
+        "family_types": [
+          "tnt"
+        ],
+        "seats": {
+          "position": [ 0.0, 0.5, 0.0 ]
+        }
+      },
+      "minecraft:collision_box": {
+        "width": 0,
+        "height": 0
+      },
+      "minecraft:physics": {}
+    },
+    "events": {}
+  }
+}

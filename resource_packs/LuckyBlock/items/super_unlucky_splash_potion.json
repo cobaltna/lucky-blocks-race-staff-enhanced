@@ -1,0 +1,13 @@
+{
+  "format_version": "1.10.0",
+  "minecraft:item": {
+    "description": {
+      "identifier": "lucky:super_unlucky_splash_potion",
+      "category": "Equipment"
+    },
+    "components": {
+      "minecraft:icon": "super_unlucky_splash_potion",
+      "minecraft:render_offsets": "miscellaneous"
+    }
+  }
+}

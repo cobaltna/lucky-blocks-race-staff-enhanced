@@ -1,0 +1,444 @@
+{
+ "pools": [
+  {
+   "rolls": 1,
+   "entries": [
+    {
+     "type": "loot_table",
+     "name": "loot_tables/blocks/lucky_mobs/p1.json",
+     "weight": 1
+    },
+    {
+     "type": "loot_table",
+     "name": "loot_tables/blocks/lucky_mobs/c1.json",
+     "weight": 1
+    },
+    {
+     "type": "loot_table",
+     "name": "loot_tables/blocks/lucky_mobs/dinnerbone1.json",
+     "weight": 1
+    },
+    {
+     "type": "loot_table",
+     "name": "loot_tables/blocks/lucky_mobs/entitytnt.json",
+     "weight": 1
+    },
+    {
+     "type": "loot_table",
+     "name": "loot_tables/blocks/lucky_mobs/bob.json",
+     "weight": 1
+    },
+    {
+     "type": "loot_table",
+     "name": "loot_tables/blocks/lucky_mobs/minispider.json",
+     "weight": 1
+    },
+    {
+     "type": "loot_table",
+     "name": "loot_tables/blocks/lucky_mobs/zombieg.json",
+     "weight": 1
+    },
+    {
+     "type": "loot_table",
+     "name": "loot_tables/blocks/lucky_mobs/xp.json",
+     "weight": 1
+    },
+    {
+     "type": "loot_table",
+     "name": "loot_tables/blocks/lucky_mobs/jeb_.json",
+     "weight": 1
+    },
+    {
+     "type": "loot_table",
+     "name": "loot_tables/blocks/lucky_mobs/electricreeper.json",
+     "weight": 1
+    },
+    {
+     "type": "loot_table",
+     "name": "loot_tables/blocks/lucky_mobs/creeper.json",
+     "weight": 1
+    },
+    {
+     "type": "loot_table",
+     "name": "loot_tables/blocks/lucky_mobs/slimes.json",
+     "weight": 1
+    },
+    {
+     "type": "loot_table",
+     "name": "loot_tables/blocks/lucky_mobs/skeleton.json",
+     "weight": 1
+    },
+    {
+     "type": "loot_table",
+     "name": "loot_tables/blocks/lucky_mobs/zombie.json",
+     "weight": 1
+    },
+    {
+     "type": "loot_table",
+     "name": "loot_tables/blocks/lucky_mobs/spider.json",
+     "weight": 1
+    },    
+    {
+     "type": "loot_table",
+     "name": "loot_tables/blocks/lucky_mobs/cave_spider.json",
+     "weight": 1
+    },    
+    {
+     "type": "loot_table",
+     "name": "loot_tables/blocks/lucky_mobs/pillager.json",
+     "weight": 1
+    },    
+    {
+     "type": "loot_table",
+     "name": "loot_tables/blocks/lucky_mobs/silverfish.json",
+     "weight": 1
+    },    
+    {
+     "type": "loot_table",
+     "name": "loot_tables/blocks/lucky_mobs/blaze.json",
+     "weight": 1
+    },    
+    {
+     "type": "loot_table",
+     "name": "loot_tables/blocks/lucky_mobs/wither_skeleton.json",
+     "weight": 1
+    },    
+    {
+     "type": "loot_table",
+     "name": "loot_tables/blocks/lucky_mobs/evoker.json",
+     "weight": 1
+    },    
+    {
+     "type": "loot_table",
+     "name": "loot_tables/blocks/lucky_mobs/vindicator.json",
+     "weight": 1
+    },    
+    {
+     "type": "loot_table",
+     "name": "loot_tables/blocks/lucky_mobs/guardian.json",
+     "weight": 1
+    },    
+    {
+     "type": "loot_table",
+     "name": "loot_tables/blocks/lucky_mobs/phantom.json",
+     "weight": 1
+    },    
+    {
+     "type": "loot_table",
+     "name": "loot_tables/blocks/lucky_mobs/ghast.json",
+     "weight": 1
+    },    
+    {
+     "type": "loot_table",
+     "name": "loot_tables/blocks/lucky_mobs/vex.json",
+     "weight": 1
+    },    
+    {
+     "type": "loot_table",
+     "name": "loot_tables/blocks/lucky_mobs/ravager.json",
+     "weight": 1
+    },    
+    {
+     "type": "loot_table",
+     "name": "loot_tables/blocks/lucky_mobs/wither.json",
+     "weight": 1
+    },    
+    {
+     "type": "loot_table",
+     "name": "loot_tables/blocks/lucky_mobs/elder_guardian.json",
+     "weight": 1
+    },    
+    {
+     "type": "loot_table",
+     "name": "loot_tables/blocks/lucky_mobs/witch.json",
+     "weight": 1
+    },    
+    {
+     "type": "loot_table",
+     "name": "loot_tables/blocks/lucky_mobs/pufferfishs.json",
+     "weight": 1
+    },    
+    {
+     "type": "loot_table",
+     "name": "loot_tables/blocks/lucky_mobs/magma_cube.json",
+     "weight": 1
+    },        {
+     "type": "loot_table",
+     "name": "loot_tables/blocks/lucky_mobs/chicken.json",
+     "weight": 1
+    },
+    {
+     "type": "loot_table",
+     "name": "loot_tables/blocks/lucky_mobs/cod.json",
+     "weight": 1
+    },
+    {
+     "type": "loot_table",
+     "name": "loot_tables/blocks/lucky_mobs/pig.json",
+     "weight": 1
+    },
+    {
+     "type": "loot_table",
+     "name": "loot_tables/blocks/lucky_mobs/cow.json",
+     "weight": 1
+    },
+    {
+     "type": "loot_table",
+     "name": "loot_tables/blocks/lucky_mobs/sheep.json",
+     "weight": 1
+    },
+    {
+     "type": "loot_table",
+     "name": "loot_tables/blocks/lucky_mobs/wolf.json",
+     "weight": 1
+    },
+    {
+     "type": "loot_table",
+     "name": "loot_tables/blocks/lucky_mobs/cat.json",
+     "weight": 1
+    },
+    {
+     "type": "loot_table",
+     "name": "loot_tables/blocks/lucky_mobs/parrot.json",
+     "weight": 1
+    },
+    {
+     "type": "loot_table",
+     "name": "loot_tables/blocks/lucky_mobs/rabbit.json",
+     "weight": 1
+    },
+    {
+     "type": "loot_table",
+     "name": "loot_tables/blocks/lucky_mobs/polar.json",
+     "weight": 1
+    },
+    {
+     "type": "loot_table",
+     "name": "loot_tables/blocks/lucky_mobs/trader.json",
+     "weight": 1
+    },
+    {
+     "type": "loot_table",
+     "name": "loot_tables/blocks/lucky_mobs/horse.json",
+     "weight": 1
+    },        
+    {
+     "type": "loot_table",
+     "name": "loot_tables/blocks/lucky_mobs/bee.json",
+     "weight": 1
+    },
+    {
+     "type": "loot_table",
+     "name": "loot_tables/blocks/lucky_mobs/fox.json",
+     "weight": 1
+    },
+    {
+     "type": "loot_table",
+     "name": "loot_tables/blocks/lucky_mobs/panda.json",
+     "weight": 1
+    },
+    {
+     "type": "loot_table",
+     "name": "loot_tables/blocks/lucky_mobs/turtle.json",
+     "weight": 1
+    },
+    {
+     "type": "loot_table",
+     "name": "loot_tables/blocks/lucky_mobs/zombie_horse.json",
+     "weight": 1
+    },
+    {
+     "type": "loot_table",
+     "name": "loot_tables/blocks/lucky_mobs/skeleton_horse.json",
+     "weight": 1
+    },
+    {
+     "type": "loot_table",
+     "name": "loot_tables/blocks/lucky_mobs/villager.json",
+     "weight": 1
+     },
+     {
+     "type": "loot_table",
+     "name": "loot_tables/blocks/lucky_mobs/minichamp.json",
+     "weight": 1
+     },
+     {
+     "type": "loot_table",
+     "name": "loot_tables/blocks/lucky_mobs/fairy.json",
+     "weight": 1
+     },
+     {
+     "type": "loot_table",
+     "name": "loot_tables/blocks/lucky_mobs/watchdog.json",
+     "weight": 1
+     },
+     {
+     "type": "loot_table",
+     "name": "loot_tables/blocks/lucky_mobs/cats.json",
+     "weight": 1
+     },
+     {
+     "type": "loot_table",
+     "name": "loot_tables/blocks/lucky_mobs/killer_chicken.json",
+     "weight": 1
+     },
+     {
+     "type": "loot_table",
+     "name": "loot_tables/blocks/lucky_mobs/Horseman.json",
+     "weight": 1
+     },
+     {
+     "type": "loot_table",
+     "name": "loot_tables/blocks/lucky_mobs/sunset.json",
+     "weight": 1
+     },
+     {
+     "type": "loot_table",
+     "name": "loot_tables/blocks/lucky_mobs/asmage.json",
+     "weight": 1
+     },
+     {
+     "type": "loot_table",
+     "name": "loot_tables/blocks/lucky_mobs/chickenrain.json",
+     "weight": 1
+     },
+     {
+     "type": "loot_table",
+     "name": "loot_tables/blocks/lucky_mobs/astralhero.json",
+     "weight": 1
+     },
+     {
+     "type": "loot_table",
+     "name": "loot_tables/blocks/lucky_mobs/Defender.json",
+     "weight": 1
+     },
+     {
+     "type": "loot_table",
+     "name": "loot_tables/blocks/lucky_mobs/creeperrain.json",
+     "weight": 1
+     },
+     {
+     "type": "loot_table",
+     "name": "loot_tables/blocks/lucky_mobs/pigvilcre.json",
+     "weight": 1
+     },
+     {
+     "type": "loot_table",
+     "name": "loot_tables/blocks/lucky_mobs/badrabbit.json",
+     "weight": 1
+     },
+     {
+     "type": "loot_table",
+     "name": "loot_tables/blocks/lucky_mobs/invisiblez.json",
+     "weight": 1
+     },
+     {
+     "type": "loot_table",
+     "name": "loot_tables/blocks/lucky_mobs/asbob.json",
+     "weight": 1
+     },
+     {
+     "type": "loot_table",
+     "name": "loot_tables/blocks/lucky_mobs/enderman.json",
+     "weight": 1
+     },
+     {
+     "type": "loot_table",
+     "name": "loot_tables/blocks/lucky_mobs/skeleminion.json",
+     "weight": 1
+     },
+     {
+     "type": "loot_table",
+     "name": "loot_tables/blocks/lucky_mobs/skelatron.json",
+     "weight": 1
+    },
+    {
+     "type": "loot_table",
+     "name": "loot_tables/blocks/lucky_mobs/zombiegfull.json",
+     "weight": 1
+    },
+    {
+     "type": "loot_table",
+     "name": "loot_tables/blocks/lucky_mobs/slimegold.json",
+     "weight": 1
+    },
+     {
+     "type": "loot_table",
+     "name": "loot_tables/blocks/lucky_mobs/ironblock.json",
+     "weight": 1
+     },
+     {
+     "type": "loot_table",
+     "name": "loot_tables/blocks/lucky_mobs/mrPorkdhop.json",
+     "weight": 1
+     },
+     {
+     "type": "loot_table",
+     "name": "loot_tables/blocks/lucky_mobs/magmacubegiant.json",
+     "weight": 1
+    },
+    {
+     "type": "loot_table",
+     "name": "loot_tables/blocks/lucky_mobs/MrRainbow.json",
+     "weight": 1
+    },
+    {
+     "type": "loot_table",
+     "name": "loot_tables/blocks/lucky_mobs/multihorses.json",
+     "weight": 1
+    },
+    {
+     "type": "loot_table",
+     "name": "loot_tables/blocks/lucky_mobs/dblockguardians.json",
+     "weight": 1
+    },
+    {
+     "type": "loot_table",
+     "name": "loot_tables/blocks/lucky_mobs/bomberman.json",
+     "weight": 1
+    },
+    {
+     "type": "loot_table",
+     "name": "loot_tables/blocks/lucky_mobs/trollingbob.json",
+     "weight": 1
+    },
+    {
+     "type": "loot_table",
+     "name": "loot_tables/blocks/lucky_mobs/Littebug.json",
+     "weight": 1
+    },
+    {
+     "type": "loot_table",
+     "name": "loot_tables/blocks/lucky_mobs/coalblock.json",
+     "weight": 1
+    },
+    {
+     "type": "loot_table",
+     "name": "loot_tables/blocks/lucky_mobs/applecow.json",
+     "weight": 1
+    },
+    {
+     "type": "loot_table",
+     "name": "loot_tables/blocks/lucky_mobs/pink_pufferfish_pig.json",
+     "weight": 1
+    },
+    {
+     "type": "loot_table",
+     "name": "loot_tables/blocks/lucky_mobs/appleenchantedcow.json",
+     "weight": 1
+    },
+    {
+     "type": "loot_table",
+     "name": "loot_tables/blocks/lucky_mobs/Herobrine.json",
+     "weight": 1
+    },
+    {
+     "type": "loot_table",
+     "name": "loot_tables/blocks/lucky_mobs/rainbowjoey.json",
+     "weight": 1
+     }
+    ]
+   }
+  ]
+ }
+}

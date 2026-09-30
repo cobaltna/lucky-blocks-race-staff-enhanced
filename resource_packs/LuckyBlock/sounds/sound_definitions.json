@@ -1,0 +1,56 @@
+{
+  "format_version": "1.14.0",
+  "sound_definitions": {
+    "wolf_sword.howl": {
+      "category": "neutral",
+      "min_distance": 32.0,
+      "sounds": [
+        "sounds/wolf_sword/howl"
+      ]
+    },
+    "wolf_sword.distant_howl": {
+      "category": "neutral",
+      "min_distance": 100.0,
+      "sounds": [
+        "sounds/wolf_sword/distant_howl"
+      ]
+    },
+    "ghost_sword.wailing": {
+      "category": "neutral",
+      "min_distance": 60.0,
+      "sounds": [
+        "sounds/ghost_sword/wailing"
+      ]
+    },
+    "staff.basic.use": {
+      "category": "player",
+      "sounds": [
+        "sounds/items/staffs/basic_staff_breath"
+      ]
+    },
+    "staff.ice.use": {
+      "category": "player",
+      "sounds": [
+        "sounds/items/staffs/ice"
+      ]
+    },
+    "staff.fire.use": {
+      "category": "player",
+      "sounds": [
+        "sounds/items/staffs/fire_shoot"
+      ]
+    },
+    "staff.fire.breath": {
+      "category": "player",
+      "sounds": [
+        "sounds/items/staffs/fire_breath"
+      ]
+    },
+    "staff.flender.use": {
+      "category": "player",
+      "sounds": [
+        "sounds/items/staffs/flender"
+      ]
+    }
+  }
+}

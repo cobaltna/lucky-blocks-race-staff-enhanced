@@ -1,0 +1,191 @@
+{
+  "format_version": "1.13.0",
+  "minecraft:entity": {
+    "description": {
+      "identifier": "entity:spiral_arrow",
+      "is_spawnable": false,
+      "is_summonable": true,
+      "is_experimental": false,
+      "runtime_identifier": "minecraft:snowball"
+    },
+    "component_groups": {
+      "minecraft:shoot_triple_bow": {
+        "minecraft:projectile": {
+        "on_hit": {
+          "impact_damage": {
+            "damage": [ 3, 8 ],
+            "knockback": true,
+            "semi_random_diff_damage": false,
+            "destroy_on_hit": true
+          },
+          "stick_in_ground": {
+            "shake_time" : 0.35
+          },
+          "arrow_effect": {
+          }
+        },
+        "hit_sound": "bow.hit",
+        "power": 0.4,
+        "gravity": 0.02,
+        "uncertainty_base": 16,
+        "uncertainty_multiplier": 4,
+        "anchor": 1,
+        "should_bounce": true,
+        "offset": [ 0, -0.1, 0 ]
+        }
+      },
+
+      "minecraft:shoot_triple_bow_1": {
+        "minecraft:projectile": {
+        "on_hit": {
+          "impact_damage": {
+            "damage": [ 5, 12 ],
+            "knockback": true,
+            "semi_random_diff_damage": false,
+            "destroy_on_hit": true
+          },
+          "stick_in_ground": {
+            "shake_time" : 0.35
+          },
+          "arrow_effect": {
+          }
+        },
+        "hit_sound": "bow.hit",
+        "power": 2,
+        "gravity": 0.10,
+        "uncertainty_base": 16,
+        "uncertainty_multiplier": 4,
+        "anchor": 1,
+        "should_bounce": true,
+        "offset": [ 0, -0.1, 0 ]
+        }
+      },
+
+      "minecraft:shoot_triple_bow_2": {
+        "minecraft:projectile": {
+        "on_hit": {
+          "impact_damage": {
+            "damage": [ 7, 16 ],
+            "knockback": true,
+            "semi_random_diff_damage": false,
+            "destroy_on_hit": true
+          },
+          "stick_in_ground": {
+            "shake_time" : 0.35
+          },
+          "arrow_effect": {
+          }
+        },
+        "hit_sound": "bow.hit",
+        "power": 4,
+        "gravity": 0.20,
+        "uncertainty_base": 16,
+        "uncertainty_multiplier": 4,
+        "anchor": 1,
+        "should_bounce": true,
+        "offset": [ 0, -0.1, 0 ]
+        }
+      },
+      "minecraft:shoot_triple_bow_3": {
+        "minecraft:projectile": {
+        "on_hit": {
+          "impact_damage": {
+            "damage": [ 9, 18 ],
+            "knockback": true,
+            "semi_random_diff_damage": false,
+            "destroy_on_hit": true
+          },
+          "stick_in_ground": {
+            "shake_time" : 0.35
+          },
+          "arrow_effect": {
+          }
+        },
+        "hit_sound": "bow.hit",
+        "power": 6,
+        "gravity": 0.05,
+        "uncertainty_base": 16,
+        "uncertainty_multiplier": 4,
+        "anchor": 1,
+        "should_bounce": true,
+        "offset": [ 0, -0.1, 0 ]
+        }
+      }
+    },
+
+    "components": {
+      "minecraft:collision_box": {
+        "width": 0.25,
+        "height": 0.25
+      },
+      "minecraft:hurt_on_condition": {
+        "damage_conditions": [
+          {
+            "filters": { "test": "in_lava", "subject": "self", "operator": "==", "value": true },
+            "cause": "lava",
+            "damage_per_tick": 4
+          }
+        ]
+      },
+      "minecraft:projectile": {
+        "on_hit": {
+          "impact_damage": {
+            "damage": [ 1, 4 ],
+            "knockback": true,
+            "semi_random_diff_damage": false,
+            "destroy_on_hit": true
+          },
+          "stick_in_ground": {
+            "shake_time" : 0.35
+          },
+          "arrow_effect": {
+          }
+        },
+        "hit_sound": "bow.hit",
+        "power": 1.6,
+        "gravity": 0.05,
+        "uncertainty_base": 16,
+        "uncertainty_multiplier": 4,
+        "anchor": 1,
+        "should_bounce": true,
+        "offset": [ 0, -0.1, 0 ]
+      },
+      "minecraft:physics": {
+      },
+      "minecraft:pushable": {
+        "is_pushable": false,
+        "is_pushable_by_piston": true
+      }
+    },
+    "events": {
+      "minecraft:shoot_triple_bow": {
+          "add": {
+            "component_groups": [
+              "minecraft:shoot_triple_bow"
+          ]
+        }
+      },
+      "minecraft:shoot_triple_bow_1": {
+          "add": {
+            "component_groups": [
+              "minecraft:shoot_triple_bow_1"
+          ]
+        }
+      },
+      "minecraft:shoot_triple_bow_2": {
+          "add": {
+            "component_groups": [
+              "minecraft:shoot_triple_bow_2"
+          ]
+        }
+      },
+      "minecraft:shoot_triple_bow_3": {
+          "add": {
+            "component_groups": [
+              "minecraft:shoot_triple_bow_3"
+          ]
+        }
+      }
+    }
+  }
+}

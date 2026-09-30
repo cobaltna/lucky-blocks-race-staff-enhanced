@@ -1,0 +1,25 @@
+{
+  "format_version": "1.12",
+  "minecraft:recipe_shaped": {
+    "description": {
+      "identifier": "bls:cactus_helmet"
+    },
+    "tags": [
+      "crafting_table"
+    ],
+    "pattern": [
+      "aaa",
+      "a a"
+    ],
+    "key": {
+      "a": {
+        "item": "minecraft:cactus",
+        "data": 0
+      }
+    },
+    "result": {
+      "item": "bls:cactus_helmet",
+      "count": 1
+    }
+  }
+}

@@ -1,0 +1,26 @@
+{
+  "format_version": "1.10.0",
+  "minecraft:client_entity": {
+    "description": {
+      "identifier": "entity:christmas_grenade",
+      "materials": {
+        "christmas_grenade": "wolf_vision"
+      },
+      "textures": {
+        "christmas_grenade": "textures/entity/christmas_grenade"
+      },
+      "geometry": {
+        "christmas_grenade": "geometry.christmas_grenade"
+      },
+      "animations": {
+        "move": "animation.christmas_grenade.rotate"
+      },
+      "scripts": {
+        "animate": [
+          "move"
+        ]
+      },
+      "render_controllers": [ "controller.render.christmas_grenade" ]
+    }
+  }
+}

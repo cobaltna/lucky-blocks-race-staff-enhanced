@@ -1,0 +1,12 @@
+{
+  "biomes": {
+    "default": {
+      "fog_identifier": "sstudiosfog:custom_fog_default",
+         "inherit_from_prior_fog": false,
+         "water_surface_color": "#529aff",
+         "water_surface_transparency": 0.45,
+         "water_fog_color": "#00006e",
+         "water_fog_distance": 32
+    }
+  }
+}

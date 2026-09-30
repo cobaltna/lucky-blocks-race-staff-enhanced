@@ -1,0 +1,1 @@
+tellraw @p {"rawtext":[{"text":"§gYour wish came true! (If you like potatoes)"}]}

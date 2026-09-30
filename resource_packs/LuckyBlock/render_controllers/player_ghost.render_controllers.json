@@ -1,0 +1,25 @@
+{
+  "format_version": "1.8.0",
+  "render_controllers": {
+    "controller.render.player_ghost": {
+      "textures": [
+        "Texture.ghost"
+      ],
+      "geometry": "Geometry.player_ghost",
+      "materials": [
+        {
+          "*": "Material.player_ghost"
+        }
+      ],
+      "overlay_color": {
+          "r": 1.0,
+          "g": 1.0,
+          "b": 1.0,
+          "a": 1.0
+      },
+      "light_color_multiplier": 0.2,
+      "filter_lighting": true,
+      "ignore_lighting": true
+    }
+  }
+}

@@ -1,0 +1,45 @@
+{
+  "format_version": "1.20.50",
+  "minecraft:item": {
+    "description": {
+      "identifier": "bls:glass_chestplate",
+      "menu_category": {
+        "category": "Equipment",
+        "group": "itemGroup.name.chestplate"
+      }
+		},
+		"components": {
+      "minecraft:max_stack_size": 1,
+      "minecraft:enchantable": {
+        "value": 10,
+        "slot": "armor_torso"
+      },
+      "minecraft:icon": {
+        "texture": "glass_chestplate"
+      },
+      "minecraft:display_name": {},
+      "minecraft:durability": {
+        "max_durability": 10,
+        "damage_chance": {
+          "min": 70,
+          "max": 95
+        }
+      },
+      "minecraft:repairable": {
+        "repair_items": [
+          {
+            "items":[
+              "bls:glass_chestplate",
+              "minecraft:glass"
+            ],
+            "repair_amount": 5
+          }
+        ]
+      },
+      "minecraft:wearable": {
+        "protection": 8,
+        "slot": "slot.armor.chest"
+      }
+    }
+  }
+}

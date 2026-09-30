@@ -1,0 +1,63 @@
+{
+  "format_version": "1.11.0",
+  "minecraft:entity": {
+    "description": {
+      "identifier": "entity:ultra_instinct_projectile",
+      "runtime_identifier": "minecraft:snowball",
+      "is_spawnable": false,
+      "is_summonable": true,
+      "is_experimental": false
+    },  
+    "component_groups": {},
+    "components": {
+      "minecraft:despawn": {
+        "despawn_from_simulation_edge": true
+      },
+      "minecraft:ageable": {
+        "duration": 3,
+        "grow_up": { "event": "minecraft:end_scale", "target": "self" }
+      },
+      "minecraft:scale_by_age": { "start_scale": 1, "end_scale": 3 },
+      "minecraft:type_family": { "family": [ "ultra_instinct_sword" ] },
+      "minecraft:collision_box": {
+        "width": 0,
+        "height": 0
+      },
+      "minecraft:projectile": {
+        "on_hit": {
+         "definition_event": {
+          "affect_projectile": true,
+          "event_trigger": {
+            "event": "minecraft:explode",
+            "target": "self"
+          }
+        },
+        "impact_damage": {
+          "damage": 64,
+          "knockback": true
+        }
+      },
+      "power": 2,
+      "gravity": 0,
+      "inertia": 1,
+      "liquid_inertia": 2,
+      "uncertainty_base": 0,
+      "uncertainty_multiplier": 0,
+      "anchor": 1,
+      "offset": [ 0, 0, 0 ],
+      "reflect_on_hurt": false
+      },
+      "minecraft:environment_sensor": [ { "on_environment": { "filters": { "all_of": [ { "test": "is_family", "value": "ultra_instinct_sword" } ] }, "event": "projectile_particle" } } ],
+      "minecraft:pushable": { "is_pushable": false, "is_pushable_by_piston": false },
+      "minecraft:physics": { "has_gravity": false, "has_collision": false }
+    },
+    "events": {
+      "minecraft:explode": {
+        "queue_command": { "command": [ "summon entity:ultra_instinct_explode" ] }
+      },
+      "projectile_particle": {
+        "queue_command": { "command": [ "particle minecraft:example_flipbook ~ ~ ~", "kill @e[type=item,r=24]" ] }
+      }
+    }
+  }
+}

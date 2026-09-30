@@ -1,0 +1,342 @@
+{
+	"resource_pack_name": "Block Armors",
+	"texture_name": "atlas.items",
+	"texture_data": {
+		"cactus_helmet": {
+			"textures": "textures/items/cactus/cactus_helmet"
+		},
+		"cactus_chestplate": {
+			"textures": "textures/items/cactus/cactus_chestplate"
+		},
+		"cactus_leggings": {
+			"textures": "textures/items/cactus/cactus_leggings"
+		},
+		"cactus_boots": {
+			"textures": "textures/items/cactus/cactus_boots"
+		},
+		"andesite_helmet": {
+			"textures": "textures/items/andesite/andesite_helmet"
+		},
+		"andesite_chestplate": {
+			"textures": "textures/items/andesite/andesite_chestplate"
+		},
+		"andesite_boots": {
+			"textures": "textures/items/andesite/andesite_boots"
+		},
+		"andesite_leggings": {
+			"textures": "textures/items/andesite/andesite_leggings"
+		},
+		"bookshelf_boots": {
+			"textures": "textures/items/bookshelf/bookshelf_boots"
+		},
+		"bookshelf_chestplate": {
+			"textures": "textures/items/bookshelf/bookshelf_chestplate"
+		},
+		"bookshelf_helmet": {
+			"textures": "textures/items/bookshelf/bookshelf_helmet"
+		},
+		"bookshelf_leggings": {
+			"textures": "textures/items/bookshelf/bookshelf_leggings"
+		},
+		"brick_boots": {
+			"textures": "textures/items/brick/brick_boots"
+		},
+		"brick_chestplate": {
+			"textures": "textures/items/brick/brick_chestplate"
+		},
+		"brick_helmet": {
+			"textures": "textures/items/brick/brick_helmet"
+		},
+		"brick_leggings": {
+			"textures": "textures/items/brick/brick_leggings"
+		},
+		"coal_boots": {
+			"textures": "textures/items/coal/coal_boots"
+		},
+		"coal_chestplate": {
+			"textures": "textures/items/coal/coal_chestplate"
+		},
+		"coal_helmet": {
+			"textures": "textures/items/coal/coal_helmet"
+		},
+		"coal_leggings": {
+			"textures": "textures/items/coal/coal_leggings"
+		},
+		"cobblestone_helmet": {
+			"textures": "textures/items/cobblestone/cobblestone_helmet"
+		},
+		"cobblestone_chestplate": {
+			"textures": "textures/items/cobblestone/cobblestone_chestplate"
+		},
+		"cobblestone_leggings": {
+			"textures": "textures/items/cobblestone/cobblestone_leggings"
+		},
+		"cobblestone_boots": {
+			"textures": "textures/items/cobblestone/cobblestone_boots"
+		},
+		"cobsidian_helmet": {
+			"textures": "textures/items/cobsidian/cobsidian_helmet"
+		},
+		"cobsidian_chestplate": {
+			"textures": "textures/items/cobsidian/cobsidian_chestplate"
+		},
+		"cobsidian_leggings": {
+			"textures": "textures/items/cobsidian/cobsidian_leggings"
+		},
+		"cobsidian_boots": {
+			"textures": "textures/items/cobsidian/cobsidian_boots"
+		},
+		"diorite_boots": {
+			"textures": "textures/items/diorite/diorite_boots"
+		},
+		"diorite_chestplate": {
+			"textures": "textures/items/diorite/diorite_chestplate"
+		},
+		"diorite_helmet": {
+			"textures": "textures/items/diorite/diorite_helmet"
+		},
+		"diorite_leggings": {
+			"textures": "textures/items/diorite/diorite_leggings"
+		},
+		"dirt_boots": {
+			"textures": "textures/items/dirt/dirt_boots"
+		},
+		"dirt_chestplate": {
+			"textures": "textures/items/dirt/dirt_chestplate"
+		},
+		"dirt_helmet": {
+			"textures" : "textures/items/dirt/dirt_helmet"
+		},
+		"dirt_leggings": {
+			"textures": "textures/items/dirt/dirt_leggings"
+		},
+		"end_stone_boots": {
+			"textures": "textures/items/end_stone/end_stone_boots"
+		},
+		"end_stone_chestplate": {
+			"textures": "textures/items/end_stone/end_stone_chestplate"
+		},
+		"end_stone_helmet": {
+			"textures": "textures/items/end_stone/end_stone_helmet"
+		},
+		"end_stone_leggings": {
+			"textures": "textures/items/end_stone/end_stone_leggings"
+		},
+		"gildedblackstone_boots": {
+			"textures": "textures/items/gildedblackstone/gildedblackstone_boots"
+		},
+		"gildedblackstone_chestplate": {
+			"textures": "textures/items/gildedblackstone/gildedblackstone_chestplate"
+		},
+		"gildedblackstone_helmet": {
+			"textures": "textures/items/gildedblackstone/gildedblackstone_helmet"
+		},
+		"gildedblackstone_leggings": {
+			"textures": "textures/items/gildedblackstone/gildedblackstone_leggings"
+		},
+		"glowstone_boots": {
+			"textures": "textures/items/glowstone/glowstone_boots"
+		},
+		"glowstone_chestplate": {
+			"textures": "textures/items/glowstone/glowstone_chestplate"
+		},
+		"glowstone_helmet": {
+			"textures": "textures/items/glowstone/glowstone_helmet"
+		},
+		"glowstone_leggings": {
+			"textures": "textures/items/glowstone/glowstone_leggings"
+		},
+		"granito_boots": {
+			"textures": "textures/items/granito/granito_boots"
+		},
+		"granito_chestplate": {
+			"textures": "textures/items/granito/granito_chestplate"
+		},
+		"granito_helmet": {
+			"textures": "textures/items/granito/granito_helmet"
+		},
+		"granito_leggings": {
+			"textures": "textures/items/granito/granito_leggings"
+		},
+		"hay_block_boots": {
+			"textures": "textures/items/hay_block/hay_block_boots"
+		},
+		"hay_block_chestplate": {
+			"textures": "textures/items/hay_block/hay_block_chestplate"
+		},
+		"hay_block_helmet": {
+			"textures": "textures/items/hay_block/hay_block_helmet"
+		},
+		"hay_block_leggings": {
+			"textures": "textures/items/hay_block/hay_block_leggings"
+		},
+		"ice_boots": {
+			"textures": "textures/items/ice/ice_boots"
+		},
+		"ice_chestplate": {
+			"textures": "textures/items/ice/ice_chestplate"
+		},
+		"ice_helmet": {
+			"textures": "textures/items/ice/ice_helmet"
+		},
+		"ice_leggings": {
+			"textures": "textures/items/ice/ice_leggings"
+		},
+		"lapis_boots": {
+			"textures": "textures/items/lapis/lapis_boots"
+		},
+		"lapis_chestplate": {
+			"textures": "textures/items/lapis/lapis_chestplate"
+		},
+		"lapis_helmet": {
+			"textures": "textures/items/lapis/lapis_helmet"
+		},
+		"lapis_leggings": {
+			"textures": "textures/items/lapis/lapis_leggings"
+		},
+		"magma_boots": {
+			"textures": "textures/items/magma/magma_boots"
+		},
+		"magma_chestplate": {
+			"textures": "textures/items/magma/magma_chestplate"
+		},
+		"magma_helmet": {
+			"textures": "textures/items/magma/magma_helmet"
+		},
+		"magma_leggings": {
+			"textures": "textures/items/magma/magma_leggings"
+		},
+		"melon_boots": {
+			"textures": "textures/items/melon/melon_boots"
+		},
+		"melon_chestplate": {
+			"textures": "textures/items/melon/melon_chestplate"
+		},
+		"melon_helmet": {
+			"textures": "textures/items/melon/melon_helmet"
+		},
+		"melon_leggings": {
+			"textures": "textures/items/melon/melon_leggings"
+		},
+		"nether_brick_boots": {
+			"textures": "textures/items/nether_brick/nether_brick_boots"
+		},
+		"nether_brick_chestplate": {
+			"textures": "textures/items/nether_brick/nether_brick_chestplate"
+		},
+		"nether_brick_helmet": {
+			"textures": "textures/items/nether_brick/nether_brick_helmet"
+		},
+		"nether_brick_leggings": {
+			"textures": "textures/items/nether_brick/nether_brick_leggings"
+		},
+		"prismarine_boots": {
+			"textures": "textures/items/prismarine/prismarine_boots"
+		},
+		"prismarine_chestplate": {
+			"textures": "textures/items/prismarine/prismarine_chestplate"
+		},
+		"prismarine_helmet": {
+			"textures": "textures/items/prismarine/prismarine_helmet"
+		},
+		"prismarine_leggings": {
+			"textures": "textures/items/prismarine/prismarine_leggings"
+		},
+		"red_mushroom_block_boots": {
+			"textures": "textures/items/red_mushroom_block/red_mushroom_block_boots"
+		},
+		"red_mushroom_block_chestplate": {
+			"textures": "textures/items/red_mushroom_block/red_mushroom_block_chestplate"
+		},
+		"red_mushroom_block_helmet": {
+			"textures": "textures/items/red_mushroom_block/red_mushroom_block_helmet"
+		},
+		"red_mushroom_block_leggings": {
+			"textures": "textures/items/red_mushroom_block/red_mushroom_block_leggings"
+		},
+		"roble_boots": {
+			"textures": "textures/items/roble/roble_boots"
+		},
+		"roble_chestplate": {
+			"textures": "textures/items/roble/roble_chestplate"
+		},
+		"roble_helmet": {
+			"textures": "textures/items/roble/roble_helmet"
+		},
+		"roble_leggings": {
+			"textures": "textures/items/roble/roble_leggings"
+		},
+		"slime_boots": {
+			"textures": "textures/items/slime/slime_boots"
+		},
+		"slime_chestplate": {
+			"textures": "textures/items/slime/slime_chestplate"
+		},
+		"slime_helmet": {
+			"textures": "textures/items/slime/slime_helmet"
+		},
+		"slime_leggings": {
+			"textures": "textures/items/slime/slime_leggings"
+		},
+		"stone_boots": {
+			"textures": "textures/items/stone/stone_boots"
+		},
+		"stone_chestplate": {
+			"textures": "textures/items/stone/stone_chestplate"
+		},
+		"stone_helmet": {
+			"textures": "textures/items/stone/stone_helmet"
+		},
+		"stone_leggings": {
+			"textures": "textures/items/stone/stone_leggings"
+		},
+		"stonebrick_mossy_boots": {
+			"textures": "textures/items/stonebrick_mossy/stonebrick_mossy_boots"
+		},
+		"stonebrick_mossy_chestplate": {
+			"textures": "textures/items/stonebrick_mossy/stonebrick_mossy_chestplate"
+		},
+		"stonebrick_mossy_helmet": {
+			"textures": "textures/items/stonebrick_mossy/stonebrick_mossy_helmet"
+		},
+		"stonebrick_mossy_leggings": {
+			"textures": "textures/items/stonebrick_mossy/stonebrick_mossy_leggings"
+		},
+		"wood_boots": {
+			"textures": "textures/items/wood/wood_boots"
+		},
+		"wood_chestplate": {
+			"textures": "textures/items/wood/wood_chestplate"
+		},
+		"wood_helmet": {
+			"textures": "textures/items/wood/wood_helmet"
+		},
+		"wood_leggings": {
+			"textures": "textures/items/wood/wood_leggings"
+		},
+		"wool_colored_white_boots": {
+			"textures": "textures/items/wool/white/wool_colored_white_boots"
+		},
+		"wool_colored_white_chestplate": {
+			"textures": "textures/items/wool/white/wool_colored_white_chestplate"
+		},
+		"wool_colored_white_helmet": {
+			"textures": "textures/items/wool/white/wool_colored_white_helmet"
+		},
+		"wool_colored_white_leggings": {
+			"textures": "textures/items/wool/white/wool_colored_white_leggings"
+		},
+				"glass_helmet": {
+					"textures": "textures/items/glass/glass_helmet"
+				},
+				"glass_chestplate": {
+					"textures": "textures/items/glass/glass_chestplate"
+				},
+				"glass_leggings": {
+					"textures": "textures/items/glass/glass_leggings"
+				},
+				"glass_boots": {
+					"textures": "textures/items/glass/glass_boots"
+				}
+		}
+}

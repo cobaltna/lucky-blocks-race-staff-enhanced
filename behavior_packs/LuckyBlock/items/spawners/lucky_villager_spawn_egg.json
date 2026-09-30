@@ -1,0 +1,25 @@
+{
+  "format_version": "1.20.50",
+  "minecraft:item": {
+    "description": {
+      "identifier": "lucky:lucky_villager",
+      "menu_category": {
+        "category": "nature",
+        "group": "itemGroup.name.mobEgg"
+      }
+    },
+    "components": {
+      "minecraft:icon": {
+        "texture": "lucky_villager"
+      },
+      "minecraft:display_name": {
+        "value": "Spawn §gLucky Villager"
+      },
+      "minecraft:stacked_by_data": true,
+      "minecraft:liquid_clipped": true,
+      "minecraft:entity_placer": {
+        "entity": "spawn_entity:lucky_villager"
+      }
+    }
+  }
+}

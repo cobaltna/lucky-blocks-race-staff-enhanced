@@ -1,0 +1,25 @@
+{
+  "format_version": "1.12",
+  "minecraft:recipe_shaped": {
+    "description": {
+      "identifier": "bls:crying_obsidian_leggings"
+    },
+    "tags": [
+      "crafting_table"
+    ],
+    "pattern": [
+      "aaa",
+      "a a",
+      "a a"
+    ],
+    "key": {
+      "a": {
+        "item": "minecraft:crying_obsidian"
+      }
+    },
+    "result": {
+      "item": "bls:cobsidian_leggings",
+      "count": 1
+    }
+  }
+}

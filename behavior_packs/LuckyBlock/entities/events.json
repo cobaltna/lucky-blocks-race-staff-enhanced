@@ -1,0 +1,40 @@
+{
+  "format_version": "1.11.0",
+  "minecraft:entity": {
+    "description": {
+      "identifier": "entity:events",
+      "is_spawnable": false,
+      "is_summonable": true,
+      "is_experimental": false
+    },
+    "component_groups": {
+      "despawn": {
+        "minecraft:despawn": {}
+      }
+    },
+    "components": {
+      "minecraft:type_family": {
+        "family": [ "effect99_entities" ]
+      },
+      "minecraft:damage_sensor": {
+        "triggers": {
+          "cause": "all",
+          "deals_damage": false
+        }
+      },
+      "minecraft:timer": { "time": [ 0.1, 0.1 ], "looping": true,
+        "time_down_event": { "event": "despawn", "target": "self" }
+      },
+      "minecraft:collision_box": {
+        "width": 0,
+        "height": 0
+      },
+      "minecraft:physics": {}
+    },
+    "events": {
+      "despawn": {
+        "add": { "component_groups": [ "despawn" ] }
+      }
+    }
+  }
+}

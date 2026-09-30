@@ -1,0 +1,40 @@
+{
+  "format_version": "1.12.0",
+  "minecraft:entity": {
+    "description": {
+      "identifier": "entity:grenade",
+      "is_spawnable": false,
+      "is_summonable": true,
+      "is_experimental": false,
+      "runtime_identifier": "minecraft:snowball"
+    },
+    "components": {
+      "minecraft:scale": {
+        "value": 0.5
+      },
+      "minecraft:collision_box": {
+        "width": 0.25,
+        "height": 0.25
+      },
+      "minecraft:projectile": {
+        "on_hit": {
+          "spawn_chance": {
+            "first_spawn_percent_chance": 100,
+            "first_spawn_count": 1,
+            "spawn_definition": "minecraft:tnt"
+          },
+          "remove_on_hit": { }
+        },
+        "power": 1.5,
+        "gravity": 0.15,
+        "angle_offset": 0.0
+      },
+	    "minecraft:physics": {
+      },
+      "minecraft:pushable": {
+        "is_pushable": true,
+        "is_pushable_by_piston": true
+      }
+    }
+  }
+}

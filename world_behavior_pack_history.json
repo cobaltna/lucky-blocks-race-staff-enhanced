@@ -1,0 +1,16 @@
+{
+    "packs": [
+        {
+            "can_be_redownloaded": false,
+            "name": "§l§2Classic §r§gLucky Block §4B",
+            "uuid": "36d40926-b051-420f-a498-1a37a0556c70",
+            "version": [0, 0, 1]
+        },
+        {
+            "can_be_redownloaded": false,
+            "name": "Block Armors BP V2.1.5",
+            "uuid": "ca8e89f1-4dfd-4825-ac33-e568e52173a2",
+            "version": [1, 0, 0]
+        }
+    ]
+}

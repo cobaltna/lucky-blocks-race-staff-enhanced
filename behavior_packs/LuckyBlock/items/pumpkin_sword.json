@@ -1,0 +1,75 @@
+{
+  "format_version": "1.21.10",
+  "minecraft:item": {
+    "description": {
+      "identifier": "effect:cursed_pumpkin_sword",
+      "menu_category": {
+        "category": "equipment",
+        "group": "itemGroup.name.sword"
+      }
+    },
+    "components": {
+      "minecraft:custom_components": [
+        "lucky:pumpkin_sword"
+      ],
+      "minecraft:foil": false,
+      "minecraft:max_stack_size": 1,
+      "minecraft:enchantable": {
+        "value": 9,
+        "slot": "sword"
+      },
+      "minecraft:durability": {
+        "max_durability": 1666
+      },
+      "minecraft:allow_off_hand": false,
+      "minecraft:hand_equipped": true,
+      "minecraft:can_destroy_in_creative": false,
+      "minecraft:icon": {
+        "textures": {
+          "default": "cursed_pumpkin_sword"
+        }
+      },
+      "minecraft:repairable": {
+        "repair_items": [
+          {
+            "items": [
+              "effect:cursed_pumpkin_sword"
+            ],
+            "repair_amount": 1666
+          },
+          {
+            "items": [
+              "minecraft:honey_block"
+            ],
+            "repair_amount": 400
+          },
+          {
+            "items": [
+              "minecraft:honeycomb"
+            ],
+            "repair_amount": 150
+          }
+        ]
+      },
+      "minecraft:digger": {
+        "use_efficiency": true,
+        "destroy_speeds": [
+          {
+            "block": "minecraft:web",
+            "speed": 15
+          },
+          {
+            "block": "minecraft:bamboo",
+            "speed": 10
+          }
+        ]
+      },
+      "minecraft:tags": {
+        "tags": [
+          "minecraft:is_sword"
+        ]
+      },
+      "minecraft:damage": 5
+    }
+  }
+}

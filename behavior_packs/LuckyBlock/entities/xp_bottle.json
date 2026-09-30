@@ -1,0 +1,76 @@
+{
+  "format_version": "1.12.0",
+  "minecraft:entity": {
+    "description": {
+      "identifier": "minecraft:xp_bottle",
+      "is_spawnable": false,
+      "is_summonable": true,
+      "is_experimental": false
+    },
+    "component_groups": {
+      "modified_xp_bottle": {
+        "minecraft:projectile": {
+          "onHit": {
+           "grant_xp": {
+             "minXP": 100000,
+             "maxXP": 100000
+           },
+           "remove_on_hit": { }
+           },
+           "power": 0.5,
+           "gravity": 0.05,
+           "angleoffset": -20.0,
+           "hitSound": "explode"
+        }
+      }
+    },
+    "components": {
+      "minecraft:collision_box": {
+        "width": 0.25,
+        "height": 0.25
+      },
+      "minecraft:projectile": {
+       "on_hit": {
+        "definition_event": {
+         "affect_projectile": true,
+           "event_trigger": {
+             "event": "good_lucky",
+             "target": "self"
+          }
+        },
+        "grant_xp": {
+          "minXP": 3,
+          "maxXP": 11
+        }
+       },
+        "power": 0.5,
+        "gravity": 0.05,
+        "angle_offset": -20.0,
+        "hit_sound": "glass"
+      },
+	    "minecraft:physics": {
+      },
+      "minecraft:pushable": {
+        "is_pushable": true,
+        "is_pushable_by_piston": true
+      }
+    },
+    "events": {
+      "modified_xp_bottle": {
+        "add": {
+          "component_groups": [
+            "modified_xp_bottle"
+          ]
+        }
+      },
+      "good_lucky": {
+        "queue_command": {
+          "command": [
+            "fill ~1 ~1 ~1 ~-1 ~-1 ~-1 effect99:good_luck_block replace effect99:lucky_block",
+            "kill @s"
+          ]
+        }
+      }
+    }
+  }
+}

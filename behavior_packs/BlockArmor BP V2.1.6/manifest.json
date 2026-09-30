@@ -1,0 +1,57 @@
+{
+	"format_version": 2,
+	"header": {
+		"name": "Block Armors BP V2.1.6",
+		"description": "By SystemTv", 
+		"min_engine_version": [
+			1,
+			21,
+			0
+		],
+		"uuid": "ca8e89f1-4dfd-4825-ac33-e568e52173a2", 
+		"version": [
+			1,
+			0,
+			0
+		]
+	},
+	"modules": [
+		{
+			"type": "data",
+			"uuid": "e5cb9855-7fae-4ac6-9f44-5511747c7c25", 
+			"version": [
+				1,
+				0,
+				0
+			]
+		},
+		{
+			"type": "script",
+			"language": "javascript",
+			"uuid": "62472402-b195-4cef-9819-675386fcdd8c",
+			"entry": "scripts/main.js",
+			"version": [
+				1,
+				0,
+				0
+			]
+		}
+	],
+	"metadata": {
+		"product_type": "addon"
+	},
+	"dependencies": [
+		{
+			"uuid": "ef6910e6-1147-4a0a-a7f3-7c25438ded2b", 
+			"version": [
+				1,
+				0,
+				0
+			]
+		},
+		{
+			"module_name": "@minecraft/server",
+			"version": "1.15.0"
+		}
+	]
+}

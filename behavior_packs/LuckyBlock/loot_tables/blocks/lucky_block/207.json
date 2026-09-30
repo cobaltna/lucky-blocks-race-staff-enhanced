@@ -1,0 +1,139 @@
+{
+ "pools": [
+  {
+   "rolls": 1,
+   "entries": [
+    {
+     "type": "item",
+     "name": "lucky:lucky_sword",
+     "weight": 1,
+     "functions": [
+      {
+       "function": "set_count",
+       "count": {
+        "min": 1,
+        "max": 1
+       }
+      },
+      {
+       "function": "enchant_with_levels",
+       "treasure": true,
+       "levels": {
+        "min": 0,
+        "max": 0
+       }
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "rolls": 1,
+   "entries": [
+    {
+     "type": "item",
+     "name": "lucky:lucky_helmet",
+     "weight": 1,
+     "functions": [
+      {
+       "function": "set_count",
+       "count": {
+        "min": 1,
+        "max": 1
+       }
+      },
+      {
+       "function": "enchant_with_levels",
+       "treasure": true,
+       "levels": {
+        "min": 0,
+        "max": 0
+       }
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "rolls": 1,
+   "entries": [
+    {
+     "type": "item",
+     "name": "lucky:lucky_chestplate",
+     "weight": 1,
+     "functions": [
+      {
+       "function": "set_count",
+       "count": {
+        "min": 1,
+        "max": 1
+       }
+      },
+      {
+       "function": "enchant_with_levels",
+       "treasure": true,
+       "levels": {
+        "min": 0,
+        "max": 0
+       }
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "rolls": 1,
+   "entries": [
+    {
+     "type": "item",
+     "name": "lucky:lucky_leggings",
+     "weight": 1,
+     "functions": [
+      {
+       "function": "set_count",
+       "count": {
+        "min": 1,
+        "max": 1
+       }
+      },
+      {
+       "function": "enchant_with_levels",
+       "treasure": true,
+       "levels": {
+        "min": 0,
+        "max": 0
+       }
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "rolls": 1,
+   "entries": [
+    {
+     "type": "item",
+     "name": "lucky:lucky_boots",
+     "weight": 1,
+     "functions": [
+      {
+       "function": "set_count",
+       "count": {
+        "min": 1,
+        "max": 1
+       }
+      },
+      {
+       "function": "enchant_with_levels",
+       "treasure": true,
+       "levels": {
+        "min": 0,
+        "max": 0
+       }
+      }
+     ]
+    }
+   ]
+  }
+ ]
+}

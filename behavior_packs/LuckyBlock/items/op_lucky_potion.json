@@ -1,0 +1,48 @@
+{
+  "format_version": "1.10.0",
+  "minecraft:item": {
+    "description": {
+      "identifier": "lucky:op_lucky_potion"
+    },
+    "components": {
+      "minecraft:use_duration": 30,
+      "minecraft:max_stack_size": 1,
+      "minecraft:stacked_by_data": false,
+      "minecraft:foil": true,
+      "minecraft:food": {
+        "can_always_eat": true,
+        "effects": [
+          {
+            "duration": 15,
+            "amplifier": 0,
+            "visible": 0,
+            "ambient": 0,
+            "name": "instant_health"
+          },
+          {
+            "duration": 105,
+            "amplifier": 0,
+            "visible": 0,
+            "ambient": 0,
+            "name": "invisibility"
+          },
+          {
+            "duration": 119,
+            "amplifier": 1,
+            "visible": 0,
+            "ambient": 0,
+            "name": "regeneration"
+          },
+          {
+            "duration": 108,
+            "amplifier": 1,
+            "visible": 0,
+            "ambient": 0,
+            "name": "saturation"
+          }
+        ],
+        "using_converts_to": "minecraft:glass_bottle"
+      }
+    }
+  }
+}

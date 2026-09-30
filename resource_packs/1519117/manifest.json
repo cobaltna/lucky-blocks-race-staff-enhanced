@@ -1,0 +1,17 @@
+{
+   "format_version" : 1,
+   "header" : {
+      "description" : "扩宽你的钢琴音域",
+      "name" : "Piano plus",
+      "uuid" : "5fff64fa-ee05-494c-8748-eca4ac51c50c",
+      "version" : [ 0, 1, 1 ]
+   },
+   "modules" : [
+      {
+         "description" : "作者 SHT落泪 音源提供 晚霞黯然",
+         "type" : "resources",
+         "uuid" : "5ec55a73-7423-4ba5-ba11-718bf237968a",
+         "version" : [ 0, 1, 1 ]
+      }
+   ]
+}

@@ -1,0 +1,26 @@
+{
+  "format_version": "1.8.0",
+  "minecraft:client_entity": {
+    "description": {
+      "identifier": "entity:shulker_shield",
+      "materials": {
+        "default": "shulker_shield"
+      },
+      "textures": {
+        "default": "textures/entity/shulker_shield"
+      },
+      "geometry": {
+        "default": "geometry.shulker_shield"
+      },
+      "animations": {
+        "move": "animation.shulker_shield.closed"
+      },
+      "animation_controllers": [
+        { "move": "controller.animation.shulker_shield.move" }
+      ],
+      "render_controllers": [
+        "controller.render.shulker_shield"
+      ]
+    }
+  }
+}

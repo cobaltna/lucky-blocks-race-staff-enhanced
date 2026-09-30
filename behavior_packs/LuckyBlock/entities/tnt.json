@@ -1,0 +1,119 @@
+{
+  "format_version": "1.12.0",
+  "minecraft:entity": {
+    "description": {
+      "identifier": "minecraft:tnt",
+      "is_spawnable": false,
+      "is_summonable": true,
+      "is_experimental": false
+    },
+    "component_groups": {
+      "collision_box": {
+        "minecraft:explode": {
+        "fuse_length": 4,
+        "fuse_lit": true,
+        "power": 4,
+        "causes_fire": false,
+        "destroy_affected_by_griefing": true 
+        },
+        "minecraft:collision_box": {
+        "width": 0.0,
+        "height": 0.0
+        }
+      },
+      "instant_explode": {
+        "minecraft:explode": {
+        "fuse_length": 0,
+        "fuse_lit": true,
+        "power": 4,
+        "causes_fire": true,
+        "destroy_affected_by_griefing": true
+        }
+      },
+      "giant_tnt": {
+        "minecraft:timer": { "time": [ 7.99, 7.99 ], "looping": false,
+         "time_down_event": { "event": "camerashake", "target": "self" }
+        },
+        "minecraft:scale": { "value": 2 },
+        "minecraft:explode": {
+          "fuse_length": 8,
+          "fuse_lit": true,
+          "power": 16,
+          "causes_fire": true,
+          "destroy_affected_by_griefing": true
+        },
+        "minecraft:environment_sensor": [ { "on_environment": {
+          "filters": { "all_of": [ { "test": "is_family", "value": "tnt" } ] },
+            "event": "particle"
+            }
+          }
+        ]
+      },
+      "from_explosion": {
+        "minecraft:explode": {
+          "fuse_length": {
+            "range_min": 1.0,
+            "range_max": 2.0
+          },
+          "fuse_lit": true,
+          "power": 4,
+          "causes_fire": false
+      }
+    },
+    "default_tnt": {
+      "minecraft:explode": {
+        "fuse_length": 4,
+        "fuse_lit": true,
+        "power": 4,
+        "causes_fire": false,
+        "destroy_affected_by_griefing": true 
+        }
+      }
+    },
+    "components": {
+      "minecraft:type_family": {
+        "family": [ "tnt", "inanimate" ]
+      },
+      "minecraft:collision_box": {
+        "width": 0.98,
+        "height": 0.98
+      },
+      "minecraft:physics": {
+      },
+      "minecraft:pushable": {
+        "is_pushable": false,
+        "is_pushable_by_piston": true
+      }
+    },
+    "events": {
+      "minecraft:entity_spawned": { "add": { "component_groups": [ "default_tnt" ] }
+      },
+      "from_explosion": {
+        "remove": { "component_groups": [ "default_tnt" ] },
+        "add": { "component_groups": [ "from_explosion" ] }
+      },
+      "giant_tnt": {
+        "remove": { "component_groups": [ "default_tnt" ] },
+        "add": { "component_groups": [ "giant_tnt" ] }
+      },
+      "particle": { "queue_command": { "command": [ "particle minecraft:example_linearcurve ~ ~ ~" ] }
+      },
+      "camerashake": { "queue_command": { "command": [ "camerashake add @a[r=32] 0.2 0.8 positional", "playsound random.explode @a[r=32] ~ ~ ~ 2 0.4 2" ] } 
+      },
+      "instant_explode": {
+        "add": {
+          "component_groups": [
+            "instant_explode"
+          ]
+        }
+      },
+      "collision_box": {
+        "add": {
+          "component_groups": [
+            "collision_box"
+          ]
+        }
+      }
+    }
+  }
+}

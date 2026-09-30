@@ -1,0 +1,14 @@
+{
+  "format_version": "1.10.0",
+  "minecraft:item": {
+    "description": {
+      "identifier": "lucky:op_lucky_potion",
+      "category": "Equipment"
+    },
+    "components": {
+      "minecraft:icon": "op_lucky_potion",
+      "minecraft:use_animation": "drink",
+      "minecraft:render_offsets": "miscellaneous"
+    }
+  }
+}

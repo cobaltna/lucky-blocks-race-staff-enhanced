@@ -1,0 +1,45 @@
+{
+  "format_version": "1.20.30",
+  "minecraft:item": {
+    "description": {
+      "identifier": "bls:roble_helmet",
+      "menu_category": {
+        "category": "Equipment",
+        "group": "itemGroup.name.helmet"
+      }
+		},
+		"components": {
+      "minecraft:max_stack_size": 1,
+      "minecraft:enchantable": {
+        "value": 10,
+        "slot": "armor_head"
+      },
+      "minecraft:icon": {
+        "texture": "roble_helmet"
+      },
+      "minecraft:display_name": {},
+      "minecraft:durability": {
+        "max_durability": 86,
+        "damage_chance": {
+          "min": 70,
+          "max": 85
+        }
+      },
+      "minecraft:repairable": {
+        "repair_items": [
+          {
+            "items":[
+              "bls:roble_helmet",
+              "minecraft:oak_planks"
+            ],
+            "repair_amount": 15
+          }
+        ]
+      },
+      "minecraft:wearable": {
+        "protection": 1,
+        "slot": "slot.armor.head"
+      }
+    }
+  }
+}

@@ -1,0 +1,45 @@
+{
+  "format_version": "1.20.50",
+  "minecraft:item": {
+    "description": {
+      "identifier": "bls:glass_helmet",
+      "menu_category": {
+        "category": "Equipment",
+        "group": "itemGroup.name.helmet"
+      }
+		},
+		"components": {
+      "minecraft:max_stack_size": 1,
+      "minecraft:enchantable": {
+        "value": 10,
+        "slot": "armor_head"
+      },
+      "minecraft:icon": {
+        "texture": "glass_helmet"
+      },
+      "minecraft:display_name": {},
+      "minecraft:durability": {
+        "max_durability": 5,
+        "damage_chance": {
+          "min": 70,
+          "max": 85
+        }
+      },
+      "minecraft:repairable": {
+        "repair_items": [
+          {
+            "items":[
+              "bls:glass_helmet",
+              "minecraft:glass"
+            ],
+            "repair_amount": 5
+          }
+        ]
+      },
+      "minecraft:wearable": {
+        "protection": 3,
+        "slot": "slot.armor.head"
+      }
+    }
+  }
+}

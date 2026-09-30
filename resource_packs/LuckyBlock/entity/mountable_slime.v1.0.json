@@ -1,0 +1,41 @@
+{
+  "format_version": "1.8.0",
+  "minecraft:client_entity": {
+    "description": {
+      "identifier": "entity:mountable_slime",
+      "materials": {
+        "default": "slime",
+        "outer": "slime_outer"
+      },
+      "textures": {
+        "default": "textures/entity/slime/baby_slime"
+      },
+      "geometry": {
+        "default": "geometry.mountable_slime",
+        "armor": "geometry.baby_slime"
+      },
+      "animations": {
+        "not_jump": "animation.baby_slime.normal_speed_wing",
+        "is_jump": "animation.baby_slime.speed_wing"
+      },
+      "animation_controllers": [
+        { "move": "controller.animation.baby_slime.move" }
+      ],
+      "scripts": {
+        "pre_animation": [
+          "variable.squish_factor = (query.previous_squish_value + (query.current_squish_value - query.previous_squish_value) * query.frame_alpha);",
+          "variable.bounce = 1 / ((variable.squish_factor / (query.variant * 0.5 + 1)) + 1);",
+          "variable.horizontal_scale_amount = variable.bounce * query.variant;",
+          "variable.vertical_scale_amount = (1 / variable.bounce) * query.variant;"
+        ],
+        "scaleX": "variable.horizontal_scale_amount",
+        "scaleY": "variable.vertical_scale_amount",
+        "scaleZ": "variable.horizontal_scale_amount"
+      },
+      "render_controllers": [
+        "controller.render.slime",
+        "controller.render.slime_armor"
+      ]
+    }
+  }
+}

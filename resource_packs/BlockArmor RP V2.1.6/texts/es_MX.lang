@@ -1,0 +1,143 @@
+action.cook_cooldown=§cEspera un momento antes de cocinar otra carne.
+action.sleeping=§l§2Espera unos segundos...
+
+action.cook_amount=§cSolo puedes cocinar carne de uno en uno.
+action.coal_armor.warn=§7§oAgachate y interactua para cocinar el item en tu mano.
+action.wool_armor.warn=§7§oAgachate y interactua con un bloque para dormir.
+action.sleeping.fail=§cSolo puedes dormir durante la noche.
+
+####Piedra
+item.bls:stone_boots=Botas de Piedra
+item.bls:stone_leggings=Pantalones de Piedra
+item.bls:stone_chestplate=Peto de Piedra
+item.bls:stone_helmet=Casco de Piedra
+####Champiñon Rojo
+item.bls:red_mushroom_block_boots=Botas de Hongo rojo
+item.bls:red_mushroom_block_leggings=Pantalones de Hongo rojo
+item.bls:red_mushroom_block_chestplate=Peto de Hongo rojo
+item.bls:red_mushroom_block_helmet=Casco de Hongo rojo
+####Ladrillo
+item.bls:brick_boots=Botas de ladrillos
+item.bls:brick_leggings=Pantalones de ladrillos
+item.bls:brick_chestplate=Peto de ladrillos
+item.bls:brick_helmet=Casco de ladrillos
+####Ladrillo
+item.bls:lapis_boots=Botas de Lapislázuli
+item.bls:lapis_leggings=Pantalones de Lapislázuli
+item.bls:lapis_chestplate=Peto de Lapislázuli
+item.bls:lapis_helmet=Casco de Lapislázuli
+####Piedra Negra con oro Bv blox si lees esto eres gay UWU
+item.bls:gildedblackstone_boots=Botas de Piedra Negra dorada 
+item.bls:gildedblackstone_leggings=Pantalones de Piedra Negra dorada
+item.bls:gildedblackstone_chestplate=Peto de Piedra Negra dorada
+item.bls:gildedblackstone_helmet=Casco de Piedra Negra dorada
+####Ladrillo del nether
+item.bls:nether_brick_boots=Botas de Ladrillos del inframundo
+item.bls:nether_brick_leggings=Pantalones de Ladrillos del inframundo
+item.bls:nether_brick_chestplate=Peto de Ladrillos del inframundo
+item.bls:nether_brick_helmet=Casco de Ladrillos del inframundo
+####Librerias AMARILLO AMARILLO LOS PLATANOS 🗣
+item.bls:bookshelf_boots=Botas de Estantería
+item.bls:bookshelf_leggings=Pantalones de Estantería
+item.bls:bookshelf_chestplate=Peto de Estantería
+item.bls:bookshelf_helmet=Casco de Estantería
+#####Paja '🥵'
+item.bls:hay_block_boots=Botas de Heno
+item.bls:hay_block_leggings=Pantalones de Heno
+item.bls:hay_block_chestplate=Peto de Heno
+item.bls:hay_block_helmet=Casco de Heno
+####Piera Musgosa
+item.bls:stonebrick_mossy_boots=Botas de Ladrillo de Piedra musgosa
+item.bls:stonebrick_mossy_leggings=Pantalones de Ladrillo de Piedra musgosa
+item.bls:stonebrick_mossy_chestplate=Peto de Ladrillo de Piedra musgosa
+item.bls:stonebrick_mossy_helmet=Casco de Ladrillo de Piedra musgosa
+####Tierra
+item.bls:dirt_boots=Botas de Tierra
+item.bls:dirt_leggings=Pantalones de Tierra
+item.bls:dirt_chestplate=Peto de Tierra
+item.bls:dirt_helmet=Casco de Tierra
+####Lana Blanca (a system le dio weba hacer las demas xd)
+item.bls:wool_colored_white_boots=Botas de Lana blanca
+item.bls:wool_colored_white_leggings=Pantalones de Lana blanca
+item.bls:wool_colored_white_chestplate=Peto de Lana blanca
+item.bls:wool_colored_white_helmet=Casco de Lana blanca
+###Tronco de Madera
+item.bls:wood_boots=Botas de Tronco de Madera
+item.bls:wood_leggings=Pantalon de Tronco de Madera
+item.bls:wood_chestplate=Peto de Tronco de Madera
+item.bls:wood_helmet=Casco de Tronco de Madera
+####Hielo
+item.bls:ice_boots=Botas de Hielo
+item.bls:ice_leggings=Pantalon de Hielo
+item.bls:ice_chestplate=Peto de Hielo
+item.bls:ice_helmet=Casco de Hielo
+####Madera de Roble
+item.bls:roble_boots=Botas de Madera de Roble
+item.bls:roble_leggings=Pantalon de Madera de Roble
+item.bls:roble_chestplate=Peto de Madera de Roble
+item.bls:roble_helmet=Casco de Madera de Roble
+####Carbon
+item.bls:coal_boots=Botas de Carbon
+item.bls:coal_helmet=Casco de Carbon
+item.bls:coal_chestplate=Peto de Carbon
+item.bls:coal_leggings=Pantalones de Carbon
+####Melon
+item.bls:melon_boots=Botas de Melon
+item.bls:melon_helmet=Casco de Melon
+item.bls:melon_chestplate=Peto de Melon
+item.bls:melon_leggings=Pantalones de Melon
+####Piedra del end
+item.bls:end_stone_boots=Botas de End Stone
+item.bls:end_stone_helmet=Casco de End Stone
+item.bls:end_stone_chestplate=Peto de End Stone
+item.bls:end_stone_leggings=Pantalones de End Stone
+####Piedra picada sisi
+item.bls:cobblestone_boots=Botas de Cobblestone
+item.bls:cobblestone_helmet=Casco de Cobblestone
+item.bls:cobblestone_chestplate=Peto de Cobblestone
+item.bls:cobblestone_leggings=Pantalones de Cobblestone
+####Andesia
+item.bls:andesite_boots=Botas de Andesita
+item.bls:andesite_helmet=Casco de Andesita
+item.bls:andesite_chestplate=Peto de Andesita
+item.bls:andesite_leggings=Pantalones de Andesita
+####Diorita
+item.bls:diorite_boots=Botas de Diorita
+item.bls:diorite_helmet=Casco Diorita
+item.bls:diorite_chestplate=Peto de Diorita
+item.bls:diorite_leggings=Pantalones de Diorita
+####Piedra brillante
+item.bls:glowstone_boots=Botas de Glowstone
+item.bls:glowstone_helmet=Casco de Glowstone
+item.bls:glowstone_chestplate=Peto de Glowstone
+item.bls:glowstone_leggings=Pantalones de Glowstone
+####Granito
+item.bls:granito_boots=Botas de Granito
+item.bls:granito_helmet=Casco de Granito
+item.bls:granito_chestplate=Peto de Granito
+item.bls:granito_leggings=Pantalones de Granito
+####Obsidiana llorona
+item.bls:cobsidian_boots=Botas de Obsidiana Llorosa
+item.bls:cobsidian_helmet=Casco de Obsidiana Llorosa
+item.bls:cobsidian_chestplate=Peto de Obsidiana Llorosa
+item.bls:cobsidian_leggings=Pantalones de Obsidiana Llorosa
+####Slime (si)
+item.bls:slime_boots=Botas de Slime
+item.bls:slime_chestplate=Peto de Slime
+item.bls:slime_leggings=Pantalones de Slime
+item.bls:slime_helmet=Casco de Slime
+####Prismarina
+item.bls:prismarine_helmet=Casco de Prismarine
+item.bls:prismarine_leggings=Pantalones de Prismarine
+item.bls:prismarine_chestplate=Peto de Prismarine
+item.bls:prismarine_boots=Botas de Prismarine
+####Magma
+item.bls:magma_leggings=Pantalones de Magma
+item.bls:magma_chestplate=Peto de Magma
+item.bls:magma_boots=Botas de Magma
+item.bls:magma_helmet=Casco de Magma
+####Vidrio
+item.bls:glass_boots=Botas de vidrio
+item.bls:glass_leggings=Pantalones de vidrio
+item.bls:glass_chestplate=Pechera de vidrio
+item.bls:glass_helmet=Casco de vidrio

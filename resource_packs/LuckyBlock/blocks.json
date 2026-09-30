@@ -1,0 +1,49 @@
+{
+ "format_version":
+  [ 1,  1, 0 ],
+ "effect99:lucky_block": {
+  "sound": "stone"
+ },
+ "effect99:unlucky_block": {
+  "sound": "metal"
+ },
+ "effect99:good_luck_block": {
+  "sound": "glass"
+ },
+ "effect99:lucky_drops": {
+  "textures": "lucky_drops",
+  "sound": "wood"
+ },
+ "effect99:lucky_mobs": {
+  "textures": "lucky_mobs",
+  "sound": "stone"
+ },
+ "effect99:lucky_pvp": {
+  "textures": "lucky_pvp",
+  "sound": "metal"
+ },
+ "effect99:lucky_structures": {
+  "textures": "lucky_structures",
+  "sound": "stone"
+ },
+ "effect99:withered_lucky_block": {
+  "sound": "stone"
+  },
+  "effect99:lucky_fountain": {
+  "sound": "stone"
+  },
+  "effect99:luckyfountain1": {
+  "sound": "stone"
+  },
+  "effect99:luckyfountain2": {
+  "sound": "stone"
+  },
+  "halloween:pumpkin_lucky_block": {
+    "textures": {
+      "up": "pumpkin_lucky_block_top",
+      "down": "pumpkin_lucky_block_top",
+      "side": "pumpkin_lucky_block_face"
+    },
+    "sound": "wood"
+  }
+}

@@ -1,0 +1,10 @@
+{
+  "format_version": "1.8.0",
+  "render_controllers": {
+    "controller.render.mermaid_player": {
+      "geometry": "Geometry.mermaid_player",
+      "materials": [ { "*": "Material.default" } ],
+      "textures": [ "Texture.mermaid_player" ]
+    }
+  }
+}

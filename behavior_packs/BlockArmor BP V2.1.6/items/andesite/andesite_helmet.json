@@ -1,0 +1,42 @@
+{
+  "format_version": "1.20.80",
+  "minecraft:item": {
+    "description": {
+      "identifier": "bls:andesite_helmet",
+      "menu_category": {
+        "category": "equipment",
+        "group": "itemGroup.name.helmet"
+      }
+    },
+    "components": {
+      "minecraft:max_stack_size": 1,
+      "minecraft:enchantable": {
+        "value": 10,
+        "slot": "armor_head"
+      },
+      "minecraft:icon": "andesite_helmet",
+      "minecraft:durability": {
+        "max_durability": 122,
+        "damage_chance": {
+          "min": 70,
+          "max": 85
+        }
+      },
+      "minecraft:repairable": {
+        "repair_items": [
+          {
+            "items":[
+              "bls:andesite_helmet",
+							"minecraft:andesite"
+            ],
+            "repair_amount": 15
+          }
+        ]
+      },
+      "minecraft:wearable": {
+          "protection": 1,
+        "slot": "slot.armor.head"
+      }
+    }
+  }
+}

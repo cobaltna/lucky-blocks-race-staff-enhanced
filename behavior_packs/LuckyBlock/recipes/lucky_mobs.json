@@ -1,0 +1,27 @@
+{
+  "format_version": "1.19.0",
+  "minecraft:recipe_shaped": {
+	"description": {
+	"identifier": "effect99:lucky_mobs"
+	},
+	"tags": ["crafting_table"
+	],
+    "pattern": [
+    "###",
+    "#M#",
+    "###"
+  ],
+  "key": {
+    "M": {
+      "item": "effect99:lucky_block"
+    },
+    "#": {
+      "item": "minecraft:clay_ball"
+    }
+  },
+  "result": {
+    "item": "effect99:lucky_mobs",
+    "count": 1
+  }
+ }
+}

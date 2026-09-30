@@ -1,0 +1,471 @@
+{
+  "format_version": "1.11.0",
+  "minecraft:entity": {
+    "description": {
+      "identifier": "minecraft:player",
+      "is_spawnable": false,
+      "is_summonable": false,
+      "is_experimental": false,
+      "scripts": {
+        "animate": [ "snowman_head" ]
+      },
+      "animations": {
+        "snowman_head": "controller.animation.snowman_head"
+      }
+    },
+    "component_groups": {
+      "shoot_tnt": {
+        "minecraft:spawn_entity": [ { "min_wait_time": 0, "max_wait_time": 0, "single_use": true, "spawn_entity": "entity:shoot_tnt", "num_to_spawn": 1 } ]
+      },
+      "shoot_grenade": {
+        "minecraft:spawn_entity": [ { "min_wait_time": 0, "max_wait_time": 0, "single_use": true, "spawn_entity": "entity:grenade", "num_to_spawn": 1 } ]
+      },
+      "shoot_cGrenade": {
+        "minecraft:spawn_entity": [ { "min_wait_time": 0, "max_wait_time": 0, "single_use": true, "spawn_entity": "entity:christmas_grenade", "num_to_spawn": 1 } ]
+      },
+      "shoot_pumpkin_projectile": {
+        "minecraft:spawn_entity": [ { "min_wait_time": 0, "max_wait_time": 0, "single_use": true, "spawn_entity": "entity:pumpkin_projectile", "num_to_spawn": 1 } ]
+      },
+      "throwing_splash_lucky_mystery": {
+        "minecraft:spawn_entity": [ { "min_wait_time": 0, "max_wait_time": 0, "single_use": true, "spawn_entity": "entity:lucky_splash_mystery_potion", "num_to_spawn": 1 } ]
+      },
+      "throwing_splash_unlucky_mystery": {
+        "minecraft:spawn_entity": [ { "min_wait_time": 0, "max_wait_time": 0, "single_use": true, "spawn_entity": "entity:unlucky_splash_mystery_potion", "num_to_spawn": 1 } ]
+      },
+      "throwing_splash_super_unlucky": {
+        "minecraft:spawn_entity": [ { "min_wait_time": 0, "max_wait_time": 0, "single_use": true, "spawn_entity": "entity:super_unlucky_splash_potion", "num_to_spawn": 1 } ]
+      },
+      "throwing_splash_op_unlucky": {
+        "minecraft:spawn_entity": [ { "min_wait_time": 0, "max_wait_time": 0, "single_use": true, "spawn_entity": "entity:op_unlucky_splash_potion", "num_to_spawn": 1 } ]
+      },
+      "throwing_splash_evil_lucky": {
+        "minecraft:spawn_entity": [ { "min_wait_time": 0, "max_wait_time": 0, "single_use": true, "spawn_entity": "entity:splash_evil_potion", "num_to_spawn": 1 } ]
+      },
+      "shoot_arrow": {
+        "minecraft:spawn_entity": [ { "min_wait_time": 0, "max_wait_time": 0, "single_use": true, "spawn_entity": "entity:spiral_arrow", "num_to_spawn": 1 } ]
+      },
+      "shoot_snowball": {
+        "minecraft:spawn_entity": [ { "min_wait_time": 0, "max_wait_time": 0, "single_use": true, "spawn_entity": "minecraft:snowball", "num_to_spawn": 1 } ]
+      },
+      "snowman_head_attack": {
+        "minecraft:spawn_entity": [ { "min_wait_time": 0, "max_wait_time": 0, "single_use": true, "spawn_entity": "minecraft:snowball", "spawn_event": "snowman_head", "num_to_spawn": 1 } ]
+      },
+      "shoot_small_fireball": {
+        "minecraft:spawn_entity": [ { "min_wait_time": 0, "max_wait_time": 1,  "single_use": true,  "spawn_entity": "entity:fake_fireball", "spawn_event": "set_sound", "num_to_spawn": 1  } ]
+      },
+      "shoot_fireball": {
+        "minecraft:spawn_entity": [ { "min_wait_time": 0, "max_wait_time": 1,  "single_use": true,  "spawn_entity": "minecraft:fireball", "spawn_event": "set_sound", "num_to_spawn": 1  } ]
+      },
+      "minecraft:default_player": {
+        "minecraft:physics": {
+        "has_gravity": true,
+        "has_collision": true
+        },
+        "minecraft:scale": { 
+          "value": 1 
+        },
+        "minecraft:attack": {
+          "damage": 1
+        },
+        "minecraft:collision_box": {
+          "width": 0.6,
+          "height": 1.8
+        },
+        "minecraft:type_family": {
+          "family": [ "player", "default_player" ]
+        },
+        "minecraft:movement": {
+          "value": 0.1
+        },
+        "minecraft:health": {
+          "value": 20,
+          "max": 20
+        },
+        "minecraft:breathable": {
+        "total_supply": 15,
+        "suffocate_time": -1,
+        "inhale_time": 3.75,
+        "generates_bubbles": false
+        },
+        "minecraft:rideable": {
+        "seat_count": 2,
+        "family_types": [
+          "parrot_tame"
+        ],
+        "pull_in_entities": true,
+          "seats": [
+            {
+              "position": [ 0.4, -0.2, -0.1 ],
+              "min_rider_count": 0,
+              "max_rider_count": 0,
+              "lock_rider_rotation": 0
+            },
+            {
+              "position": [ -0.4, -0.2, -0.1 ],
+              "min_rider_count": 1,
+              "max_rider_count": 2,
+              "lock_rider_rotation": 0
+            }
+          ]
+        }
+      },
+      "despawn": { "minecraft:instant_despawn": {}
+      },
+      "minecraft:add_bad_omen": {
+        "minecraft:spell_effects": {
+          "add_effects": [
+            {
+              "effect": "bad_omen",
+              "duration": 6000,
+              "display_on_screen_animation": true
+            }
+          ]
+        },
+        "minecraft:timer": {
+          "time": [ 0.0, 0.0 ],
+          "looping": false,
+          "time_down_event": {
+            "event": "minecraft:clear_add_bad_omen",
+            "target": "self"
+          }
+        }
+      },
+      "minecraft:clear_bad_omen_spell_effect": {
+        "minecraft:spell_effects": {
+        }
+      },
+      "minecraft:raid_trigger": {
+        "minecraft:raid_trigger": {
+          "triggered_event": {
+            "event": "minecraft:remove_raid_trigger",
+            "target": "self"
+          }
+        },
+        "minecraft:spell_effects": {
+          "remove_effects": "bad_omen"
+        }
+      }
+    },
+    "components": {
+      "minecraft:experience_reward": {
+        "on_death": "Math.Min(query.player_level * 7, 100)"
+      },
+      "minecraft:type_family": {
+        "family": [ "player", "default_player" ]
+      },
+      "minecraft:is_hidden_when_invisible": {
+      },
+      "minecraft:loot": {
+        "table": "loot_tables/empty.json"
+      },
+      "minecraft:collision_box": {
+        "width": 0.6,
+        "height": 1.8
+      },
+      "minecraft:can_climb": {
+      },
+      "minecraft:movement": {
+        "value": 0.1
+      },
+      "minecraft:hurt_on_condition": {
+        "damage_conditions": [
+          {
+            "filters": { "test": "in_lava", "subject": "self", "operator": "==", "value": true },
+            "cause": "lava",
+            "damage_per_tick": 4
+          }
+        ]
+      },
+      "minecraft:attack": {
+        "damage": 1
+      },
+      "minecraft:player.saturation": {
+        "value": 20
+      },
+      "minecraft:player.exhaustion": {
+        "value": 0,
+        "max": 4
+      },
+      "minecraft:player.level": {
+        "value": 0,
+        "max": 24791
+      },
+      "minecraft:player.experience": {
+        "value": 0,
+        "max": 1
+      },
+      "minecraft:breathable": {
+        "total_supply": 15,
+        "suffocate_time": -1,
+        "inhale_time": 3.75,
+        "generates_bubbles": false
+      },
+      "minecraft:nameable": {
+        "always_show": true,
+        "allow_name_tag_renaming": false
+      },
+      "minecraft:physics": {
+      },
+      "minecraft:pushable": {
+        "is_pushable": false,
+        "is_pushable_by_piston": true
+      },
+      "minecraft:insomnia": {
+        "days_until_insomnia": 3
+      },
+      "minecraft:rideable": {
+        "seat_count": 2,
+        "family_types": [
+          "parrot_tame"
+        ],
+        "pull_in_entities": true,
+        "seats": [
+          {
+            "position": [ 0.4, -0.2, -0.1 ],
+            "min_rider_count": 0,
+            "max_rider_count": 0,
+            "lock_rider_rotation": 0
+          },
+          {
+            "position": [ -0.4, -0.2, -0.1 ],
+            "min_rider_count": 1,
+            "max_rider_count": 2,
+            "lock_rider_rotation": 0
+          }
+        ]
+      },
+      "minecraft:scaffolding_climber": {},
+      "minecraft:environment_sensor": [
+        {
+         "on_environment": {
+           "filters": {
+             "all_of": [
+               {
+                 "test": "has_mob_effect",
+                 "subject": "self",
+                 "value": "bad_omen"
+               },
+               {
+                 "test": "is_in_village",
+                 "subject": "self",
+                 "value": true
+               }
+             ]
+           },
+           "event": "minecraft:trigger_raid"
+          }
+        },
+        {
+          "on_environment": {
+            "filters": { "all_of": [ { "test": "has_tag", "operator": "==", "value": "shoot_snowball" } ] 
+            },
+            "event": "shoot_snowball"
+          }
+        },
+        {
+          "on_environment": {
+            "filters": { "all_of": [ { "test": "has_tag", "operator": "==", "value": "shoot_arrow" } ]
+            },
+            "event": "shoot_arrow"
+          }
+        },
+        {
+          "on_environment": {
+            "filters": { "all_of": [ { "test": "has_equipment", "subject": "self", "domain": "feet", "value": "lucky:flame_boots" } ]
+            },
+            "event": "flame_boots"
+          }
+        },
+        {
+          "on_environment": {
+            "filters": { "all_of": [ { "test":"has_equipment",  "subject": "self", "domain":"feet", "operator":"!=", "value":"lucky:flame_boots" }, { "test": "has_tag", "operator": "!=", "value": "flame_boots_stop_event" } ]
+            },
+            "event": "stop_flame_boots_event"
+          }
+        },
+        {
+          "on_environment": {
+            "filters": { "all_of": [ { "test": "has_equipment", "subject": "self", "domain": "feet", "value": "lucky:slime_boots" } ]
+            },
+            "event": "slime_boots"
+          }
+        },
+        {
+          "on_environment": {
+            "filters": { "all_of": [ { "test":"has_equipment", "subject": "self", "domain":"feet", "operator":"!=", "value":"lucky:slime_boots" }, { "test": "has_tag", "operator": "!=", "value": "slime_boots_stop_event" } ]
+            },
+            "event": "stop_slime_boots_event"
+          }
+        },
+        {
+          "on_environment": {
+            "filters": { "all_of": [ { "test": "has_equipment", "subject": "self", "domain": "head", "value": "lucky:snowman_head" } ] 
+            },
+            "event": "snowman_head"
+          }
+        },
+        {
+          "on_environment": {
+            "filters": { "all_of": [ { "test": "has_equipment", "subject": "self", "domain": "head", "operator": "!=", "value": "lucky:snowman_head" } ] 
+            },
+            "event": "stop_snowman_head_event"
+          }
+        }
+      ]
+    },
+    "events": {
+      "snowman_head": {
+        "sequence": [
+          {
+            "filters": { "test": "has_tag", "subject": "self", "operator": "!=", "value": "snowman_head" },
+            "queue_command": { "command": [ "tag @s add snowman_head", "title @s actionbar §lCrouch to activate skill" ] }
+          }
+        ]
+      },
+      "stop_snowman_head_event": {
+        "sequence": [
+          {
+            "filters": { "test": "has_tag", "subject": "self", "operator": "==", "value": "snowman_head" },
+            "queue_command": { "command": [ "tag @s remove snowman_head" ] },
+            "remove": { "component_groups": [ "snowman_head_attack" ] }
+          }
+        ]
+      },
+      "snowman_head_attack": {
+        "sequence": [
+          {
+            "filters": { "test": "has_tag", "subject": "self", "operator": "==", "value": "snowman_head" },
+            "add": { "component_groups": [ "snowman_head_attack" ] },
+            "queue_command": { "command": [ "playsound random.bow @a[r=10] ~ ~ ~ 1 0.4" ] }
+          }
+        ]
+      },
+      "flame_boots": {
+          "queue_command": {
+            "command": [
+              "fill ~ ~ ~ ~ ~ ~ fire replace air",
+              "effect @p fire_resistance 1 0 true",
+              "tag @p remove flame_boots_stop_event"
+          ]
+        }
+      },
+      "stop_flame_boots_event": {
+        "queue_command": {
+          "command": [
+            "effect @p fire_resistance 0 0",
+            "tag @p add flame_boots_stop_event"
+          ]
+        }
+      },
+      "slime_boots": {
+        "queue_command": {
+          "command": [
+            "effect @p jump_boost 1 1 true",
+            "tag @p remove slime_boots_stop_event"
+          ]
+        }
+      },
+      "stop_slime_boots_event": {
+        "queue_command": {
+          "command": [
+            "effect @p jump_boost 0 0",
+            "tag @p add slime_boots_stop_event"
+          ]
+        }
+      },
+      "shoot_snowball": {
+        "add": { "component_groups": [ "shoot_snowball" ] },
+        "queue_command": {
+          "command": [
+            "function spiral_sword_events",
+            "playsound random.bow @a[r=10] ~ ~ ~ 1 0.4"
+          ]
+        }
+      },
+      "shoot_arrow": {
+        "add": { "component_groups": [ "shoot_arrow" ] },
+        "queue_command": {
+          "command": [
+            "function spiral_sword_events",
+            "playsound random.bow @a[r=10] ~ ~ ~ 1"
+          ]
+        }
+      },
+      "shoot_tnt": {
+        "add": { "component_groups": [ "shoot_tnt" ] },
+        "remove": { "component_groups": [ "shoot_tnt" ] }
+      },
+      "shoot_small_fireball": {
+        "add": { "component_groups": [ "shoot_small_fireball" ] },
+        "remove": { "component_groups": [ "shoot_small_fireball" ] }
+      },
+      "shoot_fireball": {
+        "add": { "component_groups": [ "shoot_fireball" ] },
+        "remove": { "component_groups": [ "shoot_fireball" ] }
+      },
+      "shoot_grenade": {
+        "add": { "component_groups": "shoot_grenade" },
+        "remove": { "component_groups": "shoot_grenade" }
+      },
+      "shoot_cGrenade": {
+        "add": { "component_groups": "shoot_cGrenade" },
+        "remove": { "component_groups": "shoot_cGrenade" }
+      },
+      "shoot_pumpkin_projectile": {
+        "add": { "component_groups": "shoot_pumpkin_projectile" },
+        "remove": { "component_groups": "shoot_pumpkin_projectile" }
+      },
+      "throwing_splash_lucky_mystery": {
+        "add": { "component_groups": "throwing_splash_lucky_mystery" },
+        "remove": { "component_groups": "throwing_splash_lucky_mystery" }
+      },
+      "throwing_splash_unlucky_mystery": {
+        "add": { "component_groups": "throwing_splash_unlucky_mystery" },
+        "remove": { "component_groups": "throwing_splash_unlucky_mystery" }
+      },
+      "throwing_splash_super_unlucky": {
+        "add": { "component_groups": "throwing_splash_super_unlucky" },
+        "remove": { "component_groups": "throwing_splash_super_unlucky" }
+      },
+      "throwing_splash_op_unlucky": {
+        "add": { "component_groups": "throwing_splash_op_unlucky" },
+        "remove": { "component_groups": "throwing_splash_op_unlucky" }
+      },
+      "throwing_splash_evil_lucky": {
+        "add": { "component_groups": "throwing_splash_evil_lucky" },
+        "remove": { "component_groups": "throwing_splash_evil_lucky" }
+      },
+      "minecraft:gain_bad_omen": {
+        "add": {
+          "component_groups": [
+            "minecraft:add_bad_omen"
+          ]
+        }
+      },
+      "minecraft:clear_add_bad_omen": {
+        "remove": {
+          "component_groups": [
+            "minecraft:add_bad_omen"
+          ]
+        },
+        "add": {
+          "component_groups": [
+            "minecraft:clear_bad_omen_spell_effect"
+          ]
+        }
+      },
+      "minecraft:trigger_raid": {
+        "add": {
+          "component_groups": [ "minecraft:raid_trigger" ]
+        }
+      },
+      "minecraft:remove_raid_trigger": {
+        "remove": {
+          "component_groups": [ "minecraft:raid_trigger" ]
+        }
+      },
+      "despawn": { "add": { "component_groups": [ "despawn" ] } },
+      "default_player": { "add": { "component_groups": [ "minecraft:default_player" ] } }
+    }
+  }
+}

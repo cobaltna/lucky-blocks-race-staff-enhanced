@@ -1,0 +1,25 @@
+{
+  "format_version": "1.11.0",
+  "minecraft:entity": {
+    "description": {
+      "identifier": "entity:cactus_damage",
+      "runtime_identifier": "minecraft:snowball",
+      "is_spawnable": false,
+      "is_summonable": true,
+      "is_experimental": false
+    },
+    "components": {
+      "minecraft:type_family": { "family": [ "effect99_entities" ] },
+      "minecraft:despawn": {},
+      "minecraft:collision_box": { "width": 0.1, "height": 0.1 },
+      "minecraft:physics": {},
+      "minecraft:projectile": {
+       "on_hit": {
+         "impact_damage": { "damage": 1 },
+         "remove_on_hit": {}
+       },
+       "power": 1, "gravity": 0.01
+      }
+    }
+  }
+}

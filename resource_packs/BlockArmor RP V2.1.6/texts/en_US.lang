@@ -1,0 +1,149 @@
+action.cook_cooldown=§cWait a moment before cooking another piece of meat.
+action.sleeping=§l§2wait a few seconds...
+
+action.cook_amount=§cYou can only cook meat one at a time.
+action.coal_armor.warn=§7§oCrouch and interact to cook the item in your hand.
+
+action.wool_armor.warn=§7§oCrouch and interact with a block to sleep.
+action.sleeping.fail=§cYou can only sleep at night.
+
+###Stone
+item.bls:stone_boots=Stone Boots\n§7When on Feet:\n§9+2 Armor
+item.bls:stone_leggings=Stone Leggings\n§7When on Legs:\n§9+3 Armor
+item.bls:stone_chestplate=Stone Chestplate\n§7When on Body:\n§9+4 Armor
+item.bls:stone_helmet=Stone Helmet\n§7When on Head:\n§9+2 Armor
+####Brick
+item.bls:brick_boots=Brick Boots\n§7When on Feet:\n§9+1 Armor
+item.bls:brick_leggings=Brick Leggings\n§7When on Legs:\n§9+3 Armor
+item.bls:brick_chestplate=Brick Chestplate\n§7When on Body:\n§9+4 Armor
+item.bls:brick_helmet=Brick Helmet\n§7When on Head:\n§9+2 Armor
+####Red Mushroom
+item.bls:red_mushroom_block_boots=Red Mushroom Boots\n§7When on Feet:\n§9+1 Armor
+item.bls:red_mushroom_block_leggings=Red Mushroom Leggings\n§7When on Legs:\n§9+1 Armor
+item.bls:red_mushroom_block_chestplate=Red Mushroom Chestplate\n§7When on Body:\n§9+2 Armor
+item.bls:red_mushroom_block_helmet=Red Mushroom Helmet\n§7When on Head:\n§9+1 Armor
+####Lapis Lazuli
+item.bls:lapis_boots=Lapis Lazuli Boots\n§7When on Feet:\n§9+2 Armor
+item.bls:lapis_leggings=Lapis Lazuli Leggings\n§7When on Legs:\n§9+3 Armor
+item.bls:lapis_chestplate=Lapis Lazuli Chestplate\n§7When on Body:\n§9+4 Armor
+item.bls:lapis_helmet=Lapis Lazuli Helmet\n§7When on Head:\n§9+2 Armor
+####Gilded Blackstone
+item.bls:gildedblackstone_boots=Gilded Blackstone Boots\n§7When on Feet:\n§9+2 Armor
+item.bls:gildedblackstone_leggings=Gilded Blackstone Leggings\n§7When on Legs:\n§9+3 Armor
+item.bls:gildedblackstone_chestplate=Gilded Blackstone Chestplate\n§7When on Body:\n§9+4 Armor
+item.bls:gildedblackstone_helmet=Gilded Blackstone Helmet\n§7When on Head:\n§9+2 Armor
+####Nether Brick
+item.bls:nether_brick_boots=Nether Brick Boots\n§7When on Feet:\n§9+1 Armor
+item.bls:nether_brick_leggings=Nether Brick Leggings\n§7When on Legs:\n§9+3 Armor
+item.bls:nether_brick_chestplate=Nether Brick Chestplate\n§7When on Body:\n§9+4 Armor
+item.bls:nether_brick_helmet=Nether Brick Helmet\n§7When on Head:\n§9+2 Armor
+#####Bookshelf
+item.bls:bookshelf_boots=Bookshelf Boots\n§7When on Feet:\n§9+1 Armor
+item.bls:bookshelf_leggings=Bookshelf Leggings\n§7When on Legs:\n§9+2 Armor
+item.bls:bookshelf_chestplate=Bookshelf Chestplate\n§7When on Body:\n§9+2 Armor
+item.bls:bookshelf_helmet=Bookshelf Helmet\n§7When on Head:\n§9+1 Armor
+####Hay
+item.bls:hay_block_boots=Hay Boots\n§7When on Feet:\n§9+1 Armor
+item.bls:hay_block_leggings=Hay Leggings\n§7When on Legs:\n§9+1 Armor
+item.bls:hay_block_chestplate=Hay Chestplate\n§7When on Body:\n§9+1 Armor
+item.bls:hay_block_helmet=Hay Helmet\n§7When on Head:\n§9+1 Armor
+#####Stone Brick Mossy
+item.bls:stonebrick_mossy_boots=Stone Brick Mossy Boots\n§7When on Feet:\n§9+2 Armor
+item.bls:stonebrick_mossy_leggings=Stone Brick Mossy Leggings\n§7When on Legs:\n§9+3 Armor
+item.bls:stonebrick_mossy_chestplate=Stone Brick Mossy Chestplate\n§7When on Body:\n§9+5 Armor
+item.bls:stonebrick_mossy_helmet=Stone Brick Mossy Helmet\n§7When on Head:\n§9+2 Armor
+####Dirt
+item.bls:dirt_boots=Dirt Boots\n§7When on Feet:\n§9+1 Armor
+item.bls:dirt_leggings=Dirt Leggings\n§7When on Legs:\n§9+1 Armor
+item.bls:dirt_chestplate=Dirt Chestplate\n§7When on Body:\n§9+1 Armor
+item.bls:dirt_helmet=Dirt Helmet\n§7When on Head:\n§9+1 Armor
+####Wood
+item.bls:wood_boots=Wooden Log Boots\n§7When on Feet:\n§9+1 Armor
+item.bls:wood_leggings=Wooden Log Leggings\n§7When on Legs:\n§9+2 Armor
+item.bls:wood_chestplate=Wooden Log Chestplate\n§7When on Body:\n§9+3 Armor
+item.bls:wood_helmet=Wooden Log Helmet\n§7When on Head:\n§9+1 Armor
+####Oak Wood
+item.bls:roble_boots=Oak Wood Boots\n§7When on Feet:\n§9+1 Armor
+item.bls:roble_chestplate=Oak Wood Chestplate\n§7When on Body:\n§9+2 Armor
+item.bls:roble_leggings=Oak Wood Leggings\n§7When on Legs:\n§9+2 Armor
+item.bls:roble_helmet=Oak Wood Helmet\n§7When on Head:\n§9+1 Armor
+####Ice
+item.bls:ice_boots=Ice Boots\n§7When on Feet:\n§9+2 Armor
+item.bls:ice_leggings=Ice Leggings\n§7When on Legs:\n§9+3 Armor
+item.bls:ice_chestplate=Ice Chestplate\n§7When on Body:\n§9+5 Armor
+item.bls:ice_helmet=Ice Helmet\n§7When on Head:\n§9+4 Armor
+####Coal
+item.bls:coal_boots=Coal Boots\n§7When on Feet:\n§9+1 Armor
+item.bls:coal_helmet=Coal Helmet\n§7When on Head:\n§9+3 Armor
+item.bls:coal_chestplate=Coal Chestplate\n§7When on Body:\n§9+3 Armor
+item.bls:coal_leggings=Coal Leggings\n§7When on Legs:\n§9+3 Armor
+####Melon
+item.bls:melon_boots=Melon Boots\n§7When on Feet:\n§9+1 Armor
+item.bls:melon_helmet=Melon Helmet\n§7When on Head:\n§9+1 Armor
+item.bls:melon_chestplate=Melon Chestplate\n§7When on Body:\n§9+1 Armor
+item.bls:melon_leggings=Melon Leggings\n§7When on Legs:\n§9+1 Armor
+####End Stone
+item.bls:end_stone_boots=End Stone Boots\n§7When on Feet:\n§9+2 Armor
+item.bls:end_stone_helmet=End Stone Helmet\n§7When on Head:\n§9+2 Armor
+item.bls:end_stone_chestplate=End Stone Chestplate\n§7When on Body:\n§9+3 Armor
+item.bls:end_stone_leggings=End Stone Leggings\n§7When on Legs:\n§9+3 Armor
+####Cobblestone
+item.bls:cobblestone_boots=Cobblestone Boots\n§7When on Feet:\n§9+2 Armor
+item.bls:cobblestone_helmet=Cobblestone Helmet\n§7When on Head:\n§9+2 Armor
+item.bls:cobblestone_chestplate=Cobblestone Chestplate\n§7When on Body:\n§9+2 Armor
+item.bls:cobblestone_leggings=Cobblestone Leggings\n§7When on Legs:\n§9+3 Armor
+####Andesite
+item.bls:andesite_boots=Andesite Boots\n§7When on Feet:\n§9+1 Armor
+item.bls:andesite_helmet=Andesite Helmet\n§7When on Head:\n§9+1 Armor
+item.bls:andesite_chestplate=Andesite Chestplate\n§7When on Body:\n§9+4 Armor
+item.bls:andesite_leggings=Andesite Leggings\n§7When on Legs:\n§9+3 Armor
+####Diorite
+item.bls:diorite_boots=Diorite Boots\n§7When on Feet:\n§9+1 Armor
+item.bls:diorite_helmet=Diorite Helmet\n§7When on Head:\n§9+1 Armor
+item.bls:diorite_chestplate=Diorite Chestplate\n§7When on Body:\n§9+4 Armor
+item.bls:diorite_leggings=Diorite Leggings\n§7When on Legs:\n§9+3 Armor
+####Glowstone
+item.bls:glowstone_boots=Glowstone Boots\n§7When on Feet:\n§9+1 Armor
+item.bls:glowstone_helmet=Glowstone Helmet\n§7When on Head:\n§9+1 Armor
+item.bls:glowstone_chestplate=Glowstone Chestplate\n§7When on Body:\n§9+3 Armor
+item.bls:glowstone_leggings=Glowstone Leggings\n§7When on Legs:\n§9+2 Armor
+####Granite
+item.bls:granito_boots=Granite Boots\n§7When on Feet:\n§9+1 Armor
+item.bls:granito_helmet=Granite Helmet\n§7When on Head:\n§9+1 Armor
+item.bls:granito_chestplate=Granite Chestplate\n§7When on Body:\n§9+4 Armor
+item.bls:granito_leggings=Granite Leggings\n§7When on Legs:\n§9+3 Armor
+#####Crying Obsidian
+item.bls:cobsidian_boots=Crying Obsidian Boots\n§7When on Feet:\n§9+3 Armor
+item.bls:cobsidian_helmet=Crying Obsidian Helmet\n§7When on Head:\n§9+3 Armor
+item.bls:cobsidian_chestplate=Crying Obsidian Chestplate\n§7When on Body:\n§9+8 Armor
+item.bls:cobsidian_leggings=Crying Obsidian Leggings\n§7When on Legs:\n§9+6 Armor
+####Slime
+item.bls:slime_boots=Slime Boots\n§7When on Feet:\n§9+1 Armor
+item.bls:slime_chestplate=Slime Chestplate\n§7When on Body:\n§9+1 Armor
+item.bls:slime_leggings=Slime Leggings\n§7When on Legs:\n§9+1 Armor
+item.bls:slime_helmet=Slime Helmet\n§7When on Head:\n§9+1 Armor
+#####Prismarine
+item.bls:prismarine_helmet=Prismarine Helmet\n§7When on Head:\n§9+2 Armor
+item.bls:prismarine_leggings=Prismarine Leggings\n§7When on Legs:\n§9+4 Armor
+item.bls:prismarine_chestplate=Prismarine Chestplate\n§7When on Body:\n§9+5 Armor
+item.bls:prismarine_boots=Prismarine Boots\n§7When on Feet:\n§9+2 Armor
+####Magma
+item.bls:magma_leggings=Magma Leggings\n§7When on Legs:\n§9+2 Armor
+item.bls:magma_chestplate=Magma Chestplate\n§7When on Body:\n§9+3 Armor
+item.bls:magma_boots=Magma Boots\n§7When on Feet:\n§9+1 Armor
+item.bls:magma_helmet=Magma Helmet\n§7When on Head:\n§9+1 Armor
+####White Wool
+item.bls:wool_colored_white_boots=White Wool Boots\n§7When on Feet:\n§9+1 Armor
+item.bls:wool_colored_white_leggings=White Wool Leggings\n§7When on Legs:\n§9+2 Armor
+item.bls:wool_colored_white_chestplate=White Wool Chestplate\n§7When on Body:\n§9+1 Armor
+item.bls:wool_colored_white_helmet=White Wool Helmet\n§7When on Head:\n§9+1 Armor
+####Cactus
+item.bls:cactus_boots=Cactus Boots\n§7When on Feet:\n§9+1 Armor
+item.bls:cactus_leggings=Cactus Leggings\n§7When on Legs:\n§9+2 Armor
+item.bls:cactus_chestplate=Cactus Chestplate\n§7When on Body:\n§9+3 Armor
+item.bls:cactus_helmet=Cactus Helmet\n§7When on Head:\n§9+2 Armor
+####Glass
+item.bls:glass_boots=Glass Boots\n§7When on Feet:\n§9+3 Armor
+item.bls:glass_leggings=Glass Leggings\n§7When on Legs:\n§9+6 Armor
+item.bls:glass_chestplate=Glass Chestplate\n§7When on Body:\n§9+8 Armor
+item.bls:glass_helmet=Glass Helmet\n§7When on Head:\n§9+3 Armor

@@ -1,0 +1,42 @@
+{
+	"format_version": 2,
+	"header": {
+		"name": "Block Armors RP 2.1.6", 
+		"description": "By SystemTv", 
+		"min_engine_version": [
+			1,
+			21,
+			0
+		],
+		"uuid": "ef6910e6-1147-4a0a-a7f3-7c25438ded2b", 
+		"version": [
+			1,
+			0,
+			0
+		]
+	},
+	"modules": [
+		{
+			"type": "resources",
+			"uuid": "1f37f658-2f02-447d-9d50-7620a0ae52b9",
+			"version": [
+				1,
+				0,
+				0
+			]
+		}
+	],
+	"metadata": {
+		"product_type": "addon"
+	},
+	"dependencies": [
+		{
+			"uuid": "ca8e89f1-4dfd-4825-ac33-e568e52173a2",
+			"version":[
+				1,
+				0,
+				0
+			]
+		}
+	]
+}

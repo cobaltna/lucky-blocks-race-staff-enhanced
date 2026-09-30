@@ -1,0 +1,25 @@
+{
+  "format_version": "1.12",
+  "minecraft:recipe_shaped": {
+    "description": {
+      "identifier": "bls:red_mushroom_block_chestplate"
+    },
+    "tags": [
+      "crafting_table"
+    ],
+    "pattern": [
+      "a a",
+      "aaa",
+      "aaa"
+    ],
+    "key": {
+      "a": {
+        "item": "minecraft:red_mushroom"
+      }
+    },
+    "result": {
+      "item": "bls:red_mushroom_block_chestplate",
+      "count": 1
+    }
+  }
+}

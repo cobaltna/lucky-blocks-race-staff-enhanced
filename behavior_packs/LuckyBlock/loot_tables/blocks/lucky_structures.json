@@ -1,0 +1,310 @@
+{
+ "pools": [
+  {
+   "rolls": 1,
+   "entries": [
+    {
+     "type": "loot_table",
+     "name": "loot_tables/blocks/lucky_structures/villagerhouse.json",
+     "weight": 1
+    },
+    {
+     "type": "loot_table",
+     "name": "loot_tables/blocks/lucky_structures/tnts.json",
+     "weight": 1
+    },
+    {
+     "type": "loot_table",
+     "name": "loot_tables/blocks/lucky_structures/table.json",
+     "weight": 1
+    },
+    {
+     "type": "loot_table",
+     "name": "loot_tables/blocks/lucky_structures/slimecastle.json",
+     "weight": 1
+    },
+    {
+     "type": "loot_table",
+     "name": "loot_tables/blocks/lucky_structures/sandglass.json",
+     "weight": 1
+    },
+    {
+     "type": "loot_table",
+     "name": "loot_tables/blocks/lucky_structures/pyramid.json",
+     "weight": 1
+    },
+    {
+     "type": "loot_table",
+     "name": "loot_tables/blocks/lucky_structures/obsidians.json",
+     "weight": 1
+    },
+    {
+     "type": "loot_table",
+     "name": "loot_tables/blocks/lucky_structures/minifall.json",
+     "weight": 1
+    },
+    {
+     "type": "loot_table",
+     "name": "loot_tables/blocks/lucky_structures/luckysandstone.json",
+     "weight": 1
+    },
+    {
+     "type": "loot_table",
+     "name": "loot_tables/blocks/lucky_structures/luckybars.json",
+     "weight": 1
+    },
+    {
+     "type": "loot_table",
+     "name": "loot_tables/blocks/lucky_structures/lavaglass.json",
+     "weight": 1
+    },
+    {
+     "type": "loot_table",
+     "name": "loot_tables/blocks/lucky_structures/lavabars.json",
+     "weight": 1
+    },
+    {
+     "type": "loot_table",
+     "name": "loot_tables/blocks/lucky_structures/house.json",
+     "weight": 1
+    },
+    {
+     "type": "loot_table",
+     "name": "loot_tables/blocks/lucky_structures/fuente.json",
+     "weight": 1
+    },
+    {
+     "type": "loot_table",
+     "name": "loot_tables/blocks/lucky_structures/fire.json",
+     "weight": 1
+    },
+    {
+     "type": "loot_table",
+     "name": "loot_tables/blocks/lucky_structures/farmlandmelon.json",
+     "weight": 1
+    },
+    {
+     "type": "loot_table",
+     "name": "loot_tables/blocks/lucky_structures/farmlandcarrots.json",
+     "weight": 1
+    },
+    {
+     "type": "loot_table",
+     "name": "loot_tables/blocks/lucky_structures/extremefall.json",
+     "weight": 1
+    },
+    {
+     "type": "loot_table",
+     "name": "loot_tables/blocks/lucky_structures/endplant.json",
+     "weight": 1
+    },
+    {
+     "type": "loot_table",
+     "name": "loot_tables/blocks/lucky_structures/dirthouse.json",
+     "weight": 1
+    },
+    {
+     "type": "loot_table",
+     "name": "loot_tables/blocks/lucky_structures/arbol.json",
+     "weight": 1
+    },
+    {
+     "type": "loot_table",
+     "name": "loot_tables/blocks/lucky_structures/anvilbars.json",
+     "weight": 1
+    },
+    {
+     "type": "loot_table",
+     "name": "loot_tables/blocks/lucky_structures/yunq.json",
+     "weight": 1
+    },
+    {
+     "type": "loot_table",
+     "name": "loot_tables/blocks/lucky_structures/luckyblock.json",
+     "weight": 1
+    },
+    {
+     "type": "loot_table",
+     "name": "loot_tables/blocks/lucky_structures/silverfishtrap.json",
+     "weight": 1
+    },
+    {
+     "type": "loot_table",
+     "name": "loot_tables/blocks/lucky_structures/netherportal.json",
+     "weight": 1
+    },
+    {
+     "type": "loot_table",
+     "name": "loot_tables/blocks/lucky_structures/afuente.json",
+     "weight": 1
+    },
+    {
+     "type": "loot_table",
+     "name": "loot_tables/blocks/lucky_structures/endportal.json",
+     "weight": 1
+    },
+    {
+     "type": "loot_table",
+     "name": "loot_tables/blocks/lucky_structures/quickPyramid.json",
+     "weight": 1
+    },
+    {
+     "type": "loot_table",
+     "name": "loot_tables/blocks/lucky_structures/cloud.json",
+     "weight": 1
+    },
+    {
+     "type": "loot_table",
+     "name": "loot_tables/blocks/lucky_structures/villagershop.json",
+     "weight": 1
+    },
+    {
+     "type": "loot_table",
+     "name": "loot_tables/blocks/lucky_structures/nave.json",
+     "weight": 1
+    },
+    {
+     "type": "loot_table",
+     "name": "loot_tables/blocks/lucky_structures/mushroomhouse.json",
+     "weight": 1
+    },
+    {
+     "type": "loot_table",
+     "name": "loot_tables/blocks/lucky_structures/spawnemeraldblock.json",
+     "weight": 1
+    },
+    {
+     "type": "loot_table",
+     "name": "loot_tables/blocks/lucky_structures/spawngoldblock.json",
+     "weight": 1
+    },
+    {
+     "type": "loot_table",
+     "name": "loot_tables/blocks/lucky_structures/asluckysandstone.json",
+     "weight": 1
+    },
+    {
+     "type": "loot_table",
+     "name": "loot_tables/blocks/lucky_structures/aspyramid.json",
+     "weight": 1
+    },
+    {
+     "type": "loot_table",
+     "name": "loot_tables/blocks/lucky_structures/gravelbars.json",
+     "weight": 1
+    },
+    {
+     "type": "loot_table",
+     "name": "loot_tables/blocks/lucky_structures/musicbox.json",
+     "weight": 1
+    },
+    {
+     "type": "loot_table",
+     "name": "loot_tables/blocks/lucky_structures/spawnlapisblock.json",
+     "weight": 1
+    },
+    {
+     "type": "loot_table",
+     "name": "loot_tables/blocks/lucky_structures/chestgiant.json",
+     "weight": 1
+    },
+    {
+     "type": "loot_table",
+     "name": "loot_tables/blocks/lucky_structures/megahouse.json",
+     "weight": 1
+    },
+    {
+     "type": "loot_table",
+     "name": "loot_tables/blocks/lucky_structures/irondoors.json",
+     "weight": 1
+    },
+    {
+     "type": "loot_table",
+     "name": "loot_tables/blocks/lucky_structures/spawnredstoneblock.json",
+     "weight": 1
+    },
+    {
+     "type": "loot_table",
+     "name": "loot_tables/blocks/lucky_structures/tntbars.json",
+     "weight": 1
+    },
+    {
+     "type": "loot_table",
+     "name": "loot_tables/blocks/lucky_structures/orespyramid.json",
+     "weight": 1
+    },
+    {
+     "type": "loot_table",
+     "name": "loot_tables/blocks/lucky_structures/setblocklava.json",
+     "weight": 1
+    },
+    {
+     "type": "loot_table",
+     "name": "loot_tables/blocks/lucky_structures/lavadiamondtrap.json",
+     "weight": 1
+    },
+    {
+     "type": "loot_table",
+     "name": "loot_tables/blocks/lucky_structures/waterpotion.json",
+     "weight": 1
+    },
+    {
+     "type": "loot_table",
+     "name": "loot_tables/blocks/lucky_structures/lavapotion.json",
+     "weight": 1
+    },
+    {
+     "type": "loot_table",
+     "name": "loot_tables/blocks/lucky_structures/spawnironblock.json",
+     "weight": 1
+    },
+    {
+     "type": "loot_table",
+     "name": "loot_tables/blocks/lucky_structures/farmlands.json",
+     "weight": 1
+    },
+    {
+     "type": "loot_table",
+     "name": "loot_tables/blocks/lucky_structures/dirtpyramid.json",
+     "weight": 1
+    },
+    {
+     "type": "loot_table",
+     "name": "loot_tables/blocks/lucky_structures/netherpyramid.json",
+     "weight": 1
+    },
+    {
+     "type": "loot_table",
+     "name": "loot_tables/blocks/lucky_structures/diamondpyramid.json",
+     "weight": 1
+    },
+    {
+     "type": "loot_table",
+     "name": "loot_tables/blocks/lucky_structures/lavaobsidiantrap.json",
+     "weight": 1
+    },
+    {
+     "type": "loot_table",
+     "name": "loot_tables/blocks/lucky_structures/colorfull.json",
+     "weight": 1
+    },
+    {
+     "type": "loot_table",
+     "name": "loot_tables/blocks/lucky_structures/espongepyramid.json",
+     "weight": 1
+    },
+    {
+     "type": "loot_table",
+     "name": "loot_tables/blocks/lucky_structures/giantpyramid.json",
+     "weight": 1
+    },
+    {
+     "type": "loot_table",
+     "name": "loot_tables/blocks/lucky_structures/plankstrap.json",
+     "weight": 1
+     }
+    ]
+   }
+  ]
+ }
+}

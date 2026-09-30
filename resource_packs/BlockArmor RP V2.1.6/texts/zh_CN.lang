@@ -1,0 +1,149 @@
+action.cook_cooldown=§c请稍等片刻再烹饪另一块肉。
+action.sleeping=§l§2请等待几秒钟...
+
+action.cook_amount=§c你一次只能烹饪一块肉。
+action.coal_armor.warn=§7§o蹲下并与物品交互来烹饪手中的物品。
+
+action.wool_armor.warn=§7§o蹲下并与点击方块来睡觉。
+action.sleeping.fail=§c你只能在夜晚睡觉。
+
+###石头
+item.bls:stone_boots=石头靴子\n§7在脚上时:\n§9+2 盔甲
+item.bls:stone_leggings=石头护腿\n§7在腿上时:\n§9+3 盔甲
+item.bls:stone_chestplate=石头胸甲\n§7在身体上时:\n§9+4 盔甲
+item.bls:stone_helmet=石头头盔\n§7在头上时:\n§9+2 盔甲
+####砖块
+item.bls:brick_boots=砖块靴子\n§7在脚上时:\n§9+1 盔甲
+item.bls:brick_leggings=砖块护腿\n§7在腿上时:\n§9+3 盔甲
+item.bls:brick_chestplate=砖块胸甲\n§7在身体上时:\n§9+4 盔甲
+item.bls:brick_helmet=砖块头盔\n§7在头上时:\n§9+2 盔甲
+####红蘑菇
+item.bls:red_mushroom_block_boots=红蘑菇靴子\n§7在脚上时:\n§9+1 盔甲
+item.bls:red_mushroom_block_leggings=红蘑菇护腿\n§7在腿上时:\n§9+1 盔甲
+item.bls:red_mushroom_block_chestplate=红蘑菇胸甲\n§7在身体上时:\n§9+2 盔甲
+item.bls:red_mushroom_block_helmet=红蘑菇头盔\n§7在头上时:\n§9+1 盔甲
+####青金石
+item.bls:lapis_boots=青金石靴子\n§7在脚上时:\n§9+2 盔甲
+item.bls:lapis_leggings=青金石护腿\n§7在腿上时:\n§9+3 盔甲
+item.bls:lapis_chestplate=青金石胸甲\n§7在身体上时:\n§9+4 盔甲
+item.bls:lapis_helmet=青金石头盔\n§7在头上时:\n§9+2 盔甲
+####镀金黑石
+item.bls:gildedblackstone_boots=镶金黑石靴子\n§7在脚上时:\n§9+2 盔甲
+item.bls:gildedblackstone_leggings=镶金黑石护腿\n§7在腿上时:\n§9+3 盔甲
+item.bls:gildedblackstone_chestplate=镶金黑石胸甲\n§7在身体上时:\n§9+4 盔甲
+item.bls:gildedblackstone_helmet=镶金黑石头盔\n§7在头上时:\n§9+2 盔甲
+####下界砖
+item.bls:nether_brick_boots=下界砖靴子\n§7在脚上时:\n§9+1 盔甲
+item.bls:nether_brick_leggings=下界砖护腿\n§7在腿上时:\n§9+3 盔甲
+item.bls:nether_brick_chestplate=下界砖胸甲\n§7在身体上时:\n§9+4 盔甲
+item.bls:nether_brick_helmet=下界砖头盔\n§7在头上时:\n§9+2 盔甲
+#####书架
+item.bls:bookshelf_boots=书架靴子\n§7在脚上时:\n§9+1 盔甲
+item.bls:bookshelf_leggings=书架护腿\n§7在腿上时:\n§9+2 盔甲
+item.bls:bookshelf_chestplate=书架胸甲\n§7在身体上时:\n§9+2 盔甲
+item.bls:bookshelf_helmet=书架头盔\n§7在头上时:\n§9+1 盔甲
+####干草
+item.bls:hay_block_boots=干草垛靴子\n§7在脚上时:\n§9+1 盔甲
+item.bls:hay_block_leggings=干草垛护腿\n§7在腿上时:\n§9+1 盔甲
+item.bls:hay_block_chestplate=干草垛胸甲\n§7在身体上时:\n§9+1 盔甲
+item.bls:hay_block_helmet=干草垛头盔\n§7在头上时:\n§9+1 盔甲
+#####苔石
+item.bls:stonebrick_mossy_boots=苔石靴子\n§7在脚上时:\n§9+2 盔甲
+item.bls:stonebrick_mossy_leggings=苔石护腿\n§7在腿上时:\n§9+3 盔甲
+item.bls:stonebrick_mossy_chestplate=苔石胸甲\n§7在身体上时:\n§9+5 盔甲
+item.bls:stonebrick_mossy_helmet=苔石头盔\n§7在头上时:\n§9+2 盔甲
+####泥土
+item.bls:dirt_boots=泥土靴子\n§7在脚上时:\n§9+1 盔甲
+item.bls:dirt_leggings=泥土护腿\n§7在腿上时:\n§9+1 盔甲
+item.bls:dirt_chestplate=泥土胸甲\n§7在身体上时:\n§9+1 盔甲
+item.bls:dirt_helmet=泥土头盔\n§7在头上时:\n§9+1 盔甲
+####木头
+item.bls:wood_boots=木头靴子\n§7在脚上时:\n§9+1 盔甲
+item.bls:wood_leggings=木头护腿\n§7在腿上时:\n§9+2 盔甲
+item.bls:wood_chestplate=木头胸甲\n§7在身体上时:\n§9+3 盔甲
+item.bls:wood_helmet=木头头盔\n§7在头上时:\n§9+1 盔甲
+####橡木
+item.bls:roble_boots=橡木靴子\n§7在脚上时:\n§9+1 盔甲
+item.bls:roble_chestplate=橡木胸甲\n§7在身体上时:\n§9+2 盔甲
+item.bls:roble_leggings=橡木护腿\n§7在腿上时:\n§9+2 盔甲
+item.bls:roble_helmet=橡木头盔\n§7在头上时:\n§9+1 盔甲
+####冰
+item.bls:ice_boots=寒冰靴子\n§7冻结概率+15%，时间+0.5s\n§9+2 盔甲
+item.bls:ice_leggings=寒冰护腿\n§7冻结概率+15%，时间+0.5s\n§9+3 盔甲
+item.bls:ice_chestplate=寒冰胸甲\n§7冻结概率+15%，时间+0.5s\n§9+5 盔甲
+item.bls:ice_helmet=寒冰头盔\n§7冻结概率+15%，时间+0.5s\n§9+4 盔甲
+####煤炭
+item.bls:coal_boots=煤炭靴子\n§7在脚上时:\n§9+1 盔甲
+item.bls:coal_helmet=煤炭头盔\n§7在头上时:\n§9+3 盔甲
+item.bls:coal_chestplate=煤炭胸甲\n§7在身体上时:\n§9+3 盔甲
+item.bls:coal_leggings=煤炭护腿\n§7在腿上时:\n§9+3 盔甲
+####西瓜
+item.bls:melon_boots=西瓜靴子\n§7在脚上时:\n§9+1 盔甲
+item.bls:melon_helmet=西瓜头盔\n§7在头上时:\n§9+1 盔甲
+item.bls:melon_chestplate=西瓜胸甲\n§7在身体上时:\n§9+1 盔甲
+item.bls:melon_leggings=西瓜护腿\n§7在腿上时:\n§9+1 盔甲
+####末地石
+item.bls:end_stone_boots=末地石靴子\n§7在脚上时:\n§9+2 盔甲
+item.bls:end_stone_helmet=末地石头盔\n§7在头上时:\n§9+2 盔甲
+item.bls:end_stone_chestplate=末地石胸甲\n§7在身体上时:\n§9+3 盔甲
+item.bls:end_stone_leggings=末地石护腿\n§7在腿上时:\n§9+3 盔甲
+####圆石
+item.bls:cobblestone_boots=圆石靴子\n§7在脚上时:\n§9+2 盔甲
+item.bls:cobblestone_helmet=圆石头盔\n§7在头上时:\n§9+2 盔甲
+item.bls:cobblestone_chestplate=圆石胸甲\n§7+1缓慢\n§9+2 盔甲
+item.bls:cobblestone_leggings=圆石护腿\n§7在腿上时:\n§9+3 盔甲
+####安山岩
+item.bls:andesite_boots=安山岩靴子\n§7在脚上时:\n§9+1 盔甲
+item.bls:andesite_helmet=安山岩头盔\n§7在头上时:\n§9+1 盔甲
+item.bls:andesite_chestplate=安山岩胸甲\n§7+1缓慢\n§9+4 盔甲
+item.bls:andesite_leggings=安山岩护腿\n§7在腿上时:\n§9+3 盔甲
+####闪长岩
+item.bls:diorite_boots=闪长岩靴子\n§7在脚上时:\n§9+1 盔甲
+item.bls:diorite_helmet=闪长岩头盔\n§7在头上时:\n§9+1 盔甲
+item.bls:diorite_chestplate=闪长岩胸甲\n§7+1缓慢\n§9+4 盔甲
+item.bls:diorite_leggings=闪长岩护腿\n§7在腿上时:\n§9+3 盔甲
+####荧石
+item.bls:glowstone_boots=荧石靴子\n§7在脚上时:\n§9+1 盔甲
+item.bls:glowstone_helmet=荧石头盔\n§7在头上时:\n§9+1 盔甲
+item.bls:glowstone_chestplate=荧石胸甲\n§7在身体上时:\n§9+3 盔甲
+item.bls:glowstone_leggings=荧石护腿\n§7在腿上时:\n§9+2 盔甲
+####花岗岩
+item.bls:granito_boots=花岗岩靴子\n§7在脚上时:\n§9+1 盔甲
+item.bls:granito_helmet=花岗岩头盔\n§7在头上时:\n§9+1 盔甲
+item.bls:granito_chestplate=花岗岩胸甲\n§7+1缓慢\n§9+4 盔甲
+item.bls:granito_leggings=花岗岩护腿\n§7在腿上时:\n§9+3 盔甲
+#####哭泣的黑曜石
+item.bls:cobsidian_boots=哭泣黑曜石靴子\n§7+1抗性提升\n§9+3 盔甲
+item.bls:cobsidian_helmet=哭泣黑曜石头盔\n§7+1抗性提升\n§9+3 盔甲
+item.bls:cobsidian_chestplate=哭泣黑曜石胸甲\n§7+1抗性提升，+1缓慢\n§9+8 盔甲
+item.bls:cobsidian_leggings=哭泣黑曜石护腿\n§7+1抗性提升，+1缓慢\n§9+6 盔甲
+####史莱姆
+item.bls:slime_boots=史莱姆靴子\n§7+1跳跃提升\n§9+1 盔甲
+item.bls:slime_chestplate=史莱姆胸甲\n§7+1跳跃提升\n§9+1 盔甲
+item.bls:slime_leggings=史莱姆护腿\n§7+1跳跃提升\n§9+1 盔甲
+item.bls:slime_helmet=史莱姆头盔\n§7+1跳跃提升\n§9+1 盔甲
+#####海晶石
+item.bls:prismarine_helmet=海晶石头盔\n§7在头上时:\n§9+2 盔甲
+item.bls:prismarine_leggings=海晶石护腿\n§7在腿上时:\n§9+4 盔甲
+item.bls:prismarine_chestplate=海晶石胸甲\n§7在身体上时:\n§9+5 盔甲
+item.bls:prismarine_boots=海晶石靴子\n§7在脚上时:\n§9+2 盔甲
+####岩浆块
+item.bls:magma_leggings=岩浆块护腿\n§7反甲\n§9+2 盔甲
+item.bls:magma_chestplate=岩浆块胸甲\n§7反甲\n§9+3 盔甲
+item.bls:magma_boots=岩浆块靴子\n§7反甲\n§9+1 盔甲
+item.bls:magma_helmet=岩浆块头盔\n§7反甲\n§9+1 盔甲
+####羊毛
+item.bls:wool_colored_white_boots=羊毛靴子\n§7在脚上时:\n§9+1 盔甲
+item.bls:wool_colored_white_leggings=羊毛护腿\n§7在腿上时:\n§9+2 盔甲
+item.bls:wool_colored_white_chestplate=羊毛胸甲\n§7在身体上时:\n§9+1 盔甲
+item.bls:wool_colored_white_helmet=羊毛头盔\n§7在头上时:\n§9+1 盔甲
+####仙人掌
+item.bls:cactus_boots=仙人掌靴子\n§7高额反甲，自然\n§9+1 盔甲
+item.bls:cactus_leggings=仙人掌护腿\n§7高额反甲，自然\n§9+2 盔甲
+item.bls:cactus_chestplate=仙人掌胸甲\n§7高额反甲，自然\n§9+3 盔甲
+item.bls:cactus_helmet=仙人掌头盔\n§7高额反甲，自然\n§9+2 盔甲
+####玻璃盔甲
+item.bls:glass_boots=玻璃靴子\n§7破碎或取下时反伤\n§9+3 盔甲
+item.bls:glass_leggings=玻璃护腿\n§7破碎或取下时反伤\n§9+6 盔甲
+item.bls:glass_chestplate=玻璃胸甲\n§7破碎或取下时反伤\n§9+8 盔甲
+item.bls:glass_helmet=玻璃头盔\n§7破碎或取下时反伤\n§9+3 盔甲

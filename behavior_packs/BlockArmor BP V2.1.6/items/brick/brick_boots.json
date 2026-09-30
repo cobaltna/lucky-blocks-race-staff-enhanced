@@ -1,0 +1,42 @@
+{
+	"format_version": "1.20.80",
+	"minecraft:item": {
+		"description": {
+			"identifier": "bls:brick_boots",
+			"menu_category": {
+				"category": "equipment",
+				"group": "itemGroup.name.boots"
+			}
+		},
+		"components": {
+			"minecraft:max_stack_size": 1,
+			"minecraft:enchantable": {
+				"value": 10,
+				"slot": "armor_feet"
+			},
+			"minecraft:icon": "brick_boots",
+			"minecraft:durability": {
+				"max_durability": 100,
+				"damage_chance": {
+					"min": 70,
+					"max": 85
+				}
+			},
+			"minecraft:repairable": {
+				"repair_items": [
+					{
+						"items":[
+							"bls:brick_boots",
+							"minecraft:brick"
+						],
+						"repair_amount": 15
+					}
+				]
+			},
+			"minecraft:wearable": {
+				"protection": 1,
+				"slot": "slot.armor.feet"
+			}
+		}
+	}
+}
